@@ -4,6 +4,9 @@ import os
 import re
 import json
 
+warning_color = '\033[93m'
+end_color = '\033[0m]'
+
 class FileData:
     '''Encapsulate (parsed) contents of log file and its metadata'''
     '''Data contains some of the following fields:
@@ -25,7 +28,7 @@ class FileData:
     def _parse_pcc_sender_trace(self, file):
         rate_rtt_sent_lost = []
         with open(file) as f:
-            print('Opening file %s' % file)
+            # print('Opening file %s' % file)
             time = 0
             for line in f.readlines():
                 line = line.rstrip('\n')
@@ -36,6 +39,8 @@ class FileData:
                     rate_rtt_sent_lost.append((time, rate, rtt, sent, lost))
                     time = time + 1 # time measured in seconds
         rate_rtt_sent_lost = rate_rtt_sent_lost[1:] # drop the column labels
+        if rate_rtt_sent_lost == []:
+            print(warning_color + 'WARNING: Parsing %s gave no results'  % file + end_color)
         result = [{'time': time,
                    'rate': float(rate), # in Mbits/second
                    'rtt': float(rtt), # in milliseconds
@@ -59,7 +64,7 @@ class FileData:
                          for stream in streams]
                 self.contents = pd.DataFrame(data)
             except ValueError:
-                print('WARNING: Cannot parse %s as JSON' % file)
+                print(warning_color + 'WARNING: Cannot parse %s as JSON' % file + end_color)
 
     def _parse(self, filename):
         'Expect filename to be of the form key1:value1--key2:value2--<etc>.txt.'

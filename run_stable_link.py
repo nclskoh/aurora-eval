@@ -14,7 +14,7 @@ class SingleLinkTopo(Topo):
     'Single link between client and server.'
 
     # bandwidth is in Mbits/second, delay is milliseconds by default, loss is percentage
-    def build(self, n=2, bw=100, delay='5ms', loss=0):
+    def build(self, bw, delay, loss):
         client = self.addHost('client')
         server = self.addHost('server')
         self.addLink(client, server, cls=TCLink, bw=bw, delay=delay, loss=loss)
@@ -25,12 +25,10 @@ class Setup:
     def __init__(self, cmd):
         self.cmd = cmd
 
-    def run_experiment(self, bw, delay, loss):
+    def run_experiment(self, bw, delay, loss, how_long):
         setLogLevel('info')
 
-        how_long = 40 # seconds
-
-        topo = SingleLinkTopo(n=2, bw=bw, delay=delay, loss=loss)
+        topo = SingleLinkTopo(bw=bw, delay=delay, loss=loss)
         net = Mininet(topo)
         net.start()
         dumpNodeConnections(net.hosts)
@@ -54,20 +52,24 @@ class Setup:
 def run_test(aurora, vivace, cubic):
     'Run PCC with two directly connected hosts'
 
-    bw, delay, loss = 100, 5, 1
+    bw, delay, loss, how_long = 100, 5, 1, 40
 
-    aurora.cmd.set_utility('vivace')
-    aurora.cmd.set_history_len(10)
-    aurora.run_experiment(bw, delay, loss)
-    aurora.cmd.set_history_len(20)
-    aurora.run_experiment(bw, delay, loss)
+    # aurora.cmd.set_utility('vivace')
+    # aurora.cmd.set_history_len(10)
+    # aurora.run_experiment(bw, delay, loss)
+
+    aurora.cmd.set_utility('linear')
+    aurora.cmd.set_history_len(50)
+    aurora.run_experiment(bw, delay, loss, how_long)
 
     aurora.cmd.set_utility('linear')
     aurora.cmd.set_history_len(10)
-    aurora.run_experiment(bw, delay, loss)
+    aurora.run_experiment(bw, delay, loss, how_long)
 
-    cubic.run_experiment(bw, delay, loss)
-    vivace.run_experiment(bw, delay, loss)
+    cubic.cmd.set_lifetime(how_long)
+    cubic.run_experiment(bw, delay, loss, how_long)
+
+    vivace.run_experiment(bw, delay, loss, how_long)
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="Run PCC tests")
@@ -80,7 +82,7 @@ if __name__ == '__main__':
 
     aurora_cmd = command.AuroraCmd(path=args.aurora, rlpath=args.rl, model_path=args.model, log_path=args.log)
     vivace_cmd = command.VivaceCmd(args.vivace, log_path=args.log)
-    cubic_iperf_cmd = command.CubicIperfCmd(version=3, log_path=args.log)
+    cubic_iperf_cmd = command.CubicIperfCmd(version=3, log_path=args.log, lifetime=30)
 
     aurora_setup = Setup(aurora_cmd)
     vivace_setup = Setup(vivace_cmd)

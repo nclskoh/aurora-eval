@@ -93,8 +93,9 @@ class AuroraCmd(Cmd):
     def get_client_cmd(self, server_ip):
         history = '--history=len=%s' % str(self.history_len) # Likely MI length?
         pcc_log = os.path.join(self.model_log_dir, 'pcc_log--%s.txt' % (self.get_client_description()))
-        utility_logging = '--log-utility-calc-lite -log=%s' % pcc_log # currently inactive, should have better logging if enabled
-        utility = '--pcc-utility-calc=%s' % self.utility
+        utility_logging = '--log-utility-calc-lite -log=%s' % pcc_log # should have better logging
+        # utility_logging = '--log-utility-calc-lite'
+        utility = '--pcc-utility-calc=%s %s' % (self.utility, utility_logging)
         rate_control = '--pcc-rate-control=python -pyhelper=loaded_client -pypath=%s --model-path=%s' % (self.pypath, self.model_path)
         cmd = '%s send %s 9000 %s %s %s' % (self.client_cmd, server_ip, rate_control, history, utility)
         return cmd
@@ -155,20 +156,20 @@ class VivaceCmd(Cmd):
 class CubicIperfCmd(Cmd):
     '''Generate commands to run Cubic IPerf client and server'''
 
-    def __init__(self, log_path, version=2):
+    def __init__(self, log_path, lifetime, version=3):
         self.client_cmd = ''
         self.server_cmd = ''
         self.client_description = 'host:client--method:iperf_cubic'
         self.server_description = 'host:server--method:iperf_cubic'
         self.version = version
         self.log = Log(log_path)
+        self.lifetime = lifetime
 
     def get_client_cmd(self, server_ip):
-        how_long = 30
         if self.version == 3:
-            cmd = 'iperf3 -c %s -i 1 -C cubic -t %s -J' % (server_ip, str(how_long))
+            cmd = 'iperf3 -c %s -i 1 -C cubic -t %i -J' % (server_ip, self.lifetime)
         else:
-            cmd = 'iperf -c %s -i 1 -f m -e -Z cubic -t %s' % (server_ip, str(how_long))
+            cmd = 'iperf -c %s -i 1 -f m -e -Z cubic -t %i' % (server_ip, self.timelife)
         return cmd
 
     def get_server_cmd(self):
@@ -180,3 +181,6 @@ class CubicIperfCmd(Cmd):
 
     def set_version(self, version):
         self.version = version
+
+    def set_lifetime(self, lifetime):
+        self.lifetime = lifetime
