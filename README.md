@@ -19,7 +19,10 @@ Other requirements:
 
 - Mininet
 
-- Iperf3
+- Iperf3: https://github.com/esnet/iperf
+
+Iperf3 should be compiled from source and installed. It provides RTT information
+that may not be available in earlier versions.
 
 ## Description and usage
 
@@ -39,9 +42,14 @@ python ./run_figure2.py -au /path/to/aurora-pcc -rl /path/to/aurora-rl -m /path/
 Logs are by default stored in `./testing_logs`.
 
 In the log directory, you should see log files whose filenames follow a 
-key-value format.
+key-value format of the form "key:value", separated by "--". 
 The `expt` tag is the primary key to organize all log files generated for the 
-same experiment, and you may find it useful to add your own tags.
+same experiment, and you may find it useful to add your own tags, e.g., by
+embedding your own `key1:value1--...keyN:valueN` in the string passed as
+the `expt_tag` argument to `get_mininet_client_cmd` (see `run_figure2.py`). 
+This is a horrible hack, but should suffice for now. Also note that colons 
+likely cause problems on Windows systems.
+
 
 Then run:
 
@@ -51,8 +59,13 @@ python plot_rate_rtt.py -d ./testing_logs
 
 This parses __all__ log files in the directory and graphs them for throughput
 and RTT against time.
+You can use a `-t <tag>` to limit scope to a single experiment, 
+or `-f <file>` for a single file.
 The output is written to `<expt>.pdf` in the log directory.
 
-These two files should illustrate usage of the API.
+These two files should illustrate usage of the API, and the moving parts 
+should be additional files like `run_figure2.py` that generates log data and 
+`plot_rate_rtt.py` that consumes and graphs log data.
+
 Be careful about changing the Aurora command in `command/command.py`;
 running with wrong switches or values will fail silently and just give bad data!
