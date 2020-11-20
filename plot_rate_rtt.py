@@ -30,10 +30,12 @@ def plot_against_time(logs, key, out_file, label=None, log_scale=False):
     for log in logs:
         contents = log.get_contents()
         if 'time' in contents and key in contents:
-            names.append(log.get_method())
+            names.append(log.get_label())
             contents.plot(x='time', y=key, ax=ax, legend=True)
-            print('%s: %s[%s]:' % (log.get_filename(), log.get_method(), key))
+            print('%s: %s[%s]:' % (log.get_filename(), log.get_label(), key))
             print(contents[key])
+        else:
+            print('WARNING: cannot plot %s: time or key = %s is not in table' % (log.get_filename(), key))
 
     if log_scale:
         ax.set_yscale('log')

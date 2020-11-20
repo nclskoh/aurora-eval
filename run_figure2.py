@@ -49,7 +49,7 @@ class Setup:
         sleep(how_long)
         net.stop()
 
-def run_test(aurora, vivace, cubic):
+def run_test(aurora, vivace, cubic3, cubic2):
     bw, delay, loss, queue, how_long = 30, 0, 1, 10, 30
 
     aurora.cmd.set_utility('vivace')
@@ -60,8 +60,12 @@ def run_test(aurora, vivace, cubic):
     aurora.cmd.set_history_len(10)
     aurora.run_experiment(bw, delay, loss, queue, how_long)
 
-    cubic.cmd.set_lifetime(how_long)
-    cubic.run_experiment(bw, delay, loss, queue, how_long)
+    cubic3.cmd.set_lifetime(how_long)
+    cubic3.run_experiment(bw, delay, loss, queue, how_long)
+
+    cubic2.cmd.set_lifetime(how_long)
+    cubic2.run_experiment(bw, delay, loss, queue, how_long)
+
     vivace.run_experiment(bw, delay, loss, queue, how_long)
 
 if __name__ == '__main__':
@@ -73,11 +77,13 @@ if __name__ == '__main__':
     parser.add_argument('--log', '-l', help='where to store log files', default='./testing_logs')
     args = parser.parse_args()
 
-    aurora_cmd = command.AuroraCmd(path=args.aurora, rlpath=args.rl, model_path=args.model, log_path=args.log)
-    vivace_cmd = command.VivaceCmd(args.vivace, log_path=args.log)
-    cubic_iperf_cmd = command.CubicIperfCmd(version=3, log_path=args.log, lifetime=30)
+    aurora_cmd = command.AuroraCmd('aurora', path=args.aurora, rlpath=args.rl, model_path=args.model, log_path=args.log)
+    vivace_cmd = command.VivaceCmd('vivace', args.vivace, log_path=args.log)
+    cubic_iperf3_cmd = command.CubicIperfCmd('cubic-iperf3', version=3, log_path=args.log, lifetime=30)
+    cubic_iperf2_cmd = command.CubicIperfCmd('cubic-iperf2', version=2, log_path=args.log, lifetime=30)
 
     aurora_setup = Setup(aurora_cmd)
     vivace_setup = Setup(vivace_cmd)
-    cubic_iperf_setup = Setup(cubic_iperf_cmd)
-    run_test(aurora_setup, vivace_setup, cubic_iperf_setup)
+    cubic_iperf3_setup = Setup(cubic_iperf3_cmd)
+    cubic_iperf2_setup = Setup(cubic_iperf2_cmd)
+    run_test(aurora_setup, vivace_setup, cubic_iperf3_setup, cubic_iperf2_setup)

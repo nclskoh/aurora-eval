@@ -2,7 +2,7 @@ import os
 
 class Log:
     'Logging discipline: log file follows key-value discipline of the form key:value.'
-    'Need to refactor logging discipline below...'
+    'TODO: Need to refactor logging discipline below...'
 
     def __init__(self, log_path):
         self.path = log_path
@@ -17,13 +17,15 @@ class Log:
 
 class Cmd:
     '''Encapsulates the server and client command to run'''
+    'The log parser relies the following tags: name (for legend in graph), host, method. TODO: Enforce this at interface level.'
 
-    def __init__(self):
+    def __init__(self, label, server_port):
         'Client and server descriptions are labels for respective log files generated'
         self.client_cmd = ''
         self.server_cmd = ''
-        self.client_description = ''
-        self.server_descriptin = ''
+        self.client_description = 'name:%s--host:client' % label
+        self.server_descriptin = 'name:%s--host:server' % label
+        self.server_port = server_port
         self.Log = Log('./')
 
     def get_client_cmd(self, server_ip):
@@ -59,17 +61,22 @@ class Cmd:
         cmd = '%s > %s 2> %s &' % (self.get_server_cmd(), log_file, stderr_file)
         return cmd
 
+    def set_server_port(port):
+        self.server_port = port
+
 class AuroraCmd(Cmd):
     '''Generate commands to run Aurora PPC client and server'''
 
     def __init__(self,
+                 label,
                  path,
                  rlpath,
                  model_path,
                  log_path,
                  utility='vivace',
                  history_len=10,
-                 model_log_dir='./'):
+                 model_log_dir='./',
+                 server_port=9000):
         rlpath = os.path.abspath(rlpath)
         model_path = os.path.abspath(model_path)
 
@@ -84,10 +91,11 @@ class AuroraCmd(Cmd):
         self.history_len = history_len
         self.utility = utility
         self.model_log_dir = model_log_dir
+        self.server_port = server_port
         self.client_cmd = '%s %s' % (env, client)
         self.server_cmd = '%s %s' % (env, server)
-        self.client_description = 'host:client--method:aurora'
-        self.server_description = 'host:server--method:aurora'
+        self.client_description = 'name:%s--host:client--method:aurora' % label
+        self.server_description = 'name:%s--host:server--method:aurora' % label
         self.log = Log(log_path)
 
     def get_client_cmd(self, server_ip):
@@ -97,11 +105,11 @@ class AuroraCmd(Cmd):
         # utility_logging = '--log-utility-calc-lite'
         utility = '--pcc-utility-calc=%s %s' % (self.utility, utility_logging)
         rate_control = '--pcc-rate-control=python -pyhelper=loaded_client -pypath=%s --model-path=%s' % (self.pypath, self.model_path)
-        cmd = '%s send %s 9000 %s %s %s' % (self.client_cmd, server_ip, rate_control, history, utility)
+        cmd = '%s send %s %s %s %s %s' % (self.client_cmd, server_ip, self.server_port, rate_control, history, utility)
         return cmd
 
     def get_server_cmd(self):
-        cmd = '%s recv 9000' % self.server_cmd
+        cmd = '%s recv %s' % (self.server_cmd, self.server_port)
         return cmd
 
     def set_history_len(self, history_len):
@@ -120,7 +128,7 @@ class AuroraCmd(Cmd):
 class VivaceCmd(Cmd):
     '''Generate commands to run Vivace PPC client and server'''
 
-    def __init__(self, path, log_path):
+    def __init__(self, label, path, log_path, server_port=9000):
         client_core_path = os.path.join(path, 'pcc-gradient/sender/src')
         server_core_path = os.path.join(path, 'pcc-gradient/receiver/src')
 
@@ -138,45 +146,47 @@ class VivaceCmd(Cmd):
         server = os.path.join(server_exe_path, 'appserver')
         self.client_cmd = '%s %s' % (client_env, client)
         self.server_cmd = '%s %s' % (server_env, server)
-        self.client_description = 'host:client--method:vivace'
-        self.server_description = 'host:server--method:vivace'
+        self.client_description = 'name:%s--host:client--method:vivace' % label
+        self.server_description = 'name:%s--host:server--method:vivace' % label
         self.log = Log(log_path)
+        self.server_port = server_port
 
     def get_client_cmd(self, server_ip):
         # For some reason, running the command WITHOUT directing stderr leads to 0 throughput.
         # Need to figure out why...
         # cmd = '%s %s 9000 > %s 2> %s &' % (self.client_cmd, server_ip)
-        cmd = '%s %s 9000' % (self.client_cmd, server_ip)
+        cmd = '%s %s %s' % (self.client_cmd, server_ip, self.server_port)
         return cmd
 
     def get_server_cmd(self):
-        cmd = '%s 9000' % (self.server_cmd)
+        cmd = '%s %s' % (self.server_cmd, self.server_port)
         return cmd
 
 class CubicIperfCmd(Cmd):
     '''Generate commands to run Cubic IPerf client and server'''
 
-    def __init__(self, log_path, lifetime, version=3):
+    def __init__(self, label, log_path, lifetime, version=3, server_port=5201):
         self.client_cmd = ''
         self.server_cmd = ''
-        self.client_description = 'host:client--method:iperf_cubic'
-        self.server_description = 'host:server--method:iperf_cubic'
+        self.client_description = 'name:%s--host:client--method:iperf%s_cubic' % (label, version)
+        self.server_description = 'name:%s--host:server--method:iperf%s_cubic' % (label, version)
         self.version = version
         self.log = Log(log_path)
         self.lifetime = lifetime
+        self.server_port = server_port
 
     def get_client_cmd(self, server_ip):
         if self.version == 3:
-            cmd = 'iperf3 -c %s -i 1 -C cubic -t %i -J' % (server_ip, self.lifetime)
+            cmd = 'iperf3 -c %s -p %s -i 1 -C cubic -t %i -J' % (server_ip, self.server_port, self.lifetime)
         else:
-            cmd = 'iperf -c %s -i 1 -f m -e -Z cubic -t %i' % (server_ip, self.timelife)
+            cmd = 'iperf -c %s -p %s -i 1 -f m -e -Z cubic -t %i' % (server_ip, self.server_port, self.lifetime)
         return cmd
 
     def get_server_cmd(self):
         if self.version == 3:
-            cmd = 'iperf3 -s -J'
+            cmd = 'iperf3 -s -J -p %s' % self.server_port
         else:
-            cmd = 'iperf -s'
+            cmd = 'iperf -s -p %s' % self.server_port
         return cmd
 
     def set_version(self, version):

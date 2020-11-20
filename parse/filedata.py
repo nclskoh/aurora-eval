@@ -7,6 +7,9 @@ import json
 warning_color = '\033[93m'
 end_color = '\033[0m]'
 
+def print_warning(s):
+    print(warning_color + 'WARNING: %s' % s + end_color)
+
 class FileData:
     '''Encapsulate (parsed) contents of log file and its metadata'''
     '''Data contains some of the following fields:
@@ -40,7 +43,7 @@ class FileData:
                     time = time + 1 # time measured in seconds
         rate_rtt_sent_lost = rate_rtt_sent_lost[1:] # drop the column labels
         if rate_rtt_sent_lost == []:
-            print(warning_color + 'WARNING: Parsing %s gave no results'  % file + end_color)
+            print_warning('Parsing %s gave no results'  % file)
         result = [{'time': time,
                    'rate': float(rate), # in Mbits/second
                    'rtt': float(rtt), # in milliseconds
@@ -49,7 +52,7 @@ class FileData:
                   for (time, rate, rtt, sent, lost) in rate_rtt_sent_lost]
         self.contents = pd.DataFrame(data=result)
 
-    def _parse_iperf(self, file):
+    def _parse_iperf3(self, file):
         with open(file) as f:
             try:
                 contents = json.load(f)
@@ -57,14 +60,17 @@ class FileData:
                 streams = [interval['streams'][0] for interval in contents['intervals']]
                 data = [ {'time': int(stream['start']),
                           'rate': stream['bits_per_second']/1000000,
-                          'rtt': stream['rtt'],
+                          'rtt': stream['rtt'] / 1000, # raw data is in microseconds
                           'num_bytes_sent': stream['bytes'], # within interval, not cumulative
                           'num_retransmits': stream['retransmits'],
                           'snd_cwnd': stream['snd_cwnd'] }
                          for stream in streams]
                 self.contents = pd.DataFrame(data)
             except ValueError:
-                print(warning_color + 'WARNING: Cannot parse %s as JSON' % file + end_color)
+                print_warning('Cannot parse %s as JSON' % file)
+
+    def _parse_iperf2(self, file):
+        print_warning('Not implemented yet!')
 
     def _parse(self, filename):
         'Expect filename to be of the form key1:value1--key2:value2--<etc>.txt.'
@@ -76,23 +82,29 @@ class FileData:
         for [x,y] in pairs:
             self.meta[x] = y
 
-        if 'method' in self.meta:
-            if self.meta['method'].find('iperf') >= 0:
+        if self.meta['host'] == 'client' and 'method' in self.meta:
+            if self.meta['method'].find('iperf3') >= 0:
+                print('Parsing %s as iperf3' % filename)
+                self._parse_iperf3(filename)
+            elif self.meta['method'].find('iperf') >= 0:
                 print('Parsing %s as iperf' % filename)
-                self._parse_iperf(filename)
+                self._parse_iperf2(filename)
             elif self.meta['method'].find('aurora') >= 0 or self.meta['method'].find('vivace') >= 0:
                 print('Parsing %s as aurora/vivace' % filename)
                 self._parse_pcc_sender_trace(filename)
             else:
-                print('WARNING: %s cannot be parsed' % filename)
+                print_warning('%s cannot be parsed' % filename)
         else:
-            print('WARNING: %s cannot be parsed' % filename)
+            print_warning('%s cannot be parsed')
 
     def get_filename(self):
         return self.name
 
     def get_method(self):
         return self.meta['method']
+
+    def get_label(self):
+        return self.meta['name']
 
     def get_experiment_tag(self):
         return self.meta['expt']
