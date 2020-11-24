@@ -66,7 +66,7 @@ class Setup:
         net.stop()
 
 def run_test(setups):
-    bw, delay, loss, queue, how_long = 30, 0, 1, 10, 120
+    bw, delay, loss, queue, how_long = 32, 32, 0, '500kb', 120
 
     for setup in setups:
         setup.run_experiment(bw, delay, loss, queue, how_long)
