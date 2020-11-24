@@ -61,7 +61,7 @@ class Cmd:
         cmd = '%s > %s 2> %s &' % (self.get_server_cmd(), log_file, stderr_file)
         return cmd
 
-    def set_server_port(port):
+    def set_server_port(self, port):
         self.server_port = port
 
 class AuroraCmd(Cmd):
