@@ -5,7 +5,7 @@ import re
 import json
 
 warning_color = '\033[93m'
-end_color = '\033[0m]'
+end_color = '\033[0m'
 
 def print_warning(s):
     print(warning_color + 'WARNING: %s' % s + end_color)
@@ -14,7 +14,9 @@ class FileData:
     '''Encapsulate (parsed) contents of log file and its metadata'''
     '''Data contains some of the following fields:
        - time
+       - rate
        - rtt
+       - method
        - cumulative_pkts_sent
        - cumulative_pkts_lost
        - num_bytes_sent
@@ -51,6 +53,7 @@ class FileData:
                    'cumulative_pkts_lost': int(lost)}
                   for (time, rate, rtt, sent, lost) in rate_rtt_sent_lost]
         self.contents = pd.DataFrame(data=result)
+        print('Successfully parsed %s as aurora/vivace' % file)
 
     def _parse_iperf3(self, file):
         with open(file) as f:
@@ -66,6 +69,7 @@ class FileData:
                           'snd_cwnd': stream['snd_cwnd'] }
                          for stream in streams]
                 self.contents = pd.DataFrame(data)
+                print('Successfully parsed %s as JSON' % file)
             except ValueError:
                 print_warning('Cannot parse %s as JSON' % file)
 
@@ -95,10 +99,13 @@ class FileData:
             else:
                 print_warning('%s cannot be parsed' % filename)
         else:
-            print_warning('%s cannot be parsed')
+            print_warning('%s cannot be parsed' % filename)
 
     def get_filename(self):
         return self.name
+
+    def get_meta(self, key):
+        return self.meta[key]
 
     def get_method(self):
         return self.meta['method']
