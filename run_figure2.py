@@ -17,7 +17,6 @@ class SingleLinkTopo(Topo):
     def build(self, bw, delay, loss, queue):
         client = self.addHost('client')
         server = self.addHost('server')
-        print('Setting queue size: %i' % queue)
         self.addLink(client, server, cls=TCLink, bw=bw, delay=delay, loss=loss, max_queue_size=queue)
 
 class Setup:
@@ -50,7 +49,8 @@ class Setup:
         net.stop()
 
 def run_test(aurora, vivace, cubic3, cubic2):
-    bw, delay, loss, queue, how_long = 30, 0, 1, 10, 30
+    # 10-packet queue, verify units are correct
+    bw, delay, loss, queue, how_long = 30, None, 1, 10, 30
 
     aurora.cmd.set_utility('vivace')
     aurora.cmd.set_history_len(10)
@@ -63,8 +63,8 @@ def run_test(aurora, vivace, cubic3, cubic2):
     cubic3.cmd.set_lifetime(how_long)
     cubic3.run_experiment(bw, delay, loss, queue, how_long)
 
-    cubic2.cmd.set_lifetime(how_long)
-    cubic2.run_experiment(bw, delay, loss, queue, how_long)
+    # cubic2.cmd.set_lifetime(how_long)
+    # cubic2.run_experiment(bw, delay, loss, queue, how_long)
 
     vivace.run_experiment(bw, delay, loss, queue, how_long)
 
