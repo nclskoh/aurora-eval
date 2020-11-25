@@ -97,7 +97,7 @@ This runs experiments for Figure 6(a) through 6(d). Use `--all-bw`, `all-delay`,
 Some experiments may actually fail silently for some reason, in which case you can also choose to run just one set of experiments to recover the data.
 Instead of the all-switches, use `--bw BANDWIDTH --delay DELAY --queue QUEUE --loss LOSS`.
 Omit the option if you want to use defaults.
-The data is tagged as `expt:figure6-single-...`, and you can e.g. overwrite the corrupted file corresponding to the failed experiment.
+The data is tagged as `expt:figure6-single-...`, and you can overwrite the corrupted file corresponding to the failed experiment (and continue with the plotting script).
 
 To plot the figure, run:
 ```
