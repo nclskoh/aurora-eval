@@ -119,7 +119,14 @@ python merge_fairness_reports.py
 
 This should dump a `fairness_reports.pdf` in the current directory.
 
+## TODOs
 
+Figures 3 and 6 show clear places where rate or utilization is above the network-allowed rate,
+and where latency is just too high, e.g., 8-12 seconds.
 
+Need to figure out if the scripts are not actually controlling Mininet right, 
+and/or if some statistics actually should be computed differently. 
 
-
+Some possibilities:
+- Use rate-limiting, e.g. htb
+- Rate may exceed uplink because of queues and increased BDP...?
