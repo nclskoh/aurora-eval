@@ -61,7 +61,6 @@ def plot_setup(expt_tag, logs, out_dir):
     output = pdf.PdfPages(output_filename)
     plot_against_time(logs, 'rate', output, label='Throughput (Mbits/s)')
     plot_against_time(logs, 'rtt', output, label='Latency (ms)')
-    plot_against_time(logs, 'rtt', output, label='Latency (ms)', log_scale=True)
     output.close()
 
 def process(log_groups, out_dir, tag=None):
