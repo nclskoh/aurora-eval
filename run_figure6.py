@@ -11,8 +11,9 @@ from mininet.log import setLogLevel
 from time import sleep
 import random
 
-default_bw, default_delay, default_loss, default_queue = 30, None, None, None
-default_run_length = 45 # give a longer time to stabilize
+# default_bw, default_delay, default_loss, default_queue = 30, None, None, None
+default_bw, default_delay, default_loss, default_queue = 30, 30, 0, 1000 # paper defaults
+default_run_length = 120 # 2 minutes per paper
 
 class SingleLinkTopo(Topo):
     'Single link between client and server.'
