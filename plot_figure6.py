@@ -75,7 +75,8 @@ def plot(x, y, data, outfile):
 
     for method_name, group in method_data:
         names.append(method_name)
-        ylim = (0, 1.2) if y == 'util' else None
+        # ylim = (0, 1.5) if y == 'util' else None
+        ylim = None
         group.sort_values(x).plot(x=x, y=y, ax=ax, marker='x', ylim=ylim)
     ax.legend(names, loc='lower right')
     outfile.savefig(fig)
