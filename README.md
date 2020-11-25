@@ -129,4 +129,4 @@ and/or if some statistics actually should be computed differently.
 
 Some possibilities:
 - Use rate-limiting, e.g. htb
-- Rate may exceed uplink because of queues and increased BDP...?
+- Rate may exceed uplink and latency so high because of queues and increased BDP...?
