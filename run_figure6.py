@@ -37,7 +37,7 @@ class Setup:
     def _run(self, how_long, bw=None, delay=None, loss=None, queue=None, tag=None):
         'Run single-link network between server and client at set parameters '
         'and write to file with tag'
-        
+
         bw = self.params['bw'] if bw is None else bw
         delay = self.params['delay'] if delay is None else delay
         loss = self.params['loss'] if loss is None else loss
@@ -62,13 +62,13 @@ class Setup:
         # ports are not freed up fast enough.
         port = random.randrange(9000, 9100)
         self.cmd.set_server_port(port)
-        
+
         client_cmd = self.cmd.get_mininet_client_cmd(server.IP(), expt_tag=tag)
         server_cmd = self.cmd.get_mininet_server_cmd(expt_tag=tag)
-        
+
         print('RUNNING CMD ON CLIENT: %s' % client_cmd)
         print('RUNNING CMD ON SERVER: %s' % server_cmd)
-        
+
         server.cmd(server_cmd)
         client.cmd(client_cmd)
         sleep(how_long)
@@ -108,7 +108,7 @@ def run_sweep(aurora, vivace, cubic3, variable):
     aurora.cmd.set_utility('vivace')
     aurora.cmd.set_history_len(10)
     cubic3.cmd.set_lifetime(how_long)
-    
+
     if variable == 'bw':
         intervals = [1, 8, 16, 32, 64, 96, 128]
     elif variable == 'delay':
@@ -119,7 +119,7 @@ def run_sweep(aurora, vivace, cubic3, variable):
         intervals = [1, 100, 500, 1000, 2500, 5000, 7500, 10000]
     else:
         raise ValueError()
-    
+
     aurora.run_experiment(how_long, variable_data=(variable, intervals))
     cubic3.run_experiment(how_long, variable_data=(variable, intervals))
     vivace.run_experiment(how_long, variable_data=(variable, intervals))
@@ -134,11 +134,11 @@ def run_single_test(aurora_cmd, vivace_cmd, cubic_cmd, bw, delay, loss, queue):
     aurora.cmd.set_utility('vivace')
     aurora.cmd.set_history_len(10)
     cubic3.cmd.set_lifetime(how_long)
-    
+
     aurora.run_experiment(how_long)
     cubic3.run_experiment(how_long)
     vivace.run_experiment(how_long)
-    
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="Run experiments pertaining to Figure 6")
     parser.add_argument('--rl', '-rl', help='path to reinforcement-learning repo', required=True)
@@ -192,5 +192,5 @@ if __name__ == '__main__':
         queue = int(args.queue) if args.queue is not None else default_queue
 
         print('Running single test: bw: %s, delay: %s, loss: %s, queue: %s' % (bw, delay, loss, queue))
-        
+
         run_single_test(aurora_cmd, vivace_cmd, cubic_iperf3_cmd, bw, delay, loss, queue)
