@@ -76,7 +76,7 @@ def run_test(aurora, vivace, cubic3, cubic2):
     vivace.run_experiment(how_long, base=base, delta=delta, swap_interval=swap_interval)
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description="Run PCC tests")
+    parser = argparse.ArgumentParser(description="Run experiments pertaining to Figure 3")
     parser.add_argument('--rl', '-rl', help='path to reinforcement-learning repo', required=True)
     parser.add_argument('--model', '-m', help='path to model', required=True)
     parser.add_argument('--aurora', '-au', help='path to aurora root', required=True)
