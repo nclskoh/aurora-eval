@@ -108,16 +108,17 @@ Check the warnings to see if there are corrupted files corresponding to failed e
 For the fairness script, run:
 
 ```
-python run_figure6.py <same-as-above> -l testing_logs
+python run_merge_fairness_all_pairs.py <same-as-above> -l testing_logs
 ```
 
 Then run:
 
 ```
-python merge_fairness_reports.py
+python merge_fairness_reports.py -d testing_logs -o <path/to/outfile.pdf>
 ```
 
-This should dump a `fairness_reports.pdf` in the current directory.
+You should see 18 figures.
+
 
 ## TODOs
 
