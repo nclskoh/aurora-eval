@@ -138,7 +138,6 @@ def group_files_by_type(logs):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="Graph the sender's trace dumped by PCC client")
-    parser.add_argument('--title', help='title of file')
     parser.add_argument('--dir', '-d', help='directory containing log files', required=True)
     parser.add_argument('--out', '-o', help='directory to dump output files', default='./testing_logs')
     args = parser.parse_args()
