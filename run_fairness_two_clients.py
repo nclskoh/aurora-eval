@@ -10,6 +10,13 @@ from mininet.log import setLogLevel
 
 from time import sleep
 
+# Parameters from NIPS 2018 "Internet Congestion Control via Deep Reinforcement Learning"
+# bw, delay, loss, queue, how_long = 32, 32, 0, '500kb', 120
+
+# Be careful, not all parameters work, e.g., Vivace fails when queue = 0.
+# Run all experiments on a short timescale to verify parameters are okay, before scaling up.
+bw, delay, loss, queue, how_long = 32, 32, 0, None, 10
+
 class CompetingClients(Topo):
 
     # bandwidth is in Mbits/second, delay is milliseconds by default, loss is percentage
@@ -49,10 +56,10 @@ class Setup:
         base_server_cmd = self.base.get_mininet_server_cmd(expt_tag=self.tag)
         algo_server_cmd = self.algo.get_mininet_server_cmd(expt_tag=self.tag)
 
-        print('RUNNING CMD ON BASE: %s' % base_client_cmd)
-        print('RUNNING CMD ON ALGO: %s' % algo_client_cmd)
-        print('RUNNING CMD ON SERVER: %s' % base_server_cmd)
         print('RUNNING CMD ON SERVER: %s' % algo_server_cmd)
+        print('RUNNING CMD ON SERVER: %s' % base_server_cmd)
+        print('RUNNING CMD ON ALGO: %s' % algo_client_cmd)
+        print('RUNNING CMD ON BASE: %s' % base_client_cmd)
 
         # Have the algo start first, then stop and see if base recovers
         server.cmd(algo_server_cmd)
@@ -66,8 +73,6 @@ class Setup:
         net.stop()
 
 def run_test(setups):
-    bw, delay, loss, queue, how_long = 32, 32, 0, '500kb', 120
-
     for setup in setups:
         setup.run_experiment(bw, delay, loss, queue, how_long)
 
@@ -85,8 +90,8 @@ if __name__ == '__main__':
     vivace_algo_cmd = command.VivaceCmd('vivace-algo', args.vivace, log_path=args.log, server_port=9101)
     vivace_base_cmd = command.VivaceCmd('vivace-base', args.vivace, log_path=args.log, server_port=9102)
 
-    cubic_fulltime_iperf_cmd = command.CubicIperfCmd('cubic_fulltime',version=3, log_path=args.log, lifetime=120, server_port=5202)
-    cubic_halftime_iperf_cmd = command.CubicIperfCmd('cubic_halftime',version=3, log_path=args.log, lifetime=60, server_port=5203) # end earlier
+    cubic_fulltime_iperf_cmd = command.CubicIperfCmd('cubic_fulltime',version=3, log_path=args.log, lifetime=how_long, server_port=5202)
+    cubic_halftime_iperf_cmd = command.CubicIperfCmd('cubic_halftime',version=3, log_path=args.log, lifetime=how_long/2, server_port=5203) # end earlier
 
     aurora_vs_aurora = Setup(algo_cmd=aurora_algo_cmd, base_cmd=aurora_base_cmd, tag='aurora-vs-aurora')
     vivace_vs_vivace = Setup(algo_cmd=vivace_algo_cmd, base_cmd=vivace_base_cmd, tag='vivace-vs-vivace')
