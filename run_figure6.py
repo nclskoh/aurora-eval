@@ -140,7 +140,7 @@ def run_single_test(aurora_cmd, vivace_cmd, cubic_cmd, bw, delay, loss, queue):
     vivace.run_experiment(how_long)
     
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description="Run PCC tests")
+    parser = argparse.ArgumentParser(description="Run experiments pertaining to Figure 6")
     parser.add_argument('--rl', '-rl', help='path to reinforcement-learning repo', required=True)
     parser.add_argument('--model', '-m', help='path to model', required=True)
     parser.add_argument('--aurora', '-au', help='path to aurora root', required=True)
