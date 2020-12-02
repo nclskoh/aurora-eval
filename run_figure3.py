@@ -26,7 +26,8 @@ class Setup:
         net.addLink(client, server)
         client_intf, server_intf = client.connectionsTo(server)[0]
         server_intf.config(bw=base + (flag * delta))
-        print('Server throttled at %i Mbps' % (base + (flag * delta)))
+        client_intf.config(bw=base + (flag * delta))
+        print('Network throttled at %i Mbps' % (base + (flag * delta)))
 
         net.start()
         dumpNodeConnections(net.hosts)
@@ -49,29 +50,29 @@ class Setup:
             sleep(swap_interval)
             flag = (-1) * flag
             client_intf, server_intf = client.connectionsTo(server)[0]
-            # client_intf.config(bw=base + (flag * delta))
+            client_intf.config(bw=base + (flag * delta))
             server_intf.config(bw=base + (flag * delta))
-            print('Server throttled at %i Mbps' % (base + (flag * delta)))
+            print('Network throttled at %i Mbps' % (base + (flag * delta)))
             how_long = how_long - swap_interval
 
         net.stop()
 
 def run_test(aurora, vivace, cubic3, cubic2):
-    how_long, base, delta, swap_interval = 60, 30, 10, 10
+    how_long, base, delta, swap_interval = 60, 30, 10, 5
 
-    # aurora.cmd.set_utility('vivace')
+    # aurora.cmd.set_utility('linear')
     # aurora.cmd.set_history_len(10)
     # aurora.run_experiment(how_long)
 
-    aurora.cmd.set_utility('linear')
+    aurora.cmd.set_utility('vivace')
     aurora.cmd.set_history_len(10)
     aurora.run_experiment(how_long, base=base, delta=delta, swap_interval=swap_interval)
 
     cubic3.cmd.set_lifetime(how_long)
     cubic3.run_experiment(how_long, base=base, delta=delta, swap_interval=swap_interval)
 
-    cubic2.cmd.set_lifetime(how_long)
-    cubic2.run_experiment(how_long, base=base, delta=delta, swap_interval=swap_interval)
+    # cubic2.cmd.set_lifetime(how_long)
+    # cubic2.run_experiment(how_long, base=base, delta=delta, swap_interval=swap_interval)
 
     vivace.run_experiment(how_long, base=base, delta=delta, swap_interval=swap_interval)
 
