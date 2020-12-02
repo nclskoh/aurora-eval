@@ -36,7 +36,7 @@ def plot_fairness(data, output_filename):
         series.plot(y='rate', ax=ax, marker='x')
         names.append(method)
 
-    ax.legend(names, loc='lower right')
+    ax.legend(names, loc='upper right')
     output.savefig(fig)
     output.close()
 
