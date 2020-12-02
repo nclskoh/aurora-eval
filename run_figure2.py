@@ -8,6 +8,8 @@ from mininet.link import TCLink
 from mininet.util import dumpNodeConnections
 from mininet.log import setLogLevel
 
+from mininet.node import RemoteController
+
 from time import sleep
 
 class SingleLinkTopo(Topo):
@@ -27,6 +29,8 @@ class Setup:
         setLogLevel('info')
 
         topo = SingleLinkTopo(bw=bw, delay=delay, loss=loss, queue=queue)
+        # Use this to parallelize, but this may affect performance and results
+        # net = Mininet(topo, controller=lambda name: RemoteController(name, ip='127.0.0.1'))
         net = Mininet(topo)
         net.start()
         dumpNodeConnections(net.hosts)
@@ -57,9 +61,9 @@ def run_test(aurora, vivace, cubic3, cubic2):
     aurora.cmd.set_history_len(10)
     aurora.run_experiment(bw, delay, loss, queue, how_long)
 
-    aurora.cmd.set_utility('linear')
-    aurora.cmd.set_history_len(10)
-    aurora.run_experiment(bw, delay, loss, queue, how_long)
+    # aurora.cmd.set_utility('linear')
+    # aurora.cmd.set_history_len(10)
+    # aurora.run_experiment(bw, delay, loss, queue, how_long)
 
     cubic3.cmd.set_lifetime(how_long)
     cubic3.run_experiment(bw, delay, loss, queue, how_long)
