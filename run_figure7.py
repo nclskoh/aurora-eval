@@ -15,10 +15,11 @@ class Setup:
     def __init__(self, cmd):
         self.cmd = cmd
 
-    def run_experiment(self, iter_idx, how_long, min_bw=16, max_bw=32, interval=10):
+    # Defaults are ICML Figure 7 parameters
+    def run_experiment(self, iter_idx, how_long, min_bw=16, max_bw=32, interval=5, delay=32, loss=0, max_queue_size=500):
         setLogLevel('info')
 
-        intf = custom(TCIntf, bw=max_bw)
+        intf = custom(TCIntf, bw=max_bw, delay=delay, loss=loss, max_queue_size=max_queue_size)
         net = Mininet(intf=intf)
         client = net.addHost('client')
         server = net.addHost('server')
@@ -59,7 +60,7 @@ class Setup:
         net.stop()
 
 def run_test(aurora, vivace, cubic3):
-    how_long, min_bw, max_bw, interval = 120, 16, 32, 5
+    how_long = 120
     num_iters = 10
 
     aurora.cmd.set_utility('vivace')
@@ -68,9 +69,9 @@ def run_test(aurora, vivace, cubic3):
     cubic3.cmd.set_lifetime(how_long)
 
     for i in range(num_iters):
-        aurora.run_experiment(i, how_long, min_bw=min_bw, max_bw=max_bw, interval=interval)
-        cubic3.run_experiment(i, how_long, min_bw=min_bw, max_bw=max_bw, interval=interval)
-        vivace.run_experiment(i, how_long, min_bw=min_bw, max_bw=max_bw, interval=interval)
+        aurora.run_experiment(i, how_long)
+        cubic3.run_experiment(i, how_long)
+        vivace.run_experiment(i, how_long)
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="Run experiments pertaining to Figure 3")

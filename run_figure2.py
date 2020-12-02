@@ -49,6 +49,7 @@ class Setup:
         net.stop()
 
 def run_test(aurora, vivace, cubic3, cubic2):
+    # ICML Paper Parameters
     # 10-packet queue, verify units are correct
     bw, delay, loss, queue, how_long = 30, None, 1, 10, 30
 

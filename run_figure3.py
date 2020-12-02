@@ -14,7 +14,8 @@ class Setup:
     def __init__(self, cmd):
         self.cmd = cmd
 
-    def run_experiment(self, how_long, base=30, delta=10, swap_interval=10):
+    # Defaults are ICML Figure 3 parameters
+    def run_experiment(self, how_long, base=30, delta=10, swap_interval=5):
         setLogLevel('info')
 
         flag = 1
@@ -58,7 +59,7 @@ class Setup:
         net.stop()
 
 def run_test(aurora, vivace, cubic3, cubic2):
-    how_long, base, delta, swap_interval = 60, 30, 10, 5
+    how_long = 60
 
     # aurora.cmd.set_utility('linear')
     # aurora.cmd.set_history_len(10)
@@ -66,15 +67,12 @@ def run_test(aurora, vivace, cubic3, cubic2):
 
     aurora.cmd.set_utility('vivace')
     aurora.cmd.set_history_len(10)
-    aurora.run_experiment(how_long, base=base, delta=delta, swap_interval=swap_interval)
+    aurora.run_experiment(how_long)
 
     cubic3.cmd.set_lifetime(how_long)
-    cubic3.run_experiment(how_long, base=base, delta=delta, swap_interval=swap_interval)
+    cubic3.run_experiment(how_long)
 
-    # cubic2.cmd.set_lifetime(how_long)
-    # cubic2.run_experiment(how_long, base=base, delta=delta, swap_interval=swap_interval)
-
-    vivace.run_experiment(how_long, base=base, delta=delta, swap_interval=swap_interval)
+    vivace.run_experiment(how_long)
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="Run experiments pertaining to Figure 3")
