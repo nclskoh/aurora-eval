@@ -137,7 +137,8 @@ def group_files_by_type(logs):
     return d
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description="Graph the sender's trace dumped by PCC client")
+    paper = "ICML 2019 paper (A Deep Reinforcement Learning Perspective on Internet Congestion Control)"
+    parser = argparse.ArgumentParser(description="Plot Figure 6 of %s" % paper)
     parser.add_argument('--dir', '-d', help='directory containing log files', required=True)
     parser.add_argument('--out', '-o', help='directory to dump output files', default='./testing_logs')
     args = parser.parse_args()
