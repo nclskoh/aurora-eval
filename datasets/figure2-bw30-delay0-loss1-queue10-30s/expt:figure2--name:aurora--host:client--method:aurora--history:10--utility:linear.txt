@@ -1,0 +1,39 @@
+WARNING:tensorflow:From /usr/src/PCC/aurora-RL/src/udt-plugins/testing/loaded_agent.py:22: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+2020-11-20 17:29:58.246697: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcuda.so.1
+2020-11-20 17:29:58.699042: E tensorflow/stream_executor/cuda/cuda_driver.cc:318] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2020-11-20 17:29:58.699106: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (ins7570): /proc/driver/nvidia/versioCUDTUnited::connect()
+CUDTUnited::updateMux() called, receive queue is created
+connect
+finished connect
+	Rate (Mbps)	RTT (ms)	Sent		Lost
+1	20.0233		2.55661		1774		36
+2	28.6502		0.474361		4234		77
+3	28.6635		1.06736		6695		146
+4	28.8022		0.818066		9168		204
+5	28.6164		0.698803		11625		257
+6	28.1962		0.339093		14046		312
+7	28.8014		0.387253		16519		371
+8	28.639		0.264567		18978		433
+9	28.7333		1.21597		21445		495
+10	28.6517		0.475522		23905		542
+11	28.7211		0.528015		26371		593
+12	28.8718		3.35474		28850		648
+13	28.4529		0.276644		31293		700
+14	28.8835		0.770219		33773		758
+15	28.7681		0.836297		36243		805
+16	28.7547		2.32334		38712		854
+17	28.7914		1.07459		41184		919
+18	28.6866		2.42144		43647		981
+19	28.6273		0.155933		46105		1038
+20	28.7797		3.02924		48576		1088
+21	28.582		0.290046		51030		1142
+22	28.5806		1.62559		53484		1186
+23	28.6866		3.33814		55947		1234
+24	28.7794		3.90246		58418		1294
+25	29.5364		4.27823		60954		1428
+26	29.35		0.309442		63474		1538
+27	28.9428		0.1665		65959		1602
+n a future version.
+Instructions for updating:
+This function will only be available through the v1 compatibility library as tf.compat.v1.saved_model.loader.load or tf.compat.v1.saved_model.load. There will be a new function for importing SavedModels in Tensorflow 2.0.
