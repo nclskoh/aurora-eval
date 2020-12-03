@@ -105,10 +105,23 @@ The data is tagged as `expt:figure6-single-...`, and you can overwrite the corru
 
 To plot the figure, run:
 ```
-python plot_figure6.py -d testing_logs -l <output-dir>
+python plot_figure6.py -d testing_logs -o <output-dir>
 ```
 Check the warnings to see if there are corrupted files corresponding to failed experiments.
 This should output `figure6.pdf` in the output directory.
+
+### Figure 7
+
+For Figure 7, run:
+```
+python run_figure7.py <same-as-above> -l testing_logs
+```
+
+To plot the figure, run:
+```
+python plot_figure7.py -d testing_logs -o <output-dir>
+```
+This should output `figure7.pdf` in the output directory.
 
 ### Fairness
 
