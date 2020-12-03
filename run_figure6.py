@@ -112,7 +112,8 @@ def run_sweep(aurora, vivace, cubic3, variable):
     if variable == 'bw':
         intervals = [1, 8, 16, 32, 64, 96, 128]
     elif variable == 'delay':
-        intervals = [1, 16, 32, 64, 128, 256, 384, 512]
+        # intervals = [1, 16, 32, 64, 128, 256, 384, 512]
+        intervals = [1, 16, 32, 64, 100, 128, 200, 256, 300, 384, 400, 500, 512]
     elif variable == 'loss':
         intervals = [1, 2, 3, 4, 5, 6, 7, 8]
     elif variable == 'queue':
