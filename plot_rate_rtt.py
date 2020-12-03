@@ -1,16 +1,11 @@
 from parse.filedata import FileData
+from util import *
 
 import matplotlib.pyplot as plt
 import matplotlib.backends.backend_pdf as pdf
 
 import argparse
 import os
-
-warning_color = '\033[93m'
-end_color = '\033[0m]'
-
-def print_warning(s):
-    print(warning_color + 'WARNING: %s' % s + end_color)
 
 def group_data_by_tag(logs):
     'Returns a dictionary of data organized by key.'
@@ -36,8 +31,9 @@ def plot_against_time(logs, key, out_file, label=None, log_scale=False):
     for log in logs:
         contents = log.get_contents()
         if 'time' in contents and key in contents:
-            names.append(log.get_label())
-            contents.plot(x='time', y=key, ax=ax)
+            label = legend_name(log.get_label())
+            contents.plot(x='time', y=key, ax=ax, color=color(label, names))
+            names.append(label)
             # print('%s: %s[%s]:' % (log.get_filename(), log.get_label(), key))
             # print(contents[key])
         else:
