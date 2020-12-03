@@ -72,6 +72,8 @@ running with wrong switches or values will fail silently and just give bad data!
 
 ## Specific scripts
 
+### Figures 2 and 3
+
 For Figures 2 and 3, just run:
 
 ```
@@ -82,10 +84,12 @@ python run_figure3.py <same-as-above> -l testing_logs
 Plot their results using:
 
 ```
-python plot_rate_rtt.py -d testing_logs
+python plot_rate_rtt.py -d testing_logs -o <output-dir>
 ```
 
-`Figure2.pdf` and `Figure3.pdf` will appear in `testing_logs/`.
+The reports `figure2.pdf` and `figure3.pdf` will appear in `<output-dir>`.
+
+### Figure 6
 
 For Figure 6, run:
 ```
@@ -101,33 +105,41 @@ The data is tagged as `expt:figure6-single-...`, and you can overwrite the corru
 
 To plot the figure, run:
 ```
-python plot_figure6.py -d testing_logs
+python plot_figure6.py -d testing_logs -l <output-dir>
 ```
 Check the warnings to see if there are corrupted files corresponding to failed experiments.
+This should output `figure6.pdf` in the output directory.
 
-For the fairness script, run:
+### Fairness
+
+There are two experiments: the first is to test for interfairness, where we pit every algorithm
+against every algorithm in a two-client network sharing a bottleneck link,
+and the second is to test for intra-fairness, where we put N clients with the same algorithm
+sharing a bottleneck link, for different choices of N.
+
+For the first experiment:
 
 ```
-python run_merge_fairness_all_pairs.py <same-as-above> -l testing_logs
+python run_fairness_all_pairs.py <same-as-above> -l testing_logs
 ```
 
-Then run:
+Then plot the results using:
 
 ```
-python merge_fairness_reports.py -d testing_logs -o <path/to/outfile.pdf>
+python plot_rate_rtt.py -d testing_logs -o <output-dir>
+python merge_fairness_reports.py -d testing_logs -o <outfile.pdf>
 ```
 
-You should see 18 figures.
+You should check to see that there are 18 figures, in case some experiment failed to run.
 
+For the second experiment:
 
-## TODOs
+```
+python run_intra_fairness.py <same-as-above> -l testing_logs
+```
 
-Figures 3 and 6 show clear places where rate or utilization is above the network-allowed rate,
-and where latency is just too high, e.g., 8-12 seconds.
-
-Need to figure out if the scripts are not actually controlling Mininet right, 
-and/or if some statistics actually should be computed differently. 
-
-Some possibilities:
-- Use rate-limiting, e.g. htb
-- Rate may exceed uplink and latency so high because of queues and increased BDP...?
+Then plot using:
+```
+python plot_intrafairness_time_series.py -d testing_logs -o <output-dir>
+```
+This should dump `intrafairness.pdf` in the output directory.
