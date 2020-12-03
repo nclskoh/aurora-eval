@@ -95,14 +95,6 @@ def group_files_by_number(logs):
         d[num_clients].append(log)
     return d
 
-def lookup(filename, key):
-    without_ext = os.path.splitext(filename)[0]
-    for kv in without_ext.split('--'):
-        pair = kv.split(':')
-        if len(pair) == 2 and pair[0] == key:
-            return pair[1]
-    return ''
-
 if __name__ == '__main__':
     paper = "NIPS 2018 paper (Internet Congestion Control via Deep Reinforcement Learning)"
     parser = argparse.ArgumentParser(description="Plot Figure 7 of %s" % paper)

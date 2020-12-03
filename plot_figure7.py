@@ -1,4 +1,5 @@
 from parse.filedata import FileData
+from util import *
 
 import matplotlib.pyplot as plt
 import matplotlib.backends.backend_pdf as pdf
@@ -50,14 +51,6 @@ def process(logs, out_dir):
     output_filename = os.path.join(out_dir, 'figure7.pdf')
     print('Writing to %s' % output_filename)
     plot_scatter(d, output_filename)
-
-def lookup(filename, key):
-    without_ext = os.path.splitext(filename)[0]
-    for kv in without_ext.split('--'):
-        pair = kv.split(':')
-        if len(pair) == 2 and pair[0] == key:
-            return pair[1]
-    return ''
 
 if __name__ == '__main__':
     paper = "ICML 2019 paper (A Deep Reinforcement Learning Perspective on Internet Congestion Control)"

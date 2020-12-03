@@ -1,4 +1,5 @@
 from parse.filedata import FileData
+from util import *
 
 import matplotlib.pyplot as plt
 import matplotlib.backends.backend_pdf as pdf
@@ -6,38 +7,6 @@ import pandas as pd
 
 import argparse
 import os
-
-warning_color = '\033[93m'
-end_color = '\033[0m'
-
-def print_warning(s):
-    print(warning_color + 'WARNING: %s' % s + end_color)
-
-def plot_against_time(logs, key, out_file, label=None, log_scale=False):
-    if label is None:
-        label = key
-    fig, ax = plt.subplots()
-    ax.set_xlabel('Time (ms)')
-    ax.set_ylabel('%s' % key)
-    ax.set_title('%s against time' % label)
-
-    names = []
-    for log in logs:
-        contents = log.get_contents()
-        if 'time' in contents and key in contents:
-            names.append(log.get_label())
-            contents.plot(x='time', y=key, ax=ax, legend=True)
-            print('%s: %s[%s] ok' % (log.get_filename(), log.get_label(), key))
-            # print('%s: %s[%s]:' % (log.get_filename(), log.get_label(), key))
-            # print(contents[key])
-        else:
-            print_warning('Cannot plot %s: time or key = %s is not in table' % (log.get_filename(), key))
-
-    if log_scale:
-        ax.set_yscale('log')
-
-    ax.legend(names, loc='lower right')
-    out_file.savefig(fig)
 
 def print_filenames(logs):
     print('files in this group: ')
@@ -74,10 +43,11 @@ def plot(x, y, data, outfile):
     names = []
 
     for method_name, group in method_data:
-        names.append(method_name)
+        label = legend_name(method_name)
         # ylim = (0, 1.5) if y == 'util' else None
         ylim = None
-        group.sort_values(x).plot(x=x, y=y, ax=ax, marker='x', ylim=ylim)
+        group.sort_values(x).plot(x=x, y=y, ax=ax, marker='x', ylim=ylim, color=color(label, names))
+        names.append(label)
     ax.legend(names, loc='lower right')
     outfile.savefig(fig)
 
@@ -110,14 +80,6 @@ def process(log_groups, out_dir):
         process_setup(expt_typ, logs, output)
 
     output.close()
-
-def lookup(filename, key):
-    without_ext = os.path.splitext(filename)[0]
-    for kv in without_ext.split('--'):
-        pair = kv.split(':')
-        if len(pair) == 2 and pair[0] == key:
-            return pair[1]
-    return ''
 
 def get_expt_type(tag):
     return tag.split('-')[1]

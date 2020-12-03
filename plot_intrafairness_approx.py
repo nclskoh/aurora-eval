@@ -1,4 +1,5 @@
 from parse.filedata import FileData
+from util import *
 
 import matplotlib.pyplot as plt
 import matplotlib.backends.backend_pdf as pdf
@@ -7,12 +8,6 @@ from statistics import mean
 
 import argparse
 import os
-
-warning_color = '\033[93m'
-end_color = '\033[0m'
-
-def print_warning(s):
-    print(warning_color + 'WARNING: %s' % s + end_color)
 
 def compute_fairness(rates):
     mean_rate = mean(rates)
@@ -32,9 +27,10 @@ def plot_fairness(data, output_filename):
 
     names = []
     for method, experiments in method_data:
+        label = legend_name(method)
         series = experiments.groupby('num_clients')['rate'].aggregate(compute_fairness)
-        series.plot(y='rate', ax=ax, marker='x')
-        names.append(method)
+        series.plot(y='rate', ax=ax, marker='x', color=color(label, names))
+        names.append(label)
 
     ax.legend(names, loc='upper right')
     output.savefig(fig)
@@ -62,14 +58,6 @@ def group_files_by_number(logs):
         num_clients = int(tag.split('-')[1])
         d[num_clients].append(log)
     return d
-
-def lookup(filename, key):
-    without_ext = os.path.splitext(filename)[0]
-    for kv in without_ext.split('--'):
-        pair = kv.split(':')
-        if len(pair) == 2 and pair[0] == key:
-            return pair[1]
-    return ''
 
 if __name__ == '__main__':
     paper = "NIPS 2018 paper (Internet Congestion Control via Deep Reinforcement Learning)"
