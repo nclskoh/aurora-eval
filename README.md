@@ -36,7 +36,7 @@ for its data.
 As an overview, try:
 
 ```
-python ./run_figure2.py -au /path/to/aurora-pcc -rl /path/to/aurora-rl -m /path/to/trained/aurora/model [-vi /path/to/vivace/pcc] [-l /where/to/store/logs]
+python ./run_figure2.py -au /path/to/aurora-pcc -rl /path/to/aurora-rl -m /path/to/trained/aurora/model -vi /path/to/vivace/pcc [-l /where/to/store/logs]
 ```
 
 Logs are by default stored in `./testing_logs`.
