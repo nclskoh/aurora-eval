@@ -1,0 +1,4458 @@
+SendRate(Mb/s)	RTT(ms)	CTotal	Loss	RecvACK	RecvNAK
+1	30.6379	110.267	2744	0
+2	168.117	747.635	17179	5101
+3	89.4825	753.233	24862	20402
+4	48.1471	753.742	28996	20402
+5	28.5364	754.097	31446	25254
+6	24.2496	754.097	33528	25254
+7	25.1112	402.537	35684	25254
+8	24.8889	357.755	37821	25254
+9	26.1245	360.452	40064	25254
+10	25.9032	376.273	42288	26536
+11	24.5983	373.448	44400	26564
+12	25.098	368.18	46555	26565
+13	25.4256	375.89	48738	26625
+14	24.7256	374.22	50861	26697
+15	25.3442	375.736	53037	26782
+16	23.8893	372.616	55088	26828
+17	24.3068	372.404	57175	26881
+18	24.1441	353.634	59248	26881
+19	24.3647	323.857	61340	26882
+20	24.7615	323.471	63466	26882
+21	25.8542	353.131	65686	26908
+22	25.9499	370.459	67914	27015
+23	24.8782	374.878	70050	27093
+24	24.3887	368.653	72144	27154
+25	23.7482	359.527	74183	27223
+26	23.8409	338.019	76230	27230
+27	23.8993	343.194	78282	27262
+28	24.1434	360.823	80355	27345
+29	23.3523	370.922	82360	27402
+30	22.6524	363.883	84305	27420
+31	23.5964	355.129	86331	27421
+32	23.1544	363.102	88319	27453
+33	23.0263	360.034	90296	27512
+34	21.9665	355.301	92182	27527
+35	23.1196	347.672	94167	27553
+36	22.0237	371.004	96058	27592
+37	21.7571	366.453	97926	27601
+38	21.4414	370.279	99767	27607
+39	22.2	356.444	101673	27611
+40	22.1762	365.095	103577	27692
+41	22.3624	370.439	105497	27750
+42	21.2091	366.502	107318	27761
+43	21.2443	348.887	109142	27761
+44	22.0237	347.384	111033	27763
+45	21.7103	363.213	112897	27814
+46	22.3972	364.207	114820	27894
+47	21.336	349.319	116652	27908
+48	21.1393	344.983	118467	27941
+49	21.1267	345.824	120281	27951
+50	21.7801	351.052	122151	27961
+51	22.6187	366.105	124093	28034
+52	21.6752	362.122	125954	28145
+53	21.4528	359.416	127796	28179
+54	21.1966	358.808	129616	28221
+55	21.2199	355.243	131438	28255
+56	21.7327	357.397	133304	28303
+57	20.5921	370.083	135072	28367
+58	20.8251	371.358	136860	28433
+59	20.6744	364.811	138635	28476
+60	21.2794	366.996	140462	28508
+61	20.696	375.555	142239	28604
+62	20.0438	354.262	143960	28637
+63	20.138	336.669	145689	28637
+64	20.3818	347.082	147439	28638
+65	21.2327	353.47	149262	28647
+66	21.4075	153.903	151100	28690
+67	57.0145	247.539	155995	28692
+68	35.2429	376.643	159021	30327
+69	19.6364	0.175	160707	30953
+70	98.6398	375.179	169176	34300
+71	42.9646	376.685	172865	36952
+72	33.9052	376.747	175776	37854
+73	32.4482	376.442	178562	38109
+74	32.2628	368.574	181332	38173
+75	30.4218	371.613	183944	38246
+76	31.1095	360.543	186615	38249
+77	31.832	354.664	189348	38264
+78	30.2343	361.239	191944	38310
+79	31.7255	354.324	194668	38323
+80	31.7742	374.112	197396	38399
+81	30.6184	366.85	200025	38444
+82	30.1415	347.272	202613	38444
+83	30.3171	327.929	205216	38444
+84	31.5048	317.001	207921	38444
+85	31.3439	336.891	210612	38444
+86	31.9492	345.491	213355	38444
+87	31.8067	371.841	216086	38517
+88	32.4479	372.574	218872	38660
+89	31.0974	375.114	221542	38696
+90	30.4676	364.145	224158	38696
+91	32.0285	346.958	226908	38698
+92	31.0397	367.791	229573	38736
+93	31.9827	370.326	232319	38833
+94	30.6777	376.369	234953	38875
+95	30.2707	348.469	237552	38875
+96	31.4358	322.372	240251	38878
+97	30.6421	334.512	242882	38878
+98	31.5515	337.455	245591	38878
+99	32.1565	363.54	248352	38952
+100	30.8074	367.454	250997	39015
+101	31.1908	347.457	253675	39015
+102	30.8764	343.16	256326	39016
+103	30.7125	340.599	258963	39016
+104	32.0402	355.791	261714	39023
+105	31.1218	363.453	264386	39087
+106	29.9446	351.818	266957	39115
+107	30.457	317.476	269572	39115
+108	30.4678	302.876	272188	39115
+109	31.2259	309.09	274869	39115
+110	31.2489	328.609	277552	39115
+111	32.4023	360.049	280334	39127
+112	32.6221	366.284	283135	39244
+113	30.6658	373.427	285768	39282
+114	31.0377	362.116	288433	39285
+115	31.76	367.798	291160	39321
+116	30.9106	368.688	293814	39353
+117	31.1193	365.049	296486	39394
+118	31.8888	376.071	299224	39438
+119	31.9123	369.964	301964	39482
+120	30.4108	373.916	304575	39572
+121	30.98	347.154	307235	39572
+tarts
+set rate: 102.4 --> 204.8
+slow starting of monitor21
+Monitor 22 starts
+total 202loss contri0rtt contr0time 0.023702norm measurement0.108635
+rtt is 0.21818loss rate is 0avg loss rate is 0
+latency info is 5.41896
+Monitor 17 ended with utility 61.6926total 202loss pkt0
+Monitor 23 starts
+total 297loss contri0rtt contr0time 0.034841norm measurement0.0924159
+rtt is 0.377002loss rate is 0avg loss rate is 0
+latency info is 5.42057
+Monitor 18 ended with utility 61.7053total 297loss pkt0
+Monitor 24 starts
+Monitor 25 starts
+total 466loss contri0rtt contr0time 0.054675norm measurement0.0920796
+rtt is 0.59378loss rate is 0avg loss rate is 0
+latency info is 3.6443
+Monitor 19 ended with utility 61.6965total 466loss pkt0
+Monitor 26 starts
+total 466loss contri3756.85rtt contr0time 0.054682norm measurement0.0733919
+rtt is 0.745069loss rate is 0.7103avg loss rate is 0.14206
+latency info is 1.82822
+Monitor 20 ended with utility -724.561total 466loss pkt331
+Emergency stop
+set rate: 204.8 --> 102.4
+monitor20ends in search state, this should not happen often
+total 1881loss contri19715rtt contr0time 0.110515norm measurement0.148049
+rtt is 0.746474loss rate is 0.923445avg loss rate is 0.298337
+latency info is 0.0151949
+Monitor 21 ended with utility -1926.56total 1881loss pkt1737
+monitor21ends in search state, this should not happen often
+total 1881loss contri19839.8rtt contr0time 0.110638norm measurement0.147984
+rtt is 0.747635loss rate is 0.929293avg loss rate is 0.424528
+latency info is 0.00848239
+Monitor 22 ended with utility -1937.32total 1881loss pkt1748
+monitor22ends in search state, this should not happen often
+Monitor 27 starts
+Monitor 27is in search state
+Monitor 27is in recording state 0th trial with rate of107.52
+set rate: 102.4 --> 107.52
+total 3000loss contri31723.2rtt contr0time 0.176385norm measurement0.234928
+rtt is 0.750804loss rate is 0.931667avg loss rate is 0.525956
+latency info is 0.0194347
+Monitor 23 ended with utility -1943.35total 3000loss pkt2795
+checking if all recording ready at monitor27
+total 3000loss contri31348.7rtt contr0time 0.176411norm measurement0.234397
+rtt is 0.752617loss rate is 0.920667avg loss rate is 0.604898
+latency info is 0.0166587
+Monitor 24 ended with utility -1918.76total 3000loss pkt2762
+checking if all recording ready at monitor27
+Monitor 28 starts
+Monitor 28is in recording state 1th trial with rate of97.28
+set rate: 107.52 --> 97.28
+total 3000loss contri33300.9rtt contr0time 0.176523norm measurement0.234466
+rtt is 0.752871loss rate is 0.978avg loss rate is 0.679518
+latency info is -0.000930836
+Monitor 25 ended with utility -2044.1total 3000loss pkt2934
+checking if all recording ready at monitor28
+Monitor 29 starts
+Monitor 29is in recording state 2th trial with rate of107.52
+set rate: 97.28 --> 107.52
+total 3000loss contri30860.6rtt contr0time 0.352214norm measurement0.467603
+rtt is 0.753233loss rate is 0.906333avg loss rate is 0.724881
+latency info is 0.000234543
+Monitor 26 ended with utility -941.06total 3000loss pkt2719
+Emergency stop
+set rate: 107.52 --> 51.2
+monitor26ends in search state, this should not happen often
+total 3000loss contri25616.9rtt contr0time 0.335605norm measurement0.444874
+rtt is 0.754382loss rate is 0.752333avg loss rate is 0.730372
+latency info is 0.00233782
+Monitor 27 ended with utility -809.135total 3000loss pkt2257
+monitor27ends in search state, this should not happen often
+Monitor 30 starts
+Monitor 30is in search state
+Monitor 30is in recording state 0th trial with rate of48.64
+set rate: 51.2 --> 48.64
+total 3000loss contri28079.9rtt contr0time 0.370837norm measurement0.491994
+rtt is 0.753743loss rate is 0.824667avg loss rate is 0.749231
+latency info is -0.00521164
+Monitor 28 ended with utility -807.684total 3000loss pkt2474
+checking if all recording ready at monitor30
+Monitor 31 starts
+Monitor 31is in recording state 1th trial with rate of53.76
+set rate: 48.64 --> 53.76
+total 3000loss contri21474.2rtt contr0time 0.652312norm measurement0.865101
+rtt is 0.75403loss rate is 0.630667avg loss rate is 0.725518
+latency info is 0.00246203
+Monitor 29 ended with utility -341.331total 3000loss pkt1892
+Emergency stop
+set rate: 53.76 --> 25.6
+monitor29ends in search state, this should not happen often
+total 3000loss contri24413.8rtt contr0time 0.741182norm measurement0.982872
+rtt is 0.754098loss rate is 0.717avg loss rate is 0.723814
+latency info is -0.00170648
+Monitor 30 ended with utility -345.393total 3000loss pkt2151
+monitor30ends in search state, this should not happen often
+Monitor 32 starts
+Monitor 32is in search state
+Monitor 32is in recording state 0th trial with rate of24.32
+set rate: 25.6 --> 24.32
+total 3000loss contri7683.95rtt contr-0time 1.39331norm measurement2.26185
+rtt is 0.616004loss rate is 0.225667avg loss rate is 0.624185
+latency info is -0.1967
+Monitor 31 ended with utility -45.2278total 3000loss pkt677
+checking if all recording ready at monitor32
+Monitor 33 starts
+Monitor 33is in recording state 1th trial with rate of26.88
+set rate: 24.32 --> 26.88
+total 1528loss contri1407.4rtt contr-0time 0.754658norm measurement1.87475
+rtt is 0.402537loss rate is 0.0811518avg loss rate is 0.515578
+latency info is -0.154278
+Monitor 32 ended with utility -4.42038total 1528loss pkt124
+checking if all recording ready at monitor33
+found matching monitor32
+Monitor 34 starts
+Monitor 34is in recording state 2th trial with rate of24.32
+set rate: 26.88 --> 24.32
+total 1379loss contri658.3rtt contr0time 0.616258norm measurement1.65677
+rtt is 0.371964loss rate is 0.0420595avg loss rate is 0.420874
+latency info is -0.00960351
+Monitor 33 ended with utility 6.29107total 1379loss pkt58
+checking if all recording ready at monitor34
+found matching monitor33
+Monitor 35 starts
+Monitor 35is in recording state 3th trial with rate of26.88
+set rate: 24.32 --> 26.88
+total 815loss contri0rtt contr-0time 0.40255norm measurement1.12521
+rtt is 0.357756loss rate is 0avg loss rate is 0.3367
+latency info is -0.0439038
+Monitor 34 ended with utility 16.921total 815loss pkt0
+checking if all recording ready at monitor35
+found matching monitor34
+Monitor 36 starts
+Monitor 36is in recording state, waiting result for recording to come back
+set rate: 26.88 --> 25.6
+Monitor 37 starts
+Monitor 37is in recording state, waiting result for recording to come back
+set rate: 25.6 --> 25.6
+total 833loss contri0rtt contr0time 0.372298norm measurement1.05001
+rtt is 0.354568loss rate is 0avg loss rate is 0.26936
+latency info is 0.0399252
+Monitor 35 ended with utility 18.5141total 833loss pkt0
+checking if all recording ready at monitor37
+found matching monitor35
+change before force to boundary 2.40322
+change before force to min change is 1.28
+gradient is 2.40322
+amplifier0
+change is 1.28
+all record is acquired and ready to change by 1.28
+set rate: 25.6 --> 26.88
+monitor35ends in search state, this should not happen often
+Monitor 38 starts
+Monitor 38is in search state
+Monitor 38is in recording state 0th trial with rate of28.224
+set rate: 26.88 --> 28.224
+total 763loss contri0rtt contr-0time 0.358015norm measurement0.994216
+rtt is 0.360098loss rate is 0avg loss rate is 0.215488
+latency info is -0.0212755
+Monitor 36 ended with utility 17.7208total 763loss pkt0
+checking if all recording ready at monitor38
+Monitor 39 starts
+Monitor 39is in recording state 1th trial with rate of25.536
+set rate: 28.224 --> 25.536
+total 763loss contri0rtt contr0time 0.341193norm measurement0.946568
+rtt is 0.360453loss rate is 0avg loss rate is 0.17239
+latency info is 0.0374815
+Monitor 37 ended with utility 18.5053total 763loss pkt0
+checking if all recording ready at monitor39
+Monitor 40 starts
+Monitor 40is in recording state 2th trial with rate of28.224
+set rate: 25.536 --> 28.224
+total 833loss contri317.8rtt contr0time 0.354471norm measurement0.94552
+rtt is 0.374895loss rate is 0.0336134avg loss rate is 0.144635
+latency info is 0.0167968
+Monitor 38 ended with utility 9.08984total 833loss pkt28
+checking if all recording ready at monitor40
+found matching monitor38
+Monitor 41 starts
+Monitor 41is in recording state 3th trial with rate of25.536
+set rate: 28.224 --> 25.536
+total 766loss contri0rtt contr0time 0.360198norm measurement0.964361
+rtt is 0.37351loss rate is 0avg loss rate is 0.115708
+latency info is -0.00492351
+Monitor 39 ended with utility 17.6865total 766loss pkt0
+checking if all recording ready at monitor41
+found matching monitor39
+Monitor 42 starts
+Monitor 42is in recording state, waiting result for recording to come back
+set rate: 25.536 --> 26.88
+total 847loss contri510.75rtt contr0time 0.360471norm measurement0.958002
+rtt is 0.376274loss rate is 0.0531287avg loss rate is 0.103192
+latency info is 0.00174151
+Monitor 40 ended with utility 3.13286total 847loss pkt45
+checking if all recording ready at monitor42
+found matching monitor40
+Monitor 43 starts
+Monitor 43is in recording state, waiting result for recording to come back
+set rate: 26.88 --> 26.88
+total 797loss contri8rtt contr0time 0.374922norm measurement1.00523
+rtt is 0.37297loss rate is 0.0100376avg loss rate is 0.0845612
+latency info is -0.000244751
+Monitor 41 ended with utility 17.4361total 797loss pkt8
+checking if all recording ready at monitor43
+found matching monitor41
+change before force to boundary -4.25965
+change before force to min change is -1.344
+gradient is -4.25965
+amplifier0
+change is -1.344
+all record is acquired and ready to change by -1.344
+set rate: 26.88 --> 25.536
+monitor41ends in search state, this should not happen often
+total 836loss contri24rtt contr0time 0.373566norm measurement0.9931
+rtt is 0.376161loss rate is 0.0287081avg loss rate is 0.0733906
+latency info is 0.00188195
+Monitor 42 ended with utility 17.7821total 836loss pkt24
+monitor42ends in search state, this should not happen often
+Monitor 44 starts
+Monitor 44is in search state
+Monitor 44is in recording state 0th trial with rate of24.2592
+set rate: 25.536 --> 24.2592
+total 842loss contri0rtt contr0time 0.395957norm measurement1.06027
+rtt is 0.373449loss rate is 0avg loss rate is 0.0587124
+latency info is -0.0135449
+Monitor 43 ended with utility 17.6856total 842loss pkt0
+checking if all recording ready at monitor44
+Monitor 45 starts
+Monitor 45is in recording state 1th trial with rate of26.8128
+set rate: 24.2592 --> 26.8128
+total 760loss contri0rtt contr-0time 0.376235norm measurement1.03467
+rtt is 0.363629loss rate is 0avg loss rate is 0.04697
+latency info is -0.0280954
+Monitor 44 ended with utility 16.8866total 760loss pkt0
+checking if all recording ready at monitor45
+found matching monitor44
+Monitor 46 starts
+Monitor 46is in recording state 2th trial with rate of24.2592
+set rate: 26.8128 --> 24.2592
+Monitor 47 starts
+Monitor 47is in recording state 3th trial with rate of26.8128
+set rate: 24.2592 --> 26.8128
+total 834loss contri1rtt contr0time 0.373588norm measurement1.01469
+rtt is 0.368181loss rate is 0.00119904avg loss rate is 0.0378158
+latency info is 0.0449442
+Monitor 45 ended with utility 18.4458total 834loss pkt1
+checking if all recording ready at monitor47
+found matching monitor45
+total 735loss contri0rtt contr-0time 0.363898norm measurement0.990325
+rtt is 0.367453loss rate is 0avg loss rate is 0.0302526
+latency info is -0.0510654
+Monitor 46 ended with utility 16.885total 735loss pkt0
+checking if all recording ready at monitor47
+found matching monitor46
+Monitor 48 starts
+Monitor 48is in recording state, waiting result for recording to come back
+set rate: 26.8128 --> 25.536
+Monitor 49 starts
+Monitor 49is in recording state, waiting result for recording to come back
+set rate: 25.536 --> 25.536
+total 812loss contri0rtt contr0time 0.363711norm measurement0.994346
+rtt is 0.365779loss rate is 0avg loss rate is 0.0242021
+latency info is 0.051969
+Monitor 47 ended with utility 18.4775total 812loss pkt0
+checking if all recording ready at monitor49
+found matching monitor47
+total 760loss contri0.241961rtt contr-0time 0.376235norm measurement1.03467
+rtt is 0.363629loss rate is 0.00031837avg loss rate is 0.0194253
+latency info is -0.0280954
+total 834loss contri0.265521rtt contr0time 0.373588norm measurement1.01469
+rtt is 0.368181loss rate is 0.00031837avg loss rate is 0.015604
+latency info is 0.0449442
+total 735loss contri0.234002rtt contr-0time 0.363898norm measurement0.990325
+rtt is 0.367453loss rate is 0.00031837avg loss rate is 0.0125468
+latency info is -0.0510654
+total 812loss contri0.258516rtt contr0time 0.363711norm measurement0.994346
+rtt is 0.365779loss rate is 0.00031837avg loss rate is 0.0101011
+latency info is 0.051969
+change before force to boundary 0.622816
+change before force to min change is 0.622816
+gradient is 0.622816
+amplifier0
+change is 0.622816
+all record is acquired and ready to change by 0.622816
+set rate: 25.536 --> 26.1588
+monitor47ends in search state, this should not happen often
+Monitor 50 starts
+Monitor 50is in search state
+Monitor 50is in recording state 0th trial with rate of27.4668
+set rate: 26.1588 --> 27.4668
+total 781loss contri4rtt contr0time 0.36738norm measurement0.97736
+rtt is 0.37589loss rate is 0.00512164avg loss rate is 0.00910524
+latency info is -0.000127487
+Monitor 48 ended with utility 17.5563total 781loss pkt4
+checking if all recording ready at monitor50
+Monitor 51 starts
+Monitor 51is in recording state 1th trial with rate of24.8509
+set rate: 27.4668 --> 24.8509
+total 781loss contri272.4rtt contr0time 0.358814norm measurement0.953436
+rtt is 0.376338loss rate is 0.0307298avg loss rate is 0.0134302
+latency info is 0.00198814
+Monitor 49 ended with utility 9.37239total 781loss pkt24
+checking if all recording ready at monitor51
+total 837loss contri624.25rtt contr0time 0.365966norm measurement0.97354
+rtt is 0.375913loss rate is 0.0657109avg loss rate is 0.0238863
+latency info is -0.00861631
+Monitor 50 ended with utility -0.637501total 837loss pkt55
+checking if all recording ready at monitor51
+found matching monitor50
+Monitor 52 starts
+Monitor 52is in recording state 2th trial with rate of24.8509
+set rate: 24.8509 --> 24.8509
+total 778loss contri3rtt contr0time 0.375978norm measurement1.0047
+rtt is 0.374221loss rate is 0.00385604avg loss rate is 0.0198803
+latency info is 0.00546907
+Monitor 51 ended with utility 17.1654total 778loss pkt3
+checking if all recording ready at monitor52
+found matching monitor51
+Monitor 53 starts
+Monitor 53is in recording state 3th trial with rate of27.4668
+set rate: 24.8509 --> 27.4668
+total 778loss contri2rtt contr0time 0.37606norm measurement1.00372
+rtt is 0.374666loss rate is 0.00257069avg loss rate is 0.0164183
+latency info is -0.00349719
+Monitor 52 ended with utility 17.1925total 778loss pkt2
+checking if all recording ready at monitor53
+found matching monitor52
+Monitor 54 starts
+Monitor 54is in recording state, waiting result for recording to come back
+set rate: 27.4668 --> 26.1588
+Monitor 55 starts
+Monitor 55is in recording state, waiting result for recording to come back
+set rate: 26.1588 --> 26.1588
+total 856loss contri567.5rtt contr0time 0.374328norm measurement0.996251
+rtt is 0.375737loss rate is 0.0584112avg loss rate is 0.0248169
+latency info is -0.000282316
+Monitor 53 ended with utility 1.53108total 856loss pkt50
+checking if all recording ready at monitor55
+found matching monitor53
+change before force to boundary -6.39638
+change before force to min change is -1.30794
+gradient is -6.39638
+amplifier0
+change is -1.30794
+all record is acquired and ready to change by -1.30794
+set rate: 26.1588 --> 24.8509
+monitor53ends in search state, this should not happen often
+total 816loss contri522.1rtt contr0time 0.374701norm measurement0.996579
+rtt is 0.375987loss rate is 0.0563725avg loss rate is 0.031128
+latency info is 0.00236815
+Monitor 54 ended with utility 2.1228total 816loss pkt46
+monitor54ends in search state, this should not happen often
+Monitor 56 starts
+Monitor 56is in search state
+Monitor 56is in recording state 0th trial with rate of23.6083
+set rate: 24.8509 --> 23.6083
+Monitor 57 starts
+Monitor 57is in recording state 1th trial with rate of26.0934
+set rate: 23.6083 --> 26.0934
+total 816loss contri19rtt contr0time 0.394287norm measurement1.04746
+rtt is 0.376423loss rate is 0.0232843avg loss rate is 0.0295593
+latency info is -0.000888308
+Monitor 55 ended with utility 16.7074total 816loss pkt19
+checking if all recording ready at monitor57
+total 739loss contri0rtt contr0time 0.375981norm measurement1.00903
+rtt is 0.372617loss rate is 0avg loss rate is 0.0236474
+latency info is -0.0189638
+Monitor 56 ended with utility 16.4761total 739loss pkt0
+checking if all recording ready at monitor57
+found matching monitor56
+Monitor 58 starts
+Monitor 58is in recording state 2th trial with rate of23.6083
+set rate: 26.0934 --> 23.6083
+Monitor 59 starts
+Monitor 59is in recording state 3th trial with rate of26.0934
+set rate: 23.6083 --> 26.0934
+total 817loss contri476.7rtt contr0time 0.376008norm measurement1.0026
+rtt is 0.375033loss rate is 0.0514076avg loss rate is 0.0291995
+latency info is 0.013897
+Monitor 57 ended with utility 3.52334total 817loss pkt42
+checking if all recording ready at monitor59
+found matching monitor57
+total 733loss contri1rtt contr-0time 0.372851norm measurement1.00577
+rtt is 0.370711loss rate is 0.00136426avg loss rate is 0.0236324
+latency info is -0.0334475
+Monitor 58 ended with utility 16.4485total 733loss pkt1
+checking if all recording ready at monitor59
+found matching monitor58
+Monitor 60 starts
+Monitor 60is in recording state, waiting result for recording to come back
+set rate: 26.0934 --> 24.8509
+Monitor 61 starts
+Monitor 61is in recording state, waiting result for recording to come back
+set rate: 24.8509 --> 24.8509
+total 810loss contri20rtt contr0time 0.372782norm measurement1.00101
+rtt is 0.372405loss rate is 0.0246914avg loss rate is 0.0238442
+latency info is 0.0341627
+Monitor 59 ended with utility 17.4183total 810loss pkt20
+checking if all recording ready at monitor61
+found matching monitor59
+monitor59ends in search state, this should not happen often
+total 767loss contri2rtt contr-0time 0.370742norm measurement1.00718
+rtt is 0.368101loss rate is 0.00260756avg loss rate is 0.0195969
+latency info is -0.0498531
+Monitor 60 ended with utility 17.1917total 767loss pkt2
+monitor60ends in search state, this should not happen often
+Monitor 62 starts
+Monitor 62is in search state
+Monitor 62is in recording state 0th trial with rate of26.0934
+set rate: 24.8509 --> 26.0934
+total 767loss contri0rtt contr-0time 0.3708norm measurement1.04854
+rtt is 0.353635loss rate is 0avg loss rate is 0.0156775
+latency info is -0.0213475
+Monitor 61 ended with utility 17.251total 767loss pkt0
+checking if all recording ready at monitor62
+Monitor 63 starts
+Monitor 63is in recording state 1th trial with rate of23.6083
+set rate: 26.0934 --> 23.6083
+total 800loss contri0rtt contr0time 0.368289norm measurement1.04905
+rtt is 0.351068loss rate is 0avg loss rate is 0.012542
+latency info is 0.00394722
+Monitor 62 ended with utility 18.0275total 800loss pkt0
+checking if all recording ready at monitor63
+found matching monitor62
+Monitor 64 starts
+Monitor 64is in recording state, waiting result for recording to come back
+set rate: 23.6083 --> 24.8509
+total 695loss contri0rtt contr-0time 0.353571norm measurement1.04376
+rtt is 0.338748loss rate is 0avg loss rate is 0.0100336
+latency info is -0.0739933
+Monitor 63 ended with utility 16.4771total 695loss pkt0
+checking if all recording ready at monitor64
+found matching monitor63
+total 800loss contri0rtt contr0time 0.368289norm measurement1.04905
+rtt is 0.351068loss rate is 0avg loss rate is 0.00802688
+latency info is 0.00394722
+total 695loss contri0rtt contr-0time 0.353571norm measurement1.04376
+rtt is 0.338748loss rate is 0avg loss rate is 0.00642151
+latency info is -0.0739933
+change before force to boundary 0.623865
+change before force to min change is 0.623865
+gradient is 0.623865
+amplifier0
+change is 0.623865
+all record is acquired and ready to change by 0.623865
+set rate: 24.8509 --> 25.4747
+monitor63ends in search state, this should not happen often
+Monitor 65 starts
+Monitor 65is in search state
+Monitor 65is in recording state 0th trial with rate of24.201
+set rate: 25.4747 --> 24.201
+total 727loss contri0rtt contr0time 0.350785norm measurement1.08315
+rtt is 0.323857loss rate is 0avg loss rate is 0.0051372
+latency info is -0.00455906
+Monitor 64 ended with utility 17.2809total 727loss pkt0
+checking if all recording ready at monitor65
+Monitor 66 starts
+Monitor 66is in recording state 1th trial with rate of26.7485
+set rate: 24.201 --> 26.7485
+total 683loss contri0rtt contr-0time 0.339102norm measurement1.07625
+rtt is 0.315076loss rate is 0avg loss rate is 0.00410976
+latency info is -0.0550677
+Monitor 65 ended with utility 16.8424total 683loss pkt0
+checking if all recording ready at monitor66
+found matching monitor65
+Monitor 67 starts
+Monitor 67is in recording state, waiting result for recording to come back
+set rate: 26.7485 --> 25.4747
+Monitor 68 starts
+Monitor 68is in recording state, waiting result for recording to come back
+set rate: 25.4747 --> 25.4747
+total 721loss contri0rtt contr0time 0.323723norm measurement1.03166
+rtt is 0.313787loss rate is 0avg loss rate is 0.00328781
+latency info is 0.0549337
+Monitor 66 ended with utility 18.4378total 721loss pkt0
+checking if all recording ready at monitor68
+found matching monitor66
+total 683loss contri0rtt contr-0time 0.339102norm measurement1.07625
+rtt is 0.315076loss rate is 0avg loss rate is 0.00263025
+latency info is -0.0550677
+total 721loss contri0rtt contr0time 0.323723norm measurement1.03166
+rtt is 0.313787loss rate is 0avg loss rate is 0.0021042
+latency info is 0.0549337
+change before force to boundary 0.626253
+change before force to min change is 0.626253
+gradient is 0.626253
+amplifier0
+change is 0.626253
+all record is acquired and ready to change by 0.626253
+set rate: 25.4747 --> 26.101
+monitor66ends in search state, this should not happen often
+Monitor 69 starts
+Monitor 69is in search state
+Monitor 69is in recording state 0th trial with rate of24.7959
+set rate: 26.101 --> 24.7959
+total 668loss contri0rtt contr0time 0.315002norm measurement0.973818
+rtt is 0.323471loss rate is 0avg loss rate is 0.00168336
+latency info is 0.00225032
+Monitor 67 ended with utility 17.6417total 668loss pkt0
+checking if all recording ready at monitor69
+Monitor 70 starts
+Monitor 70is in recording state 1th trial with rate of27.406
+set rate: 24.7959 --> 27.406
+total 668loss contri0rtt contr0time 0.307647norm measurement0.935122
+rtt is 0.328991loss rate is 0avg loss rate is 0.00134669
+latency info is 0.037396
+Monitor 68 ended with utility 18.0208total 668loss pkt0
+checking if all recording ready at monitor70
+Monitor 71 starts
+Monitor 71is in recording state, waiting result for recording to come back
+set rate: 27.406 --> 26.101
+total 648loss contri0rtt contr0time 0.313875norm measurement0.932357
+rtt is 0.336647loss rate is 0avg loss rate is 0.00107735
+latency info is 0.0127022
+Monitor 69 ended with utility 17.2211total 648loss pkt0
+checking if all recording ready at monitor71
+found matching monitor69
+Monitor 72 starts
+Monitor 72is in recording state, waiting result for recording to come back
+set rate: 26.101 --> 26.101
+total 738loss contri11rtt contr0time 0.323475norm measurement0.929729
+rtt is 0.347924loss rate is 0.0149051avg loss rate is 0.00384291
+latency info is 0.0450608
+Monitor 70 ended with utility 18.4524total 738loss pkt11
+checking if all recording ready at monitor72
+found matching monitor70
+total 648loss contri5.14286rtt contr0time 0.313875norm measurement0.932357
+rtt is 0.336647loss rate is 0.00793651avg loss rate is 0.00466163
+latency info is 0.0127022
+total 738loss contri5.85714rtt contr0time 0.323475norm measurement0.929729
+rtt is 0.347924loss rate is 0.00793651avg loss rate is 0.00531661
+latency info is 0.0450608
+change before force to boundary 0.613318
+change before force to min change is 0.613318
+gradient is 0.613318
+amplifier0
+change is 0.613318
+all record is acquired and ready to change by 0.613318
+set rate: 26.101 --> 26.7143
+monitor70ends in search state, this should not happen often
+Monitor 73 starts
+Monitor 73is in search state
+Monitor 73is in recording state 0th trial with rate of25.3786
+set rate: 26.7143 --> 25.3786
+total 715loss contri15rtt contr0time 0.329023norm measurement0.931729
+rtt is 0.353132loss rate is 0.020979avg loss rate is 0.00844909
+latency info is 0.0090597
+Monitor 71 ended with utility 17.5124total 715loss pkt15
+checking if all recording ready at monitor73
+Monitor 74 starts
+Monitor 74is in recording state 1th trial with rate of28.05
+set rate: 25.3786 --> 28.05
+total 732loss contri0rtt contr0time 0.329585norm measurement0.90278
+rtt is 0.365078loss rate is 0avg loss rate is 0.00675927
+latency info is 0.0549088
+Monitor 72 ended with utility 18.3913total 732loss pkt0
+checking if all recording ready at monitor74
+Monitor 75 starts
+Monitor 75is in recording state, waiting result for recording to come back
+set rate: 28.05 --> 26.7143
+total 735loss contri556.15rtt contr-0time 0.347841norm measurement0.938945
+rtt is 0.370459loss rate is 0.0666667avg loss rate is 0.0187407
+latency info is -0.0237345
+Monitor 73 ended with utility -0.712664total 735loss pkt49
+checking if all recording ready at monitor75
+found matching monitor73
+Monitor 76 starts
+Monitor 76is in recording state, waiting result for recording to come back
+set rate: 26.7143 --> 26.7143
+total 825loss contri749.1rtt contr0time 0.353215norm measurement0.956734
+rtt is 0.369188loss rate is 0.08avg loss rate is 0.0309926
+latency info is 0.0235032
+Monitor 74 ended with utility -5.02663total 825loss pkt66
+checking if all recording ready at monitor76
+found matching monitor74
+change before force to boundary -1.61485
+change before force to min change is -1.33572
+gradient is -1.61485
+amplifier0
+change is -1.33572
+all record is acquired and ready to change by -1.33572
+set rate: 26.7143 --> 25.3786
+monitor74ends in search state, this should not happen often
+total 812loss contri544.8rtt contr0time 0.365015norm measurement0.973959
+rtt is 0.374774loss rate is 0.0591133avg loss rate is 0.0366167
+latency info is -0.00374309
+Monitor 75 ended with utility 1.33728total 812loss pkt48
+monitor75ends in search state, this should not happen often
+Monitor 77 starts
+Monitor 77is in search state
+Monitor 77is in recording state 0th trial with rate of26.6475
+set rate: 25.3786 --> 26.6475
+Monitor 78 starts
+Monitor 78is in recording state 1th trial with rate of24.1097
+set rate: 26.6475 --> 24.1097
+total 824loss contri3rtt contr0time 0.389445norm measurement1.03886
+rtt is 0.374878loss rate is 0.00364078avg loss rate is 0.0300215
+latency info is 0.00454173
+Monitor 76 ended with utility 17.5177total 824loss pkt3
+checking if all recording ready at monitor78
+Monitor 79 starts
+Monitor 79is in recording state 2th trial with rate of24.1097
+set rate: 24.1097 --> 24.1097
+total 832loss contri590.2rtt contr0time 0.375049norm measurement0.997711
+rtt is 0.375909loss rate is 0.0625avg loss rate is 0.0365172
+latency info is -0.000331869
+Monitor 77 ended with utility 0.362817total 832loss pkt52
+checking if all recording ready at monitor79
+found matching monitor77
+total 752loss contri1rtt contr0time 0.374654norm measurement0.998399
+rtt is 0.375255loss rate is 0.00132979avg loss rate is 0.0294797
+latency info is -0.00387379
+Monitor 78 ended with utility 16.7595total 752loss pkt1
+checking if all recording ready at monitor79
+found matching monitor78
+Monitor 80 starts
+Monitor 80is in recording state 3th trial with rate of26.6475
+set rate: 24.1097 --> 26.6475
+total 753loss contri0rtt contr-0time 0.37515norm measurement1.01762
+rtt is 0.368654loss rate is 0avg loss rate is 0.0235838
+latency info is -0.033761
+Monitor 79 ended with utility 16.7901total 753loss pkt0
+checking if all recording ready at monitor80
+found matching monitor79
+Monitor 81 starts
+Monitor 81is in recording state, waiting result for recording to come back
+set rate: 26.6475 --> 25.3786
+total 833loss contri533.45rtt contr0time 0.375575norm measurement1.02908
+rtt is 0.36496loss rate is 0.0564226avg loss rate is 0.0301516
+latency info is -0.0105051
+Monitor 80 ended with utility 2.11395total 833loss pkt47
+checking if all recording ready at monitor81
+found matching monitor80
+change before force to boundary -6.12187
+change before force to min change is -1.26893
+gradient is -6.12187
+amplifier0
+change is -1.26893
+all record is acquired and ready to change by -1.26893
+set rate: 25.3786 --> 24.1097
+monitor80ends in search state, this should not happen often
+Monitor 82 starts
+Monitor 82is in search state
+Monitor 82is in recording state 0th trial with rate of25.3151
+set rate: 24.1097 --> 25.3151
+total 779loss contri17rtt contr0time 0.369194norm measurement1.02689
+rtt is 0.359527loss rate is 0.0218228avg loss rate is 0.0284858
+latency info is 0.0197866
+Monitor 81 ended with utility 17.0352total 779loss pkt17
+checking if all recording ready at monitor82
+Monitor 83 starts
+Monitor 83is in recording state 1th trial with rate of22.9042
+set rate: 25.3151 --> 22.9042
+Monitor 84 starts
+Monitor 84is in recording state, waiting result for recording to come back
+set rate: 22.9042 --> 24.1097
+total 769loss contri11rtt contr0time 0.364881norm measurement0.999455
+rtt is 0.36508loss rate is 0.0143043avg loss rate is 0.0256495
+latency info is -0.00295912
+Monitor 82 ended with utility 17.1987total 769loss pkt11
+checking if all recording ready at monitor84
+found matching monitor82
+total 686loss contri0rtt contr-0time 0.359789norm measurement1.02428
+rtt is 0.35126loss rate is 0avg loss rate is 0.0205196
+latency info is -0.0546177
+Monitor 83 ended with utility 16.0314total 686loss pkt0
+checking if all recording ready at monitor84
+found matching monitor83
+total 769loss contri5.81375rtt contr0time 0.364881norm measurement0.999455
+rtt is 0.36508loss rate is 0.00756014avg loss rate is 0.0179277
+latency info is -0.00295912
+total 686loss contri5.18625rtt contr-0time 0.359789norm measurement1.02428
+rtt is 0.35126loss rate is 0.00756014avg loss rate is 0.0158542
+latency info is -0.0546177
+change before force to boundary 0.620038
+change before force to min change is 0.620038
+gradient is 0.620038
+amplifier0
+change is 0.620038
+all record is acquired and ready to change by 0.620038
+set rate: 24.1097 --> 24.7297
+monitor83ends in search state, this should not happen often
+Monitor 85 starts
+Monitor 85is in search state
+Monitor 85is in recording state 0th trial with rate of25.9662
+set rate: 24.7297 --> 25.9662
+total 722loss contri0rtt contr0time 0.359175norm measurement1.06259
+rtt is 0.338019loss rate is 0avg loss rate is 0.0126834
+latency info is -0.0188693
+Monitor 84 ended with utility 16.8125total 722loss pkt0
+checking if all recording ready at monitor85
+Monitor 86 starts
+Monitor 86is in recording state 1th trial with rate of23.4932
+set rate: 25.9662 --> 23.4932
+Monitor 87 starts
+Monitor 87is in recording state 2th trial with rate of23.4932
+set rate: 23.4932 --> 23.4932
+total 760loss contri17rtt contr0time 0.351584norm measurement1.01623
+rtt is 0.34597loss rate is 0.0223684avg loss rate is 0.0146204
+latency info is 0.0559593
+Monitor 85 ended with utility 17.3952total 760loss pkt17
+checking if all recording ready at monitor87
+found matching monitor85
+Monitor 88 starts
+Monitor 88is in recording state 3th trial with rate of25.9662
+set rate: 23.4932 --> 25.9662
+total 661loss contri0rtt contr-0time 0.338008norm measurement0.969787
+rtt is 0.348538loss rate is 0avg loss rate is 0.0116963
+latency info is -0.0203132
+Monitor 86 ended with utility 16.401total 661loss pkt0
+checking if all recording ready at monitor88
+found matching monitor86
+total 661loss contri0rtt contr0time 0.337939norm measurement0.984686
+rtt is 0.343195loss rate is 0avg loss rate is 0.00935704
+latency info is -0.00731826
+Monitor 87 ended with utility 16.404total 661loss pkt0
+checking if all recording ready at monitor88
+found matching monitor87
+Monitor 89 starts
+Monitor 89is in recording state, waiting result for recording to come back
+set rate: 25.9662 --> 24.7297
+Monitor 90 starts
+Monitor 90is in recording state, waiting result for recording to come back
+set rate: 24.7297 --> 24.7297
+total 748loss contri488.05rtt contr0time 0.345946norm measurement0.98023
+rtt is 0.352923loss rate is 0.0574866avg loss rate is 0.018983
+latency info is 0.0372105
+Monitor 88 ended with utility 1.80762total 748loss pkt43
+checking if all recording ready at monitor90
+found matching monitor88
+monitor88ends in search state, this should not happen often
+Monitor 91 starts
+Monitor 91is in search state
+Monitor 91is in recording state 0th trial with rate of25.9662
+set rate: 24.7297 --> 25.9662
+total 707loss contri9rtt contr0time 0.343476norm measurement0.969403
+rtt is 0.354317loss rate is 0.0127298avg loss rate is 0.0177323
+latency info is 0.000802303
+Monitor 89 ended with utility 16.875total 707loss pkt9
+checking if all recording ready at monitor91
+Monitor 92 starts
+Monitor 92is in recording state 1th trial with rate of23.4932
+set rate: 25.9662 --> 23.4932
+total 707loss contri0rtt contr0time 0.343516norm measurement0.952032
+rtt is 0.360824loss rate is 0avg loss rate is 0.0141859
+latency info is 0.0321906
+Monitor 90 ended with utility 17.1731total 707loss pkt0
+checking if all recording ready at monitor92
+Monitor 93 starts
+Monitor 93is in recording state, waiting result for recording to come back
+set rate: 23.4932 --> 24.7297
+total 763loss contri942.05rtt contr0time 0.352796norm measurement0.97256
+rtt is 0.36275loss rate is 0.108781avg loss rate is 0.0331049
+latency info is -0.0144946
+Monitor 91 ended with utility -12.6019total 763loss pkt83
+checking if all recording ready at monitor93
+found matching monitor91
+Monitor 94 starts
+Monitor 94is in recording state, waiting result for recording to come back
+set rate: 24.7297 --> 24.7297
+total 693loss contri8rtt contr0time 0.354373norm measurement0.975892
+rtt is 0.363127loss rate is 0.011544avg loss rate is 0.0287927
+latency info is 0.0133792
+Monitor 92 ended with utility 16.1426total 693loss pkt8
+checking if all recording ready at monitor94
+found matching monitor92
+change before force to boundary -11.6235
+change before force to min change is -1.23649
+gradient is -11.6235
+amplifier0
+change is -1.23649
+all record is acquired and ready to change by -1.23649
+set rate: 24.7297 --> 23.4932
+monitor92ends in search state, this should not happen often
+total 743loss contri11rtt contr0time 0.360891norm measurement0.972955
+rtt is 0.370923loss rate is 0.0148048avg loss rate is 0.0259952
+latency info is 0.0232284
+Monitor 93 ended with utility 16.8293total 743loss pkt11
+monitor93ends in search state, this should not happen often
+Monitor 95 starts
+Monitor 95is in search state
+Monitor 95is in recording state 0th trial with rate of24.6679
+set rate: 23.4932 --> 24.6679
+Monitor 96 starts
+Monitor 96is in recording state 1th trial with rate of22.3186
+set rate: 24.6679 --> 22.3186
+total 747loss contri5rtt contr0time 0.381722norm measurement1.02676
+rtt is 0.371775loss rate is 0.00669344avg loss rate is 0.0221348
+latency info is 0.000811544
+Monitor 94 ended with utility 16.2613total 747loss pkt5
+checking if all recording ready at monitor96
+Monitor 97 starts
+Monitor 97is in recording state, waiting result for recording to come back
+set rate: 22.3186 --> 23.4932
+total 762loss contri16rtt contr0time 0.371022norm measurement0.990744
+rtt is 0.374488loss rate is 0.0209974avg loss rate is 0.0219073
+latency info is 0.009308
+Monitor 95 ended with utility 16.647total 762loss pkt16
+checking if all recording ready at monitor97
+found matching monitor95
+total 689loss contri0rtt contr-0time 0.370707norm measurement1.01875
+rtt is 0.363883loss rate is 0avg loss rate is 0.0175259
+latency info is -0.0587569
+Monitor 96 ended with utility 15.6673total 689loss pkt0
+checking if all recording ready at monitor97
+found matching monitor96
+change before force to boundary 0.417019
+change before force to min change is 0.417019
+gradient is 0.417019
+amplifier0
+change is 0.5
+all record is acquired and ready to change by 0.5
+set rate: 23.4932 --> 23.9932
+monitor96ends in search state, this should not happen often
+Monitor 98 starts
+Monitor 98is in search state
+Monitor 98is in recording state 0th trial with rate of22.7936
+set rate: 23.9932 --> 22.7936
+total 727loss contri0rtt contr0time 0.371268norm measurement1.04503
+rtt is 0.355272loss rate is 0avg loss rate is 0.0140207
+latency info is 0.00934303
+Monitor 97 ended with utility 16.4205total 727loss pkt0
+checking if all recording ready at monitor98
+Monitor 99 starts
+Monitor 99is in recording state 1th trial with rate of25.1929
+set rate: 22.7936 --> 25.1929
+total 691loss contri0rtt contr0time 0.364029norm measurement1.02506
+rtt is 0.35513loss rate is 0avg loss rate is 0.0112166
+latency info is -0.0117062
+Monitor 98 ended with utility 15.9673total 691loss pkt0
+checking if all recording ready at monitor99
+found matching monitor98
+Monitor 100 starts
+Monitor 100is in recording state 2th trial with rate of25.1929
+set rate: 25.1929 --> 25.1929
+Monitor 101 starts
+Monitor 101is in recording state 3th trial with rate of22.7936
+set rate: 25.1929 --> 22.7936
+total 745loss contri1rtt contr0time 0.355094norm measurement0.975865
+rtt is 0.363876loss rate is 0.00134228avg loss rate is 0.0092417
+latency info is 0.032493
+Monitor 99 ended with utility 17.4403total 745loss pkt1
+checking if all recording ready at monitor101
+found matching monitor99
+Monitor 102 starts
+Monitor 102is in recording state, waiting result for recording to come back
+set rate: 22.7936 --> 23.9932
+total 745loss contri351.85rtt contr0time 0.355107norm measurement0.974457
+rtt is 0.364415loss rate is 0.0416107avg loss rate is 0.0157155
+latency info is 0.00267072
+Monitor 100 ended with utility 6.13279total 745loss pkt31
+checking if all recording ready at monitor102
+found matching monitor100
+total 674loss contri0rtt contr0time 0.355085norm measurement0.977919
+rtt is 0.363103loss rate is 0avg loss rate is 0.0125724
+latency info is -0.0178248
+Monitor 101 ended with utility 15.9668total 674loss pkt0
+checking if all recording ready at monitor102
+found matching monitor101
+monitor101ends in search state, this should not happen often
+Monitor 103 starts
+Monitor 103is in search state
+Monitor 103is in recording state 0th trial with rate of25.1929
+set rate: 23.9932 --> 25.1929
+Monitor 104 starts
+Monitor 104is in recording state 1th trial with rate of22.7936
+set rate: 25.1929 --> 22.7936
+total 727loss contri14rtt contr0time 0.364611norm measurement0.994335
+rtt is 0.366688loss rate is 0.0192572avg loss rate is 0.0139094
+latency info is 0.0209091
+Monitor 102 ended with utility 16.2506total 727loss pkt14
+checking if all recording ready at monitor104
+total 762loss contri510.75rtt contr-0time 0.363206norm measurement1.00724
+rtt is 0.360596loss rate is 0.0590551avg loss rate is 0.0229385
+latency info is -0.0232605
+Monitor 103 ended with utility 1.37911total 762loss pkt45
+checking if all recording ready at monitor104
+found matching monitor103
+Monitor 105 starts
+Monitor 105is in recording state, waiting result for recording to come back
+set rate: 22.7936 --> 23.9932
+total 689loss contri0rtt contr0time 0.362944norm measurement1.00808
+rtt is 0.360035loss rate is 0avg loss rate is 0.0183508
+latency info is 0.00136162
+Monitor 104 ended with utility 15.9685total 689loss pkt0
+checking if all recording ready at monitor105
+found matching monitor104
+change before force to boundary -6.08064
+change before force to min change is -1.19966
+gradient is -6.08064
+amplifier0
+change is -1.19966
+all record is acquired and ready to change by -1.19966
+set rate: 23.9932 --> 22.7936
+monitor104ends in search state, this should not happen often
+Monitor 106 starts
+Monitor 106is in search state
+Monitor 106is in recording state 0th trial with rate of23.9332
+set rate: 22.7936 --> 23.9332
+Monitor 107 starts
+Monitor 107is in recording state 1th trial with rate of21.6539
+set rate: 23.9332 --> 21.6539
+total 720loss contri5rtt contr0time 0.360398norm measurement1.0008
+rtt is 0.360109loss rate is 0.00694444avg loss rate is 0.0160695
+latency info is -0.000395669
+Monitor 105 ended with utility 16.5605total 720loss pkt5
+checking if all recording ready at monitor107
+Monitor 108 starts
+Monitor 108is in recording state, waiting result for recording to come back
+set rate: 21.6539 --> 22.7936
+total 718loss contri10rtt contr0time 0.36023norm measurement1.00332
+rtt is 0.35904loss rate is 0.0139276avg loss rate is 0.0156411
+latency info is -0.0017536
+Monitor 106 ended with utility 16.3668total 718loss pkt10
+checking if all recording ready at monitor108
+found matching monitor106
+total 649loss contri0rtt contr-0time 0.359869norm measurement1.01286
+rtt is 0.355301loss rate is 0avg loss rate is 0.0125129
+latency info is -0.0340627
+Monitor 107 ended with utility 15.248total 649loss pkt0
+checking if all recording ready at monitor108
+found matching monitor107
+total 718loss contri5.25238rtt contr0time 0.36023norm measurement1.00332
+rtt is 0.35904loss rate is 0.00731529avg loss rate is 0.0114734
+latency info is -0.0017536
+total 649loss contri4.74762rtt contr-0time 0.359869norm measurement1.01286
+rtt is 0.355301loss rate is 0.00731529avg loss rate is 0.0106418
+latency info is -0.0340627
+change before force to boundary 0.623247
+change before force to min change is 0.623247
+gradient is 0.623247
+amplifier0
+change is 0.623247
+all record is acquired and ready to change by 0.623247
+set rate: 22.7936 --> 23.4168
+monitor107ends in search state, this should not happen often
+Monitor 109 starts
+Monitor 109is in search state
+Monitor 109is in recording state 0th trial with rate of22.246
+set rate: 23.4168 --> 22.246
+total 684loss contri0rtt contr0time 0.360094norm measurement1.03873
+rtt is 0.346669loss rate is 0avg loss rate is 0.00851342
+latency info is -0.00756889
+Monitor 108 ended with utility 15.9772total 684loss pkt0
+checking if all recording ready at monitor109
+Monitor 110 starts
+Monitor 110is in recording state 1th trial with rate of24.5876
+set rate: 22.246 --> 24.5876
+Monitor 111 starts
+Monitor 111is in recording state 2th trial with rate of24.5876
+set rate: 24.5876 --> 24.5876
+total 658loss contri0rtt contr0time 0.355238norm measurement1.02176
+rtt is 0.347672loss rate is 0avg loss rate is 0.00681073
+latency info is 0.00280091
+Monitor 109 ended with utility 15.6192total 658loss pkt0
+checking if all recording ready at monitor111
+found matching monitor109
+Monitor 112 starts
+Monitor 112is in recording state 3th trial with rate of22.246
+set rate: 24.5876 --> 22.246
+total 710loss contri329.15rtt contr0time 0.346767norm measurement0.987515
+rtt is 0.351151loss rate is 0.0408451avg loss rate is 0.0136176
+latency info is 0.0102951
+Monitor 110 ended with utility 6.23044total 710loss pkt29
+checking if all recording ready at monitor112
+found matching monitor110
+Monitor 113 starts
+Monitor 113is in recording state, waiting result for recording to come back
+set rate: 22.246 --> 23.4168
+total 710loss contri249.7rtt contr0time 0.34678norm measurement0.963056
+rtt is 0.360083loss rate is 0.0309859avg loss rate is 0.0170913
+latency info is 0.0565455
+Monitor 111 ended with utility 8.85221total 710loss pkt22
+checking if all recording ready at monitor113
+found matching monitor111
+Monitor 114 starts
+Monitor 114is in recording state, waiting result for recording to come back
+set rate: 23.4168 --> 23.4168
+total 644loss contri12rtt contr0time 0.34766norm measurement0.937077
+rtt is 0.371005loss rate is 0.0186335avg loss rate is 0.0173997
+latency info is -0.0129394
+Monitor 112 ended with utility 15.225total 644loss pkt12
+checking if all recording ready at monitor114
+found matching monitor112
+change before force to boundary -3.36544
+change before force to min change is -1.17084
+gradient is -3.36544
+amplifier0
+change is -1.17084
+all record is acquired and ready to change by -1.17084
+set rate: 23.4168 --> 22.246
+monitor112ends in search state, this should not happen often
+total 685loss contri4rtt contr0time 0.351281norm measurement0.947051
+rtt is 0.370921loss rate is 0.00583942avg loss rate is 0.0150877
+latency info is 0.0261276
+Monitor 113 ended with utility 16.2286total 685loss pkt4
+monitor113ends in search state, this should not happen often
+Monitor 115 starts
+Monitor 115is in search state
+Monitor 115is in recording state 0th trial with rate of21.1337
+set rate: 22.246 --> 21.1337
+Monitor 116 starts
+Monitor 116is in recording state 1th trial with rate of23.3583
+set rate: 21.1337 --> 23.3583
+total 702loss contri8rtt contr0time 0.378065norm measurement1.00578
+rtt is 0.375892loss rate is 0.011396avg loss rate is 0.0143493
+latency info is -0.00401215
+Monitor 114 ended with utility 15.4115total 702loss pkt8
+checking if all recording ready at monitor116
+total 653loss contri0rtt contr-0time 0.371056norm measurement1.01256
+rtt is 0.366454loss rate is 0avg loss rate is 0.0114795
+latency info is -0.0462393
+Monitor 115 ended with utility 14.9159total 653loss pkt0
+checking if all recording ready at monitor116
+found matching monitor115
+Monitor 117 starts
+Monitor 117is in recording state 2th trial with rate of23.3583
+set rate: 23.3583 --> 23.3583
+total 722loss contri0rtt contr0time 0.371166norm measurement1.03258
+rtt is 0.359454loss rate is 0avg loss rate is 0.00918357
+latency info is 0.0158454
+Monitor 116 ended with utility 16.3228total 722loss pkt0
+checking if all recording ready at monitor117
+found matching monitor116
+Monitor 118 starts
+Monitor 118is in recording state 3th trial with rate of21.1337
+set rate: 23.3583 --> 21.1337
+Monitor 119 starts
+Monitor 119is in recording state, waiting result for recording to come back
+set rate: 21.1337 --> 22.246
+total 713loss contri5rtt contr0time 0.366546norm measurement0.987185
+rtt is 0.371304loss rate is 0.00701262avg loss rate is 0.00874938
+latency info is 0.0364927
+Monitor 117 ended with utility 16.1664total 713loss pkt5
+checking if all recording ready at monitor119
+found matching monitor117
+Monitor 120 starts
+Monitor 120is in recording state, waiting result for recording to come back
+set rate: 22.246 --> 22.246
+total 633loss contri1rtt contr-0time 0.359669norm measurement0.971344
+rtt is 0.37028loss rate is 0.00157978avg loss rate is 0.00731546
+latency info is -0.03285
+Monitor 118 ended with utility 14.8849total 633loss pkt1
+checking if all recording ready at monitor120
+found matching monitor118
+total 653loss contri1.43991rtt contr-0time 0.371056norm measurement1.01256
+rtt is 0.366454loss rate is 0.00220507avg loss rate is 0.00629338
+latency info is -0.0462393
+total 722loss contri1.59206rtt contr0time 0.371166norm measurement1.03258
+rtt is 0.359454loss rate is 0.00220507avg loss rate is 0.00547572
+latency info is 0.0158454
+total 713loss contri1.57222rtt contr0time 0.366546norm measurement0.987185
+rtt is 0.371304loss rate is 0.00220507avg loss rate is 0.00482159
+latency info is 0.0364927
+total 633loss contri1.39581rtt contr-0time 0.359669norm measurement0.971344
+rtt is 0.37028loss rate is 0.00220507avg loss rate is 0.00429829
+latency info is -0.03285
+change before force to boundary 0.630089
+change before force to min change is 0.630089
+gradient is 0.630089
+amplifier0
+change is 0.630089
+all record is acquired and ready to change by 0.630089
+set rate: 22.246 --> 22.8761
+monitor118ends in search state, this should not happen often
+total 666loss contri0rtt contr-0time 0.359522norm measurement1.0024
+rtt is 0.358662loss rate is 0avg loss rate is 0.00343863
+latency info is -0.0214374
+Monitor 119 ended with utility 15.6206total 666loss pkt0
+monitor119ends in search state, this should not happen often
+Monitor 121 starts
+Monitor 121is in search state
+Monitor 121is in recording state 0th trial with rate of21.7323
+set rate: 22.8761 --> 21.7323
+Monitor 122 starts
+Monitor 122is in recording state 1th trial with rate of24.0199
+set rate: 21.7323 --> 24.0199
+total 688loss contri0rtt contr0time 0.361257norm measurement1.00975
+rtt is 0.357767loss rate is 0avg loss rate is 0.0027509
+latency info is 0.0131073
+Monitor 120 ended with utility 16.0147total 688loss pkt0
+checking if all recording ready at monitor122
+total 649loss contri2rtt contr0time 0.358585norm measurement1.00601
+rtt is 0.356444loss rate is 0.00308166avg loss rate is 0.00281706
+latency info is -0.0182384
+Monitor 121 ended with utility 15.2333total 649loss pkt2
+checking if all recording ready at monitor122
+found matching monitor121
+Monitor 123 starts
+Monitor 123is in recording state 2th trial with rate of24.0199
+set rate: 24.0199 --> 24.0199
+total 717loss contri715.05rtt contr0time 0.358419norm measurement1.01565
+rtt is 0.352896loss rate is 0.0878661avg loss rate is 0.0198269
+latency info is 0.0024646
+Monitor 122 ended with utility -6.09175total 717loss pkt63
+checking if all recording ready at monitor123
+found matching monitor122
+Monitor 124 starts
+Monitor 124is in recording state 3th trial with rate of21.7323
+set rate: 24.0199 --> 21.7323
+Monitor 125 starts
+Monitor 125is in recording state, waiting result for recording to come back
+set rate: 21.7323 --> 22.8761
+total 713loss contri9rtt contr0time 0.356443norm measurement0.9763
+rtt is 0.365096loss rate is 0.0126227avg loss rate is 0.018386
+latency info is 0.0626157
+Monitor 123 ended with utility 16.4494total 713loss pkt9
+checking if all recording ready at monitor125
+found matching monitor123
+Monitor 126 starts
+Monitor 126is in recording state, waiting result for recording to come back
+set rate: 22.8761 --> 22.8761
+total 639loss contri13rtt contr-0time 0.35308norm measurement0.962007
+rtt is 0.367024loss rate is 0.0203443avg loss rate is 0.0187777
+latency info is -0.0443063
+Monitor 124 ended with utility 14.875total 639loss pkt13
+checking if all recording ready at monitor126
+found matching monitor124
+monitor124ends in search state, this should not happen often
+Monitor 127 starts
+Monitor 127is in search state
+Monitor 127is in recording state 0th trial with rate of24.0199
+set rate: 22.8761 --> 24.0199
+total 672loss contri0rtt contr0time 0.352742norm measurement0.970363
+rtt is 0.363515loss rate is 0avg loss rate is 0.0150221
+latency info is 0.0268214
+Monitor 125 ended with utility 16.0193total 672loss pkt0
+checking if all recording ready at monitor127
+Monitor 128 starts
+Monitor 128is in recording state 1th trial with rate of21.7323
+set rate: 24.0199 --> 21.7323
+total 695loss contri238.35rtt contr0time 0.364901norm measurement0.985048
+rtt is 0.37044loss rate is 0.0302158avg loss rate is 0.0180609
+latency info is 0.000332012
+Monitor 126 ended with utility 8.54075total 695loss pkt21
+checking if all recording ready at monitor128
+Monitor 129 starts
+Monitor 129is in recording state, waiting result for recording to come back
+set rate: 21.7323 --> 22.8761
+total 734loss contri533.45rtt contr0time 0.366936norm measurement1.00214
+rtt is 0.366152loss rate is 0.0640327avg loss rate is 0.0272552
+latency info is 0.00574554
+Monitor 127 ended with utility 0.101198total 734loss pkt47
+checking if all recording ready at monitor129
+found matching monitor127
+total 658loss contri0rtt contr-0time 0.363602norm measurement0.995984
+rtt is 0.365068loss rate is 0avg loss rate is 0.0218042
+latency info is -0.0221155
+Monitor 128 ended with utility 15.2955total 658loss pkt0
+checking if all recording ready at monitor129
+found matching monitor128
+change before force to boundary -6.642
+change before force to min change is -1.1438
+gradient is -6.642
+amplifier0
+change is -1.1438
+all record is acquired and ready to change by -1.1438
+set rate: 22.8761 --> 21.7323
+monitor128ends in search state, this should not happen often
+Monitor 130 starts
+Monitor 130is in search state
+Monitor 130is in recording state 0th trial with rate of20.6456
+set rate: 21.7323 --> 20.6456
+Monitor 131 starts
+Monitor 131is in recording state 1th trial with rate of22.8189
+set rate: 20.6456 --> 22.8189
+total 706loss contri0rtt contr0time 0.371107norm measurement1.01256
+rtt is 0.366502loss rate is 0avg loss rate is 0.0174434
+latency info is 0.0221737
+Monitor 129 ended with utility 15.9992total 706loss pkt0
+checking if all recording ready at monitor131
+total 628loss contri0rtt contr-0time 0.365311norm measurement1.02724
+rtt is 0.355623loss rate is 0avg loss rate is 0.0139547
+latency info is -0.0678338
+Monitor 130 ended with utility 14.6046total 628loss pkt0
+checking if all recording ready at monitor131
+found matching monitor130
+Monitor 132 starts
+Monitor 132is in recording state, waiting result for recording to come back
+set rate: 22.8189 --> 21.7323
+total 694loss contri0rtt contr0time 0.365311norm measurement1.0452
+rtt is 0.349512loss rate is 0avg loss rate is 0.0111637
+latency info is 0.0240771
+Monitor 131 ended with utility 15.979total 694loss pkt0
+checking if all recording ready at monitor132
+found matching monitor131
+total 628loss contri0rtt contr-0time 0.365311norm measurement1.02724
+rtt is 0.355623loss rate is 0avg loss rate is 0.008931
+latency info is -0.0678338
+total 694loss contri0rtt contr0time 0.365311norm measurement1.0452
+rtt is 0.349512loss rate is 0avg loss rate is 0.0071448
+latency info is 0.0240771
+change before force to boundary 0.632424
+change before force to min change is 0.632424
+gradient is 0.632424
+amplifier0
+change is 0.632424
+all record is acquired and ready to change by 0.632424
+set rate: 21.7323 --> 22.3647
+monitor131ends in search state, this should not happen often
+Monitor 133 starts
+Monitor 133is in search state
+Monitor 133is in recording state 0th trial with rate of21.2464
+set rate: 22.3647 --> 21.2464
+total 644loss contri0rtt contr-0time 0.355888norm measurement1.02006
+rtt is 0.348888loss rate is 0avg loss rate is 0.00571584
+latency info is -0.0231921
+Monitor 132 ended with utility 15.2946total 644loss pkt0
+checking if all recording ready at monitor133
+Monitor 134 starts
+Monitor 134is in recording state 1th trial with rate of23.4829
+set rate: 21.2464 --> 23.4829
+total 618loss contri0rtt contr-0time 0.349262norm measurement1.03179
+rtt is 0.338501loss rate is 0avg loss rate is 0.00457267
+latency info is -0.0331567
+Monitor 133 ended with utility 14.9891total 618loss pkt0
+checking if all recording ready at monitor134
+found matching monitor133
+Monitor 135 starts
+Monitor 135is in recording state 2th trial with rate of21.2464
+set rate: 23.4829 --> 21.2464
+Monitor 136 starts
+Monitor 136is in recording state 3th trial with rate of23.4829
+set rate: 21.2464 --> 23.4829
+total 682loss contri0rtt contr0time 0.348756norm measurement1.01099
+rtt is 0.344964loss rate is 0avg loss rate is 0.00365814
+latency info is 0.0581528
+Monitor 134 ended with utility 16.4006total 682loss pkt0
+checking if all recording ready at monitor136
+found matching monitor134
+Monitor 137 starts
+Monitor 137is in recording state, waiting result for recording to come back
+set rate: 23.4829 --> 22.3647
+total 599loss contri0rtt contr-0time 0.338529norm measurement0.974509
+rtt is 0.347384loss rate is 0avg loss rate is 0.00292651
+latency info is -0.0335828
+Monitor 135 ended with utility 14.9889total 599loss pkt0
+checking if all recording ready at monitor137
+found matching monitor135
+Monitor 138 starts
+Monitor 138is in recording state, waiting result for recording to come back
+set rate: 22.3647 --> 22.3647
+total 662loss contri0rtt contr0time 0.338574norm measurement0.957074
+rtt is 0.35376loss rate is 0avg loss rate is 0.00234121
+latency info is 0.0607553
+Monitor 136 ended with utility 16.3986total 662loss pkt0
+checking if all recording ready at monitor138
+found matching monitor136
+total 618loss contri0rtt contr-0time 0.349262norm measurement1.03179
+rtt is 0.338501loss rate is 0avg loss rate is 0.00187297
+latency info is -0.0331567
+total 682loss contri0rtt contr0time 0.348756norm measurement1.01099
+rtt is 0.344964loss rate is 0avg loss rate is 0.00149837
+latency info is 0.0581528
+total 599loss contri0rtt contr-0time 0.338529norm measurement0.974509
+rtt is 0.347384loss rate is 0avg loss rate is 0.0011987
+latency info is -0.0335828
+total 662loss contri0rtt contr0time 0.338574norm measurement0.957074
+rtt is 0.35376loss rate is 0avg loss rate is 0.000958959
+latency info is 0.0607553
+change before force to boundary 0.630711
+change before force to min change is 0.630711
+gradient is 0.630711
+amplifier0
+change is 0.630711
+all record is acquired and ready to change by 0.630711
+set rate: 22.3647 --> 22.9954
+monitor136ends in search state, this should not happen often
+Monitor 139 starts
+Monitor 139is in search state
+Monitor 139is in recording state 0th trial with rate of21.8456
+set rate: 22.9954 --> 21.8456
+total 642loss contri19rtt contr0time 0.344782norm measurement0.949255
+rtt is 0.363213loss rate is 0.029595avg loss rate is 0.00668617
+latency info is -0.00971062
+Monitor 137 ended with utility 15.0627total 642loss pkt19
+checking if all recording ready at monitor139
+Monitor 140 starts
+Monitor 140is in recording state 1th trial with rate of24.1452
+set rate: 21.8456 --> 24.1452
+total 647loss contri363.2rtt contr0time 0.338475norm measurement0.947727
+rtt is 0.357144loss rate is 0.049459avg loss rate is 0.0152407
+latency info is 0.00454785
+Monitor 138 ended with utility 3.78799total 647loss pkt32
+checking if all recording ready at monitor140
+total 644loss contri0rtt contr0time 0.354023norm measurement0.985153
+rtt is 0.359358loss rate is 0avg loss rate is 0.0121926
+latency info is 0.00016483
+Monitor 139 ended with utility 15.3671total 644loss pkt0
+checking if all recording ready at monitor140
+found matching monitor139
+Monitor 141 starts
+Monitor 141is in recording state, waiting result for recording to come back
+set rate: 24.1452 --> 22.9954
+Monitor 142 starts
+Monitor 142is in recording state, waiting result for recording to come back
+set rate: 22.9954 --> 22.9954
+total 730loss contri737.75rtt contr0time 0.363171norm measurement0.997154
+rtt is 0.364207loss rate is 0.0890411avg loss rate is 0.0275623
+latency info is -0.0128502
+Monitor 140 ended with utility -6.43589total 730loss pkt65
+checking if all recording ready at monitor142
+found matching monitor140
+change before force to boundary -9.48147
+change before force to min change is -1.14977
+gradient is -9.48147
+amplifier0
+change is -1.14977
+all record is acquired and ready to change by -1.14977
+set rate: 22.9954 --> 21.8456
+monitor140ends in search state, this should not happen often
+total 688loss contri15rtt contr0time 0.359367norm measurement0.990261
+rtt is 0.362901loss rate is 0.0218023avg loss rate is 0.0264103
+latency info is 0.0266822
+Monitor 141 ended with utility 15.6128total 688loss pkt15
+monitor141ends in search state, this should not happen often
+Monitor 143 starts
+Monitor 143is in search state
+Monitor 143is in recording state 0th trial with rate of20.7533
+set rate: 21.8456 --> 20.7533
+total 688loss contri14rtt contr-0time 0.378128norm measurement1.03368
+rtt is 0.365806loss rate is 0.0203488avg loss rate is 0.025198
+latency info is -0.0240582
+Monitor 142 ended with utility 14.9464total 688loss pkt14
+checking if all recording ready at monitor143
+Monitor 144 starts
+Monitor 144is in recording state 1th trial with rate of22.9379
+set rate: 20.7533 --> 22.9379
+total 627loss contri0rtt contr-0time 0.362864norm measurement1.03877
+rtt is 0.349319loss rate is 0avg loss rate is 0.0201584
+latency info is -0.0487642
+Monitor 143 ended with utility 14.6722total 627loss pkt0
+checking if all recording ready at monitor144
+found matching monitor143
+Monitor 145 starts
+Monitor 145is in recording state 2th trial with rate of22.9379
+set rate: 22.9379 --> 22.9379
+Monitor 146 starts
+Monitor 146is in recording state 3th trial with rate of20.7533
+set rate: 22.9379 --> 20.7533
+total 699loss contri0rtt contr0time 0.366041norm measurement1.04556
+rtt is 0.350091loss rate is 0avg loss rate is 0.0161267
+latency info is 0.0445342
+Monitor 144 ended with utility 16.0537total 699loss pkt0
+checking if all recording ready at monitor146
+found matching monitor144
+Monitor 147 starts
+Monitor 147is in recording state, waiting result for recording to come back
+set rate: 20.7533 --> 21.8456
+total 667loss contri363.2rtt contr-0time 0.349268norm measurement0.974738
+rtt is 0.35832loss rate is 0.047976avg loss rate is 0.0224966
+latency info is -0.0213308
+Monitor 145 ended with utility 4.15379total 667loss pkt32
+checking if all recording ready at monitor147
+found matching monitor145
+total 604loss contri1rtt contr-0time 0.349477norm measurement1.01302
+rtt is 0.344984loss rate is 0.00165563avg loss rate is 0.0183284
+latency info is -0.0517853
+Monitor 146 ended with utility 14.6423total 604loss pkt1
+checking if all recording ready at monitor147
+found matching monitor146
+monitor146ends in search state, this should not happen often
+Monitor 148 starts
+Monitor 148is in search state
+Monitor 148is in recording state 0th trial with rate of22.9379
+set rate: 21.8456 --> 22.9379
+total 637loss contri0rtt contr0time 0.350178norm measurement1.04168
+rtt is 0.336168loss rate is 0avg loss rate is 0.0146627
+latency info is 0.00321216
+Monitor 147 ended with utility 15.367total 637loss pkt0
+checking if all recording ready at monitor148
+Monitor 149 starts
+Monitor 149is in recording state 1th trial with rate of20.7533
+set rate: 22.9379 --> 20.7533
+Monitor 150 starts
+Monitor 150is in recording state, waiting result for recording to come back
+set rate: 20.7533 --> 21.8456
+total 659loss contri10rtt contr0time 0.34505norm measurement0.9912
+rtt is 0.348113loss rate is 0.0151745avg loss rate is 0.0147651
+latency info is 0.0474935
+Monitor 148 ended with utility 15.7239total 659loss pkt10
+checking if all recording ready at monitor150
+found matching monitor148
+Monitor 151 starts
+Monitor 151is in recording state, waiting result for recording to come back
+set rate: 21.8456 --> 21.8456
+total 581loss contri0rtt contr-0time 0.336308norm measurement0.972482
+rtt is 0.345824loss rate is 0avg loss rate is 0.0118121
+latency info is -0.038261
+Monitor 149 ended with utility 14.6696total 581loss pkt0
+checking if all recording ready at monitor151
+found matching monitor149
+total 659loss contri5.31452rtt contr0time 0.34505norm measurement0.9912
+rtt is 0.348113loss rate is 0.00806452avg loss rate is 0.0110625
+latency info is 0.0474935
+total 581loss contri4.68548rtt contr-0time 0.336308norm measurement0.972482
+rtt is 0.345824loss rate is 0.00806452avg loss rate is 0.0104629
+latency info is -0.038261
+change before force to boundary 0.626747
+change before force to min change is 0.626747
+gradient is 0.626747
+amplifier0
+change is 0.626747
+all record is acquired and ready to change by 0.626747
+set rate: 21.8456 --> 22.4724
+monitor149ends in search state, this should not happen often
+Monitor 152 starts
+Monitor 152is in search state
+Monitor 152is in recording state 0th trial with rate of21.3487
+set rate: 22.4724 --> 21.3487
+total 611loss contri0rtt contr0time 0.335852norm measurement0.991501
+rtt is 0.338731loss rate is 0avg loss rate is 0.00837035
+latency info is 0.00102523
+Monitor 150 ended with utility 15.3683total 611loss pkt0
+checking if all recording ready at monitor152
+Monitor 153 starts
+Monitor 153is in recording state 1th trial with rate of23.596
+set rate: 21.3487 --> 23.596
+total 633loss contri8rtt contr0time 0.338372norm measurement0.972105
+rtt is 0.348082loss rate is 0.0126382avg loss rate is 0.00922393
+latency info is 0.0396354
+Monitor 151 ended with utility 15.4885total 633loss pkt8
+checking if all recording ready at monitor153
+Monitor 154 starts
+Monitor 154is in recording state, waiting result for recording to come back
+set rate: 23.596 --> 22.4724
+total 615loss contri2rtt contr0time 0.346073norm measurement0.985817
+rtt is 0.351052loss rate is 0.00325203avg loss rate is 0.00802955
+latency info is -0.00314762
+Monitor 152 ended with utility 14.9812total 615loss pkt2
+checking if all recording ready at monitor154
+found matching monitor152
+Monitor 155 starts
+Monitor 155is in recording state, waiting result for recording to come back
+set rate: 22.4724 --> 22.4724
+total 666loss contri10rtt contr0time 0.339001norm measurement0.929072
+rtt is 0.364881loss rate is 0.015015avg loss rate is 0.00942664
+latency info is 0.0784131
+Monitor 153 ended with utility 16.1315total 666loss pkt10
+checking if all recording ready at monitor155
+found matching monitor153
+total 615loss contri5.76112rtt contr0time 0.346073norm measurement0.985817
+rtt is 0.351052loss rate is 0.00936768avg loss rate is 0.00941485
+latency info is -0.00314762
+total 666loss contri6.23888rtt contr0time 0.339001norm measurement0.929072
+rtt is 0.364881loss rate is 0.00936768avg loss rate is 0.00940542
+latency info is 0.0784131
+change before force to boundary 0.623711
+change before force to min change is 0.623711
+gradient is 0.623711
+amplifier0
+change is 0.623711
+all record is acquired and ready to change by 0.623711
+set rate: 22.4724 --> 23.0961
+monitor153ends in search state, this should not happen often
+Monitor 156 starts
+Monitor 156is in search state
+Monitor 156is in recording state 0th trial with rate of24.2509
+set rate: 23.0961 --> 24.2509
+total 651loss contri681rtt contr-0time 0.347934norm measurement0.950366
+rtt is 0.366105loss rate is 0.0921659avg loss rate is 0.0259575
+latency info is -0.0463206
+Monitor 154 ended with utility -6.6376total 651loss pkt60
+checking if all recording ready at monitor156
+Monitor 157 starts
+Monitor 157is in recording state 1th trial with rate of21.9413
+set rate: 24.2509 --> 21.9413
+total 657loss contri3rtt contr0time 0.342331norm measurement0.937362
+rtt is 0.365207loss rate is 0.00456621avg loss rate is 0.0216793
+latency info is 0.046459
+Monitor 155 ended with utility 16.0259total 657loss pkt3
+checking if all recording ready at monitor157
+total 737loss contri976.1rtt contr-0time 0.364995norm measurement1.01103
+rtt is 0.361012loss rate is 0.116689avg loss rate is 0.0406813
+latency info is -0.0369546
+Monitor 156 ended with utility -13.7242total 737loss pkt86
+checking if all recording ready at monitor157
+found matching monitor156
+Monitor 158 starts
+Monitor 158is in recording state, waiting result for recording to come back
+set rate: 21.9413 --> 23.0961
+Monitor 159 starts
+Monitor 159is in recording state, waiting result for recording to come back
+set rate: 23.0961 --> 23.0961
+total 669loss contri2rtt contr0time 0.366167norm measurement1.01117
+rtt is 0.362123loss rate is 0.00298954avg loss rate is 0.0331429
+latency info is 0.00893574
+Monitor 157 ended with utility 15.365total 669loss pkt2
+checking if all recording ready at monitor159
+found matching monitor157
+change before force to boundary -12.5949
+change before force to min change is -1.1548
+gradient is -12.5949
+amplifier0
+change is -1.1548
+all record is acquired and ready to change by -1.1548
+set rate: 23.0961 --> 21.9413
+monitor157ends in search state, this should not happen often
+total 694loss contri488.05rtt contr0time 0.360883norm measurement0.992061
+rtt is 0.363771loss rate is 0.0619597avg loss rate is 0.0389063
+latency info is -0.0169056
+Monitor 158 ended with utility 0.678641total 694loss pkt43
+monitor158ends in search state, this should not happen often
+Monitor 160 starts
+Monitor 160is in search state
+Monitor 160is in recording state 0th trial with rate of20.8442
+set rate: 21.9413 --> 20.8442
+total 694loss contri12rtt contr0time 0.379744norm measurement1.06292
+rtt is 0.357264loss rate is 0.0172911avg loss rate is 0.0345832
+latency info is 0.0122418
+Monitor 159 ended with utility 15.0697total 694loss pkt12
+checking if all recording ready at monitor160
+Monitor 161 starts
+Monitor 161is in recording state 1th trial with rate of23.0383
+set rate: 20.8442 --> 23.0383
+total 631loss contri0rtt contr0time 0.363592norm measurement1.01162
+rtt is 0.359416loss rate is 0avg loss rate is 0.0276666
+latency info is -0.0124651
+Monitor 160 ended with utility 14.7298total 631loss pkt0
+checking if all recording ready at monitor161
+found matching monitor160
+Monitor 162 starts
+Monitor 162is in recording state 2th trial with rate of23.0383
+set rate: 23.0383 --> 23.0383
+total 685loss contri20rtt contr0time 0.357083norm measurement0.995464
+rtt is 0.35871loss rate is 0.0291971avg loss rate is 0.0279727
+latency info is 0.00815627
+Monitor 161 ended with utility 15.4786total 685loss pkt20
+checking if all recording ready at monitor162
+found matching monitor161
+Monitor 163 starts
+Monitor 163is in recording state 3th trial with rate of20.8442
+set rate: 23.0383 --> 20.8442
+Monitor 164 starts
+Monitor 164is in recording state, waiting result for recording to come back
+set rate: 20.8442 --> 21.9413
+total 690loss contri272.4rtt contr0time 0.359673norm measurement1.00655
+rtt is 0.357331loss rate is 0.0347826avg loss rate is 0.0293347
+latency info is 0.0100824
+Monitor 162 ended with utility 7.45296total 690loss pkt24
+checking if all recording ready at monitor164
+found matching monitor162
+total 623loss contri0rtt contr0time 0.358931norm measurement1.00034
+rtt is 0.358808loss rate is 0avg loss rate is 0.0234677
+latency info is -0.0175988
+Monitor 163 ended with utility 14.7317total 623loss pkt0
+checking if all recording ready at monitor164
+found matching monitor163
+monitor163ends in search state, this should not happen often
+Monitor 165 starts
+Monitor 165is in search state
+Monitor 165is in recording state 0th trial with rate of23.0383
+set rate: 21.9413 --> 23.0383
+total 655loss contri18rtt contr0time 0.35846norm measurement1.00087
+rtt is 0.35815loss rate is 0.0274809avg loss rate is 0.0242704
+latency info is -0.00954817
+Monitor 164 ended with utility 14.8545total 655loss pkt18
+checking if all recording ready at monitor165
+Monitor 166 starts
+Monitor 166is in recording state 1th trial with rate of20.8442
+set rate: 23.0383 --> 20.8442
+Monitor 167 starts
+Monitor 167is in recording state, waiting result for recording to come back
+set rate: 20.8442 --> 21.9413
+total 688loss contri16rtt contr0time 0.358642norm measurement1.01506
+rtt is 0.353322loss rate is 0.0232558avg loss rate is 0.0240675
+latency info is 0.0139643
+Monitor 165 ended with utility 15.6092total 688loss pkt16
+checking if all recording ready at monitor167
+found matching monitor165
+total 622loss contri0rtt contr0time 0.358325norm measurement1.00867
+rtt is 0.355244loss rate is 0avg loss rate is 0.019254
+latency info is -0.013085
+Monitor 166 ended with utility 14.7328total 622loss pkt0
+checking if all recording ready at monitor167
+found matching monitor166
+change before force to boundary 0.399422
+change before force to min change is 0.399422
+gradient is 0.399422
+amplifier0
+change is 0.5
+all record is acquired and ready to change by 0.5
+set rate: 21.9413 --> 22.4413
+monitor166ends in search state, this should not happen often
+Monitor 168 starts
+Monitor 168is in search state
+Monitor 168is in recording state 0th trial with rate of23.5633
+set rate: 22.4413 --> 23.5633
+Monitor 169 starts
+Monitor 169is in recording state 1th trial with rate of21.3192
+set rate: 23.5633 --> 21.3192
+total 654loss contri19rtt contr0time 0.357893norm measurement0.995569
+rtt is 0.359486loss rate is 0.029052avg loss rate is 0.0212136
+latency info is 0.00743781
+Monitor 167 ended with utility 14.8224total 654loss pkt19
+checking if all recording ready at monitor169
+Monitor 170 starts
+Monitor 170is in recording state, waiting result for recording to come back
+set rate: 21.3192 --> 22.4413
+total 697loss contri329.15rtt contr0time 0.355177norm measurement0.993786
+rtt is 0.357398loss rate is 0.0416069avg loss rate is 0.0252922
+latency info is 0.0172851
+Monitor 168 ended with utility 5.84704total 697loss pkt29
+checking if all recording ready at monitor170
+found matching monitor168
+Monitor 171 starts
+Monitor 171is in recording state, waiting result for recording to come back
+set rate: 22.4413 --> 22.4413
+total 631loss contri0rtt contr0time 0.355382norm measurement0.970333
+rtt is 0.366247loss rate is 0avg loss rate is 0.0202338
+latency info is 0.00982299
+Monitor 169 ended with utility 15.0357total 631loss pkt0
+checking if all recording ready at monitor171
+found matching monitor169
+change before force to boundary -4.09454
+change before force to min change is -1.12206
+gradient is -4.09454
+amplifier0
+change is -1.12206
+all record is acquired and ready to change by -1.12206
+set rate: 22.4413 --> 21.3192
+monitor169ends in search state, this should not happen often
+total 672loss contri465.35rtt contr0time 0.359577norm measurement0.989706
+rtt is 0.363317loss rate is 0.0610119avg loss rate is 0.0283894
+latency info is -0.011409
+Monitor 170 ended with utility 0.934526total 672loss pkt41
+monitor170ends in search state, this should not happen often
+Monitor 172 starts
+Monitor 172is in search state
+Monitor 172is in recording state 0th trial with rate of20.2532
+set rate: 21.3192 --> 20.2532
+Monitor 173 starts
+Monitor 173is in recording state 1th trial with rate of22.3852
+set rate: 20.2532 --> 22.3852
+total 668loss contri4rtt contr0time 0.375798norm measurement1.01544
+rtt is 0.370084loss rate is 0.00598802avg loss rate is 0.0239091
+latency info is 0.0341404
+Monitor 171 ended with utility 14.9291total 668loss pkt4
+checking if all recording ready at monitor173
+Monitor 174 starts
+Monitor 174is in recording state 2th trial with rate of20.2532
+set rate: 22.3852 --> 20.2532
+total 613loss contri295.1rtt contr-0time 0.363424norm measurement0.983822
+rtt is 0.3694loss rate is 0.0424144avg loss rate is 0.0276102
+latency info is -0.0321838
+Monitor 172 ended with utility 5.06446total 613loss pkt26
+checking if all recording ready at monitor174
+found matching monitor172
+Monitor 175 starts
+Monitor 175is in recording state 3th trial with rate of22.3852
+set rate: 20.2532 --> 22.3852
+total 677loss contri272.4rtt contr0time 0.363121norm measurement0.980406
+rtt is 0.370378loss rate is 0.0354505avg loss rate is 0.0291782
+latency info is 0.0316179
+Monitor 173 ended with utility 7.12617total 677loss pkt24
+checking if all recording ready at monitor175
+found matching monitor173
+total 624loss contri18rtt contr0time 0.369941norm measurement0.996182
+rtt is 0.371359loss rate is 0.0288462avg loss rate is 0.0291118
+latency info is -0.0169178
+Monitor 174 ended with utility 13.8004total 624loss pkt18
+checking if all recording ready at monitor175
+found matching monitor174
+Monitor 176 starts
+Monitor 176is in recording state, waiting result for recording to come back
+set rate: 22.3852 --> 21.3192
+total 689loss contri578.85rtt contr0time 0.369561norm measurement0.999167
+rtt is 0.369869loss rate is 0.0740203avg loss rate is 0.0380935
+latency info is 0.00781842
+Monitor 175 ended with utility -2.21412total 689loss pkt51
+checking if all recording ready at monitor176
+found matching monitor175
+monitor175ends in search state, this should not happen often
+Monitor 177 starts
+Monitor 177is in search state
+Monitor 177is in recording state 0th trial with rate of20.2532
+set rate: 21.3192 --> 20.2532
+Monitor 178 starts
+Monitor 178is in recording state 1th trial with rate of22.3852
+set rate: 20.2532 --> 22.3852
+total 659loss contri10rtt contr0time 0.37117norm measurement0.995445
+rtt is 0.372869loss rate is 0.0151745avg loss rate is 0.0335097
+latency info is 0.00374533
+Monitor 176 ended with utility 14.7267total 659loss pkt10
+checking if all recording ready at monitor178
+total 624loss contri0rtt contr-0time 0.369939norm measurement1.01405
+rtt is 0.364812loss rate is 0avg loss rate is 0.0268078
+latency info is -0.0342052
+Monitor 177 ended with utility 14.3573total 624loss pkt0
+checking if all recording ready at monitor178
+found matching monitor177
+Monitor 179 starts
+Monitor 179is in recording state, waiting result for recording to come back
+set rate: 22.3852 --> 21.3192
+Monitor 180 starts
+Monitor 180is in recording state, waiting result for recording to come back
+set rate: 21.3192 --> 21.3192
+total 689loss contri16rtt contr0time 0.369587norm measurement1.00307
+rtt is 0.368454loss rate is 0.0232221avg loss rate is 0.0260906
+latency info is 0.0312443
+Monitor 178 ended with utility 15.2145total 689loss pkt16
+checking if all recording ready at monitor180
+found matching monitor178
+change before force to boundary 0.402107
+change before force to min change is 0.402107
+gradient is 0.402107
+amplifier0
+change is 0.5
+all record is acquired and ready to change by 0.5
+set rate: 21.3192 --> 21.8192
+monitor178ends in search state, this should not happen often
+Monitor 181 starts
+Monitor 181is in search state
+Monitor 181is in recording state 0th trial with rate of22.9102
+set rate: 21.8192 --> 22.9102
+total 648loss contri13rtt contr0time 0.364998norm measurement0.994554
+rtt is 0.366997loss rate is 0.0200617avg loss rate is 0.0248849
+latency info is -0.00963489
+Monitor 179 ended with utility 14.6266total 648loss pkt13
+checking if all recording ready at monitor181
+Monitor 182 starts
+Monitor 182is in recording state 1th trial with rate of20.7282
+set rate: 22.9102 --> 20.7282
+total 648loss contri4rtt contr0time 0.356741norm measurement0.957729
+rtt is 0.372486loss rate is 0.00617284avg loss rate is 0.0211425
+latency info is 0.024013
+Monitor 180 ended with utility 15.2187total 648loss pkt4
+checking if all recording ready at monitor182
+Monitor 183 starts
+Monitor 183is in recording state, waiting result for recording to come back
+set rate: 20.7282 --> 21.8192
+total 703loss contri544.8rtt contr0time 0.368461norm measurement0.984854
+rtt is 0.374127loss rate is 0.0682788avg loss rate is 0.0305697
+latency info is -0.00264115
+Monitor 181 ended with utility -0.880065total 703loss pkt48
+checking if all recording ready at monitor183
+found matching monitor181
+Monitor 184 starts
+Monitor 184is in recording state, waiting result for recording to come back
+set rate: 21.8192 --> 21.8192
+total 633loss contri7rtt contr0time 0.366741norm measurement0.976529
+rtt is 0.375556loss rate is 0.0110585avg loss rate is 0.0266675
+latency info is 0.00429124
+Monitor 182 ended with utility 14.4392total 633loss pkt7
+checking if all recording ready at monitor184
+found matching monitor182
+change before force to boundary -7.02099
+change before force to min change is -1.09096
+gradient is -7.02099
+amplifier0
+change is -1.09096
+all record is acquired and ready to change by -1.09096
+set rate: 21.8192 --> 20.7282
+monitor182ends in search state, this should not happen often
+total 677loss contri601.55rtt contr-0time 0.3726norm measurement1.00258
+rtt is 0.371639loss rate is 0.0782866avg loss rate is 0.0369913
+latency info is -0.030272
+Monitor 183 ended with utility -3.12518total 677loss pkt53
+monitor183ends in search state, this should not happen often
+Monitor 185 starts
+Monitor 185is in search state
+Monitor 185is in recording state 0th trial with rate of19.6918
+set rate: 20.7282 --> 19.6918
+total 680loss contri2rtt contr0time 0.39381norm measurement1.08911
+rtt is 0.36159loss rate is 0.00294118avg loss rate is 0.0301813
+latency info is -0.00788478
+Monitor 184 ended with utility 14.6049total 680loss pkt2
+checking if all recording ready at monitor185
+Monitor 186 starts
+Monitor 186is in recording state 1th trial with rate of21.7647
+set rate: 19.6918 --> 21.7647
+total 609loss contri0rtt contr-0time 0.37136norm measurement1.04826
+rtt is 0.354263loss rate is 0avg loss rate is 0.024145
+latency info is -0.0450279
+Monitor 185 ended with utility 13.9979total 609loss pkt0
+checking if all recording ready at monitor186
+found matching monitor185
+Monitor 187 starts
+Monitor 187is in recording state 2th trial with rate of19.6918
+set rate: 21.7647 --> 19.6918
+total 655loss contri0rtt contr0time 0.361423norm measurement1.04442
+rtt is 0.346053loss rate is 0avg loss rate is 0.019316
+latency info is 0.0176741
+Monitor 186 ended with utility 15.3153total 655loss pkt0
+checking if all recording ready at monitor187
+found matching monitor186
+Monitor 188 starts
+Monitor 188is in recording state 3th trial with rate of21.7647
+set rate: 19.6918 --> 21.7647
+total 581loss contri0rtt contr-0time 0.354325norm measurement1.02895
+rtt is 0.344356loss rate is 0avg loss rate is 0.0154528
+latency info is -0.044316
+Monitor 187 ended with utility 13.9965total 581loss pkt0
+checking if all recording ready at monitor188
+found matching monitor187
+Monitor 189 starts
+Monitor 189is in recording state, waiting result for recording to come back
+set rate: 21.7647 --> 20.7282
+total 627loss contri0rtt contr0time 0.345981norm measurement1.02766
+rtt is 0.33667loss rate is 0avg loss rate is 0.0123622
+latency info is 0.0179526
+Monitor 188 ended with utility 15.315total 627loss pkt0
+checking if all recording ready at monitor189
+found matching monitor188
+total 609loss contri0rtt contr-0time 0.37136norm measurement1.04826
+rtt is 0.354263loss rate is 0avg loss rate is 0.0098898
+latency info is -0.0450279
+total 655loss contri0rtt contr0time 0.361423norm measurement1.04442
+rtt is 0.346053loss rate is 0avg loss rate is 0.00791184
+latency info is 0.0176741
+total 581loss contri0rtt contr-0time 0.354325norm measurement1.02895
+rtt is 0.344356loss rate is 0avg loss rate is 0.00632947
+latency info is -0.044316
+total 627loss contri0rtt contr0time 0.345981norm measurement1.02766
+rtt is 0.33667loss rate is 0avg loss rate is 0.00506358
+latency info is 0.0179526
+change before force to boundary 0.635821
+change before force to min change is 0.635821
+gradient is 0.635821
+amplifier0
+change is 0.635821
+all record is acquired and ready to change by 0.635821
+set rate: 20.7282 --> 21.3641
+monitor188ends in search state, this should not happen often
+Monitor 190 starts
+Monitor 190is in search state
+Monitor 190is in recording state 0th trial with rate of22.4323
+set rate: 21.3641 --> 22.4323
+Monitor 191 starts
+Monitor 191is in recording state 1th trial with rate of20.2959
+set rate: 22.4323 --> 20.2959
+total 594loss contri0rtt contr0time 0.344112norm measurement1.00852
+rtt is 0.341205loss rate is 0avg loss rate is 0.00405086
+latency info is -0.00439791
+Monitor 189 ended with utility 14.6589total 594loss pkt0
+checking if all recording ready at monitor191
+Monitor 192 starts
+Monitor 192is in recording state 2th trial with rate of20.2959
+set rate: 20.2959 --> 20.2959
+total 629loss contri0rtt contr0time 0.336785norm measurement0.97033
+rtt is 0.347083loss rate is 0avg loss rate is 0.00324069
+latency info is 0.0471402
+Monitor 190 ended with utility 15.7359total 629loss pkt0
+checking if all recording ready at monitor192
+found matching monitor190
+Monitor 193 starts
+Monitor 193is in recording state 3th trial with rate of22.4323
+set rate: 20.2959 --> 22.4323
+total 569loss contri0rtt contr0time 0.336676norm measurement0.948462
+rtt is 0.35497loss rate is 0avg loss rate is 0.00259255
+latency info is 7.92146e-05
+Monitor 191 ended with utility 14.3825total 569loss pkt0
+checking if all recording ready at monitor193
+found matching monitor191
+total 577loss contri9rtt contr-0time 0.34136norm measurement0.971004
+rtt is 0.351553loss rate is 0.0155979avg loss rate is 0.00519362
+latency info is -0.0295436
+Monitor 192 ended with utility 14.0826total 577loss pkt9
+checking if all recording ready at monitor193
+found matching monitor192
+Monitor 194 starts
+Monitor 194is in recording state, waiting result for recording to come back
+set rate: 22.4323 --> 21.3641
+Monitor 195 starts
+Monitor 195is in recording state, waiting result for recording to come back
+set rate: 21.3641 --> 21.3641
+total 648loss contri0rtt contr0time 0.346913norm measurement0.981447
+rtt is 0.353471loss rate is 0avg loss rate is 0.0041549
+latency info is 0.0380337
+Monitor 193 ended with utility 15.7377total 648loss pkt0
+checking if all recording ready at monitor195
+found matching monitor193
+total 629loss contri2.33636rtt contr0time 0.336785norm measurement0.97033
+rtt is 0.347083loss rate is 0.0037144avg loss rate is 0.0040668
+latency info is 0.0471402
+total 569loss contri2.1135rtt contr0time 0.336676norm measurement0.948462
+rtt is 0.35497loss rate is 0.0037144avg loss rate is 0.00399632
+latency info is 7.92146e-05
+total 577loss contri2.14321rtt contr-0time 0.34136norm measurement0.971004
+rtt is 0.351553loss rate is 0.0037144avg loss rate is 0.00393994
+latency info is -0.0295436
+total 648loss contri2.40693rtt contr0time 0.346913norm measurement0.981447
+rtt is 0.353471loss rate is 0.0037144avg loss rate is 0.00389483
+latency info is 0.0380337
+change before force to boundary 0.629963
+change before force to min change is 0.629963
+gradient is 0.629963
+amplifier0
+change is 0.629963
+all record is acquired and ready to change by 0.629963
+set rate: 21.3641 --> 21.994
+monitor193ends in search state, this should not happen often
+Monitor 196 starts
+Monitor 196is in search state
+Monitor 196is in recording state 0th trial with rate of23.0937
+set rate: 21.994 --> 23.0937
+total 625loss contri10rtt contr0time 0.35128norm measurement0.97074
+rtt is 0.361868loss rate is 0.016avg loss rate is 0.00631586
+latency info is 0.0130399
+Monitor 194 ended with utility 14.7378total 625loss pkt10
+checking if all recording ready at monitor196
+total 625loss contri374.55rtt contr-0time 0.341613norm measurement0.985096
+rtt is 0.346781loss rate is 0.0528avg loss rate is 0.0156127
+latency info is -0.136682
+Monitor 195 ended with utility 2.89916total 625loss pkt33
+checking if all recording ready at monitor196
+Monitor 197 starts
+Monitor 197is in recording state 1th trial with rate of20.8943
+set rate: 23.0937 --> 20.8943
+total 680loss contri0rtt contr-0time 0.353738norm measurement1.34948
+rtt is 0.262128loss rate is 0avg loss rate is 0.0124902
+latency info is -0.275847
+Monitor 196 ended with utility 16.1498total 680loss pkt0
+checking if all recording ready at monitor197
+found matching monitor196
+Monitor 198 starts
+Monitor 198is in recording state, waiting result for recording to come back
+set rate: 20.8943 --> 21.994
+total 603loss contri0rtt contr-0time 0.346709norm measurement2.25276
+rtt is 0.153904loss rate is 0avg loss rate is 0.00999212
+latency info is -0.342823
+Monitor 197 ended with utility 14.7584total 603loss pkt0
+checking if all recording ready at monitor198
+found matching monitor197
+total 680loss contri0rtt contr-0time 0.353738norm measurement1.34948
+rtt is 0.262128loss rate is 0avg loss rate is 0.0079937
+latency info is -0.275847
+total 603loss contri0rtt contr-0time 0.346709norm measurement2.25276
+rtt is 0.153904loss rate is 0avg loss rate is 0.00639496
+latency info is -0.342823
+change before force to boundary 0.632621
+change before force to min change is 0.632621
+gradient is 0.632621
+amplifier0
+change is 0.632621
+all record is acquired and ready to change by 0.632621
+set rate: 21.994 --> 22.6267
+monitor197ends in search state, this should not happen often
+Monitor 199 starts
+Monitor 199is in search state
+Monitor 199is in recording state 0th trial with rate of21.4953
+set rate: 22.6267 --> 21.4953
+total 480loss contri0rtt contr-0time 0.257665norm measurement4.65047
+rtt is 0.0554062loss rate is 0avg loss rate is 0.00511597
+latency info is -0.295312
+Monitor 198 ended with utility 15.6997total 480loss pkt0
+checking if all recording ready at monitor199
+Monitor 200 starts
+Monitor 200is in recording state 1th trial with rate of23.758
+set rate: 21.4953 --> 23.758
+total 275loss contri0rtt contr-0time 0.153726norm measurement45.5385
+rtt is 0.00337574loss rate is 0avg loss rate is 0.00409277
+latency info is -0.0946759
+Monitor 199 ended with utility 15.1374total 275loss pkt0
+checking if all recording ready at monitor200
+found matching monitor199
+Monitor 201 starts
+Monitor 201is in recording state, waiting result for recording to come back
+set rate: 23.758 --> 22.6267
+total 109loss contri0rtt contr0time 0.055088norm measurement335.396
+rtt is 0.000164248loss rate is 0avg loss rate is 0.00327422
+latency info is -0.000953224
+Monitor 200 ended with utility 16.5751total 109loss pkt0
+checking if all recording ready at monitor201
+found matching monitor200
+total 275loss contri0rtt contr-0time 0.153726norm measurement45.5385
+rtt is 0.00337574loss rate is 0avg loss rate is 0.00261938
+latency info is -0.0946759
+total 109loss contri0rtt contr0time 0.055088norm measurement335.396
+rtt is 0.000164248loss rate is 0avg loss rate is 0.0020955
+latency info is -0.000953224
+change before force to boundary 0.635413
+change before force to min change is 0.635413
+gradient is 0.635413
+amplifier1
+change is 0.635413
+all record is acquired and ready to change by 0.635413
+set rate: 22.6267 --> 23.2621
+monitor200ends in search state, this should not happen often
+Monitor 202 starts
+Monitor 202is in search state
+Monitor 202is in recording state 0th trial with rate of24.4252
+set rate: 23.2621 --> 24.4252
+total 10loss contri0rtt contr0time 0.005138norm measurement33.9366
+rtt is 0.0001514loss rate is 0avg loss rate is 0.0016764
+latency info is -0.000438727
+Monitor 201 ended with utility 16.3308total 10loss pkt0
+checking if all recording ready at monitor202
+Monitor 203 starts
+Monitor 203is in recording state 1th trial with rate of22.099
+set rate: 24.4252 --> 22.099
+total 10loss contri0rtt contr0time 0.004875norm measurement32.349
+rtt is 0.0001507loss rate is 0avg loss rate is 0.00134112
+latency info is 0.000223874
+Monitor 202 ended with utility 17.1217total 10loss pkt0
+checking if all recording ready at monitor203
+found matching monitor202
+Monitor 204 starts
+Monitor 204is in recording state, waiting result for recording to come back
+set rate: 22.099 --> 23.2621
+total 10loss contri0rtt contr0time 0.0054norm measurement35.5497
+rtt is 0.0001519loss rate is 0avg loss rate is 0.0010729
+latency info is 0.000592437
+Monitor 203 ended with utility 15.616total 10loss pkt0
+checking if all recording ready at monitor204
+found matching monitor203
+total 10loss contri0rtt contr0time 0.004875norm measurement32.349
+rtt is 0.0001507loss rate is 0avg loss rate is 0.000858317
+latency info is 0.000223874
+total 10loss contri0rtt contr0time 0.0054norm measurement35.5497
+rtt is 0.0001519loss rate is 0avg loss rate is 0.000686653
+latency info is 0.000592437
+change before force to boundary 1.29456
+change before force to min change is 1.1631
+gradient is 0.647278
+amplifier2
+change is 1.1631
+all record is acquired and ready to change by 1.1631
+set rate: 23.2621 --> 24.4252
+monitor203ends in search state, this should not happen often
+Monitor 205 starts
+Monitor 205is in search state
+Monitor 205is in recording state 0th trial with rate of25.6464
+set rate: 24.4252 --> 25.6464
+total 10loss contri0rtt contr0time 0.004916norm measurement32.3421
+rtt is 0.000152loss rate is 0avg loss rate is 0.000549323
+latency info is -0.000327585
+Monitor 204 ended with utility 16.9931total 10loss pkt0
+checking if all recording ready at monitor205
+Monitor 206 starts
+Monitor 206is in recording state 1th trial with rate of23.2039
+set rate: 25.6464 --> 23.2039
+total 10loss contri0rtt contr0time 0.004644norm measurement30.2147
+rtt is 0.0001537loss rate is 0avg loss rate is 0.000439458
+latency info is -0.00301359
+Monitor 205 ended with utility 17.8863total 10loss pkt0
+checking if all recording ready at monitor206
+found matching monitor205
+Monitor 207 starts
+Monitor 207is in recording state, waiting result for recording to come back
+set rate: 23.2039 --> 24.4252
+total 10loss contri0rtt contr0time 0.005136norm measurement33.3074
+rtt is 0.0001542loss rate is 0avg loss rate is 0.000351567
+latency info is 0.00305975
+Monitor 206 ended with utility 16.3366total 10loss pkt0
+checking if all recording ready at monitor207
+found matching monitor206
+total 10loss contri0rtt contr0time 0.004644norm measurement30.2147
+rtt is 0.0001537loss rate is 0avg loss rate is 0.000281253
+latency info is -0.00301359
+total 10loss contri0rtt contr0time 0.005136norm measurement33.3074
+rtt is 0.0001542loss rate is 0avg loss rate is 0.000225003
+latency info is 0.00305975
+change before force to boundary 1.90344
+change before force to min change is 1.90344
+gradient is 0.634479
+amplifier3
+change is 1.90344
+all record is acquired and ready to change by 1.90344
+set rate: 24.4252 --> 26.3286
+monitor206ends in search state, this should not happen often
+Monitor 208 starts
+Monitor 208is in search state
+Monitor 208is in recording state 0th trial with rate of27.645
+set rate: 26.3286 --> 27.645
+total 10loss contri0rtt contr0time 0.004543norm measurement30.0662
+rtt is 0.0001511loss rate is 0avg loss rate is 0.000180002
+latency info is -0.000285387
+Monitor 207 ended with utility 18.2438total 10loss pkt0
+checking if all recording ready at monitor208
+Monitor 209 starts
+Monitor 209is in recording state 1th trial with rate of25.0122
+set rate: 27.645 --> 25.0122
+total 10loss contri0rtt contr0time 0.004305norm measurement28.3971
+rtt is 0.0001516loss rate is 0avg loss rate is 0.000144002
+latency info is 0.000387844
+Monitor 208 ended with utility 19.1491total 10loss pkt0
+checking if all recording ready at monitor209
+found matching monitor208
+Monitor 210 starts
+Monitor 210is in recording state, waiting result for recording to come back
+set rate: 25.0122 --> 26.3286
+total 10loss contri0rtt contr0time 0.004768norm measurement31.4719
+rtt is 0.0001515loss rate is 0avg loss rate is 0.000115201
+latency info is 0.000542967
+Monitor 209 ended with utility 17.4671total 10loss pkt0
+checking if all recording ready at monitor210
+found matching monitor209
+total 10loss contri0rtt contr0time 0.004305norm measurement28.3971
+rtt is 0.0001516loss rate is 0avg loss rate is 9.21611e-05
+latency info is 0.000387844
+total 10loss contri0rtt contr0time 0.004768norm measurement31.4719
+rtt is 0.0001515loss rate is 0avg loss rate is 7.37289e-05
+latency info is 0.000542967
+change before force to boundary 2.55534
+change before force to min change is 1.31643
+gradient is 0.638836
+amplifier4
+change is 1.31643
+all record is acquired and ready to change by 1.31643
+set rate: 26.3286 --> 27.645
+monitor209ends in search state, this should not happen often
+Monitor 211 starts
+Monitor 211is in search state
+Monitor 211is in recording state 0th trial with rate of29.0273
+set rate: 27.645 --> 29.0273
+total 10loss contri0rtt contr0time 0.004337norm measurement28.1623
+rtt is 0.000154loss rate is 0avg loss rate is 5.89831e-05
+latency info is -0.00220018
+Monitor 210 ended with utility 19.0218total 10loss pkt0
+checking if all recording ready at monitor211
+Monitor 212 starts
+Monitor 212is in recording state 1th trial with rate of26.2628
+set rate: 29.0273 --> 26.2628
+total 10loss contri0rtt contr0time 0.004098norm measurement27.2292
+rtt is 0.0001505loss rate is 0avg loss rate is 4.71865e-05
+latency info is 0.000139032
+Monitor 211 ended with utility 20.0174total 10loss pkt0
+checking if all recording ready at monitor212
+found matching monitor211
+Monitor 213 starts
+Monitor 213is in recording state, waiting result for recording to come back
+set rate: 26.2628 --> 27.645
+total 10loss contri0rtt contr0time 0.004552norm measurement30.0462
+rtt is 0.0001515loss rate is 0avg loss rate is 3.77492e-05
+latency info is -0.000706315
+Monitor 212 ended with utility 18.2113total 10loss pkt0
+checking if all recording ready at monitor213
+found matching monitor212
+total 10loss contri0rtt contr0time 0.004098norm measurement27.2292
+rtt is 0.0001505loss rate is 0avg loss rate is 3.01993e-05
+latency info is 0.000139032
+total 10loss contri0rtt contr0time 0.004552norm measurement30.0462
+rtt is 0.0001515loss rate is 0avg loss rate is 2.41595e-05
+latency info is -0.000706315
+change before force to boundary 3.91997
+change before force to min change is 3.04095
+gradient is 0.653328
+amplifier4.5
+change is 3.04095
+all record is acquired and ready to change by 3.04095
+end monitor:212is larger than the target monitor: -1
+Monitor 214 starts
+monitor 214is in moving state setting rate to30.686
+set rate: 27.645 --> 30.686
+total 10loss contri0rtt contr0time 0.004317norm measurement27.9237
+rtt is 0.0001546loss rate is 0avg loss rate is 1.93276e-05
+latency info is 0.00489056
+Monitor 213 ended with utility 19.1011total 10loss pkt0
+Monitor 215 starts
+monitor 215is in moving state setting rate to30.686
+set rate: 30.686 --> 30.686
+total 10loss contri0rtt contr0time 0.003873norm measurement25.5138
+rtt is 0.0001518loss rate is 0avg loss rate is 1.54621e-05
+latency info is 3.26466e-05
+Monitor 214 ended with utility 21.0611total 10loss pkt0
+find the right monitor214
+change before force to boundary 4.51158
+change before force to min change is 4.51158
+gradient is 0.644511
+amplifier5
+change is 4.51158
+change for move is 4.51158
+direction same, keep moving with change of 4.51158
+Monitor 216 starts
+monitor 216is in moving state setting rate to35.1976
+set rate: 30.686 --> 35.1976
+total 10loss contri0rtt contr0time 0.003881norm measurement25.3329
+rtt is 0.0001532loss rate is 0avg loss rate is 1.23696e-05
+latency info is 0.00443417
+Monitor 215 ended with utility 21.022total 10loss pkt0
+Monitor 217 starts
+monitor 217is in moving state setting rate to35.1976
+set rate: 35.1976 --> 35.1976
+total 10loss contri0rtt contr0time 0.003381norm measurement21.2642
+rtt is 0.000159loss rate is 0avg loss rate is 9.89572e-06
+latency info is -0.0147444
+Monitor 216 ended with utility 23.8003total 10loss pkt0
+find the right monitor216
+change before force to boundary 4.85726
+change before force to min change is 3.87173
+gradient is 0.607157
+amplifier5.5
+change is 3.87173
+change for move is 3.87173
+direction same, keep moving with change of 3.87173
+Monitor 218 starts
+monitor 218is in moving state setting rate to39.0693
+set rate: 35.1976 --> 39.0693
+total 10loss contri0rtt contr0time 0.003376norm measurement8.71676
+rtt is 0.0003873loss rate is 0avg loss rate is 7.91658e-06
+latency info is 0.0927944
+Monitor 217 ended with utility 23.832total 10loss pkt0
+Monitor 219 starts
+monitor 219is in moving state setting rate to39.0693
+set rate: 39.0693 --> 39.0693
+total 10loss contri0rtt contr0time 0.003025norm measurement3.17952
+rtt is 0.0009514loss rate is 0avg loss rate is 6.33326e-06
+latency info is 0.238191
+Monitor 218 ended with utility 26.3069total 10loss pkt0
+find the right monitor218
+change before force to boundary 5.82678
+change before force to min change is 5.82678
+gradient is 0.64742
+amplifier6
+change is 5.82678
+change for move is 5.82678
+direction same, keep moving with change of 5.82678
+Monitor 220 starts
+monitor 220is in moving state setting rate to44.8961
+set rate: 39.0693 --> 44.8961
+total 10loss contri0rtt contr0time 0.003045norm measurement1.84344
+rtt is 0.0016518loss rate is 0avg loss rate is 5.06661e-06
+latency info is 0.201837
+Monitor 219 ended with utility 26.1514total 10loss pkt0
+Monitor 221 starts
+monitor 221is in moving state setting rate to44.8961
+set rate: 44.8961 --> 44.8961
+Monitor 222 starts
+monitor 222is in moving state setting rate to44.8961
+set rate: 44.8961 --> 44.8961
+total 10loss contri0rtt contr0time 0.002644norm measurement1.02972
+rtt is 0.0025677loss rate is 0avg loss rate is 4.05329e-06
+latency info is 0.42205
+Monitor 220 ended with utility 29.6953total 10loss pkt0
+find the right monitor220
+change before force to boundary 5.81517
+change before force to min change is 4.93857
+gradient is 0.581517
+amplifier6.5
+change is 4.93857
+change for move is 4.93857
+direction same, keep moving with change of 4.93857
+Monitor 223 starts
+monitor 223is in moving state setting rate to49.8346
+set rate: 44.8961 --> 49.8346
+total 10loss contri0rtt contr0time 0.002644norm measurement0.729017
+rtt is 0.0036268loss rate is 0avg loss rate is 3.24263e-06
+latency info is 0.339129
+Monitor 221 ended with utility 29.6953total 10loss pkt0
+Monitor 224 starts
+monitor 224is in moving state setting rate to49.8346
+set rate: 49.8346 --> 49.8346
+total 10loss contri0rtt contr0time 0.002644norm measurement0.563404
+rtt is 0.0046929loss rate is 0avg loss rate is 2.5941e-06
+latency info is 0.42507
+Monitor 222 ended with utility 29.6953total 10loss pkt0
+Monitor 225 starts
+monitor 225is in moving state setting rate to49.8346
+set rate: 49.8346 --> 49.8346
+total 10loss contri0rtt contr0time 0.002375norm measurement0.398283
+rtt is 0.0059631loss rate is 0avg loss rate is 2.07528e-06
+latency info is 0.572411
+Monitor 223 ended with utility 32.7059total 10loss pkt0
+find the right monitor223
+change before force to boundary 7.31526
+change before force to min change is 7.31526
+gradient is 0.609605
+amplifier7
+change is 7.31526
+change for move is 7.31526
+direction same, keep moving with change of 7.31526
+Monitor 226 starts
+monitor 226is in moving state setting rate to57.1499
+set rate: 49.8346 --> 57.1499
+total 15loss contri0rtt contr0time 0.003593norm measurement0.468787
+rtt is 0.00766447loss rate is 0avg loss rate is 1.66023e-06
+latency info is 0.549076
+Monitor 224 ended with utility 32.4559total 15loss pkt0
+Monitor 227 starts
+monitor 227is in moving state setting rate to57.1499
+set rate: 57.1499 --> 57.1499
+total 19loss contri0rtt contr0time 0.004578norm measurement0.45872
+rtt is 0.00997995loss rate is 0avg loss rate is 1.32818e-06
+latency info is 0.558653
+Monitor 225 ended with utility 32.2844total 19loss pkt0
+Monitor 228 starts
+monitor 228is in moving state setting rate to57.1499
+set rate: 57.1499 --> 57.1499
+total 28loss contri0rtt contr0time 0.005864norm measurement0.431874
+rtt is 0.013578loss rate is 0avg loss rate is 1.06254e-06
+latency info is 0.773028
+Monitor 226 ended with utility 36.6261total 28loss pkt0
+find the right monitor226
+change before force to boundary 7.50256
+change before force to min change is 6.28649
+gradient is 0.535897
+amplifier7.5
+change is 6.28649
+change for move is 6.28649
+direction same, keep moving with change of 6.28649
+Monitor 229 starts
+monitor 229is in moving state setting rate to63.4364
+set rate: 57.1499 --> 63.4364
+total 36loss contri0rtt contr0time 0.007531norm measurement0.397126
+rtt is 0.0189638loss rate is 0avg loss rate is 8.50036e-07
+latency info is 0.805113
+Monitor 227 ended with utility 36.663total 36loss pkt0
+Monitor 230 starts
+monitor 230is in moving state setting rate to63.4364
+set rate: 63.4364 --> 63.4364
+total 47loss contri0rtt contr0time 0.009867norm measurement0.381475
+rtt is 0.0258654loss rate is 0avg loss rate is 6.80029e-07
+latency info is 0.782199
+Monitor 228 ended with utility 36.5464total 47loss pkt0
+Monitor 231 starts
+monitor 231is in moving state setting rate to63.4364
+set rate: 63.4364 --> 63.4364
+total 71loss contri0rtt contr0time 0.013422norm measurement0.368398
+rtt is 0.0364334loss rate is 0avg loss rate is 5.44023e-07
+latency info is 0.988789
+Monitor 229 ended with utility 40.1625total 71loss pkt0
+find the right monitor229
+change before force to boundary 9.00047
+change before force to min change is 9.00047
+gradient is 0.562529
+amplifier8
+change is 9.00047
+change for move is 9.00047
+direction same, keep moving with change of 9.00047
+Monitor 232 starts
+monitor 232is in moving state setting rate to72.4369
+set rate: 63.4364 --> 72.4369
+total 100loss contri0rtt contr0time 0.01895norm measurement0.361066
+rtt is 0.0524834loss rate is 0avg loss rate is 4.35218e-07
+latency info is 0.980647
+Monitor 230 ended with utility 40.0751total 100loss pkt0
+Monitor 233 starts
+monitor 233is in moving state setting rate to72.4369
+set rate: 72.4369 --> 72.4369
+total 136loss contri0rtt contr0time 0.025745norm measurement0.345163
+rtt is 0.0745879loss rate is 0avg loss rate is 3.48175e-07
+latency info is 0.993898
+Monitor 231 ended with utility 40.113total 136loss pkt0
+Monitor 234 starts
+monitor 234is in moving state setting rate to72.4369
+set rate: 72.4369 --> 72.4369
+Monitor 235 starts
+monitor 235is in moving state setting rate to72.4369
+set rate: 72.4369 --> 72.4369
+total 219loss contri0rtt contr0time 0.036435norm measurement0.330089
+rtt is 0.110379loss rate is 0avg loss rate is 2.7854e-07
+latency info is 1.26327
+Monitor 232 ended with utility 45.0563total 219loss pkt0
+find the right monitor232
+change before force to boundary 9.78729
+change before force to min change is 7.96805
+gradient is 0.543738
+amplifier8.5
+change is 7.96805
+change for move is 7.96805
+direction same, keep moving with change of 7.96805
+Monitor 236 starts
+monitor 236is in moving state setting rate to80.4049
+set rate: 72.4369 --> 80.4049
+total 316loss contri0rtt contr0time 0.052487norm measurement0.314618
+rtt is 0.166828loss rate is 0avg loss rate is 2.22832e-07
+latency info is 1.26979
+Monitor 233 ended with utility 45.1227total 316loss pkt0
+Monitor 237 starts
+monitor 237is in moving state setting rate to80.4049
+set rate: 80.4049 --> 80.4049
+total 450loss contri0rtt contr0time 0.074772norm measurement0.30206
+rtt is 0.24754loss rate is 0avg loss rate is 1.78265e-07
+latency info is 1.26939
+Monitor 234 ended with utility 45.1076total 450loss pkt0
+Monitor 238 starts
+monitor 238is in moving state setting rate to80.4049
+set rate: 80.4049 --> 80.4049
+total 450loss contri578.85rtt contr0time 0.074848norm measurement0.22239
+rtt is 0.336562loss rate is 0.113333avg loss rate is 0.0226668
+latency info is 1.16879
+Monitor 235 ended with utility -43.4385total 450loss pkt51
+total 739loss contri4982.65rtt contr0time 0.111051norm measurement0.297963
+rtt is 0.372701loss rate is 0.594046avg loss rate is 0.136943
+latency info is 0.0194479
+Monitor 236 ended with utility -464.097total 739loss pkt439
+Emergency stop
+set rate: 80.4049 --> 40.2025
+monitor236ends in search state, this should not happen often
+Monitor 239 starts
+Monitor 239is in search state
+Monitor 239is in recording state 0th trial with rate of38.1923
+set rate: 40.2025 --> 38.1923
+total 1117loss contri7536.4rtt contr0time 0.167553norm measurement0.447948
+rtt is 0.374046loss rate is 0.594449avg loss rate is 0.228444
+latency info is 0.0186839
+Monitor 237 ended with utility -465.288total 1117loss pkt664
+checking if all recording ready at monitor239
+Monitor 240 starts
+Monitor 240is in recording state 1th trial with rate of42.2126
+set rate: 38.1923 --> 42.2126
+total 1658loss contri9988rtt contr0time 0.292175norm measurement0.775777
+rtt is 0.376622loss rate is 0.53076avg loss rate is 0.288907
+latency info is 0.0010195
+Monitor 238 ended with utility -348.433total 1658loss pkt880
+Emergency stop
+set rate: 42.2126 --> 20.1012
+monitor238ends in search state, this should not happen often
+total 1186loss contri2190.55rtt contr0time 0.373423norm measurement0.991448
+rtt is 0.376644loss rate is 0.162732avg loss rate is 0.263672
+latency info is 0.00208694
+Monitor 239 ended with utility -41.7569total 1186loss pkt193
+monitor239ends in search state, this should not happen often
+Monitor 241 starts
+Monitor 241is in search state
+Monitor 241is in recording state 0th trial with rate of21.1063
+set rate: 20.1012 --> 21.1063
+total 1315loss contri3rtt contr-0time 0.782742norm measurement3.35204
+rtt is 0.233512loss rate is 0.00228137avg loss rate is 0.211394
+latency info is -0.369577
+Monitor 240 ended with utility 14.2615total 1315loss pkt3
+checking if all recording ready at monitor241
+Monitor 242 starts
+Monitor 242is in recording state 1th trial with rate of19.0962
+set rate: 21.1063 --> 19.0962
+total 662loss contri0rtt contr-0time 0.3767norm measurement12.1263
+rtt is 0.0310647loss rate is 0avg loss rate is 0.169115
+latency info is -0.262481
+Monitor 241 ended with utility 14.897total 662loss pkt0
+checking if all recording ready at monitor242
+found matching monitor241
+Monitor 243 starts
+Monitor 243is in recording state, waiting result for recording to come back
+set rate: 19.0962 --> 20.1012
+total 371loss contri0rtt contr0time 0.233281norm measurement1326.27
+rtt is 0.000175892loss rate is 0avg loss rate is 0.135292
+latency info is -0.000227707
+Monitor 242 ended with utility 13.6166total 371loss pkt0
+checking if all recording ready at monitor243
+found matching monitor242
+total 662loss contri0rtt contr-0time 0.3767norm measurement12.1263
+rtt is 0.0310647loss rate is 0avg loss rate is 0.108234
+latency info is -0.262481
+total 371loss contri0rtt contr0time 0.233281norm measurement1326.27
+rtt is 0.000175892loss rate is 0avg loss rate is 0.086587
+latency info is -0.000227707
+change before force to boundary 12.7398
+change before force to min change is 3.41721
+gradient is 0.636991
+amplifier9
+change is 3.41721
+all record is acquired and ready to change by 3.41721
+end monitor:242is larger than the target monitor: -1
+Monitor 244 starts
+monitor 244is in moving state setting rate to23.5184
+set rate: 20.1012 --> 23.5184
+total 52loss contri0rtt contr0time 0.031032norm measurement192.538
+rtt is 0.000161173loss rate is 0avg loss rate is 0.0692696
+latency info is -7.45915e-05
+Monitor 243 ended with utility 14.2724total 52loss pkt0
+Monitor 245 starts
+monitor 245is in moving state setting rate to23.5184
+set rate: 23.5184 --> 23.5184
+total 10loss contri0rtt contr0time 0.005085norm measurement30.9307
+rtt is 0.0001644loss rate is 0avg loss rate is 0.0554157
+latency info is 0.0118831
+Monitor 244 ended with utility 16.484total 10loss pkt0
+find the right monitor244
+change before force to boundary 14.2379
+change before force to min change is 5.40924
+gradient is 0.647177
+amplifier9.5
+change is 5.40924
+change for move is 5.40924
+direction same, keep moving with change of 5.40924
+Monitor 246 starts
+monitor 246is in moving state setting rate to28.9277
+set rate: 23.5184 --> 28.9277
+total 10loss contri0rtt contr0time 0.005072norm measurement32.081
+rtt is 0.0001581loss rate is 0avg loss rate is 0.0443325
+latency info is 0.00360261
+Monitor 245 ended with utility 16.522total 10loss pkt0
+Monitor 247 starts
+monitor 247is in moving state setting rate to28.9277
+set rate: 28.9277 --> 28.9277
+total 10loss contri0rtt contr0time 0.004121norm measurement27.1476
+rtt is 0.0001518loss rate is 0avg loss rate is 0.035466
+latency info is -0.00577611
+Monitor 246 ended with utility 19.9169total 10loss pkt0
+find the right monitor246
+change before force to boundary 16.5006
+change before force to min change is 8.38903
+gradient is 0.634637
+amplifier10
+change is 8.38903
+change for move is 8.38903
+direction same, keep moving with change of 8.38903
+Monitor 248 starts
+monitor 248is in moving state setting rate to37.3167
+set rate: 28.9277 --> 37.3167
+total 10loss contri0rtt contr0time 0.004123norm measurement25.4663
+rtt is 0.0001619loss rate is 0avg loss rate is 0.0283728
+latency info is -0.00661858
+Monitor 247 ended with utility 19.9082total 10loss pkt0
+Monitor 249 starts
+monitor 249is in moving state setting rate to37.3167
+set rate: 37.3167 --> 37.3167
+total 10loss contri0rtt contr0time 0.003197norm measurement17.0053
+rtt is 0.000188loss rate is 0avg loss rate is 0.0226983
+latency info is 0.0465217
+Monitor 248 ended with utility 25.0297total 10loss pkt0
+find the right monitor248
+change before force to boundary 18.2839
+change before force to min change is 13.0608
+gradient is 0.609462
+amplifier10.5
+change is 13.0608
+change for move is 13.0608
+direction same, keep moving with change of 13.0608
+Monitor 250 starts
+monitor 250is in moving state setting rate to50.3776
+set rate: 37.3167 --> 50.3776
+total 10loss contri0rtt contr0time 0.003184norm measurement4.90223
+rtt is 0.0006495loss rate is 0avg loss rate is 0.0181586
+latency info is 0.166909
+Monitor 249 ended with utility 25.1216total 10loss pkt0
+Monitor 251 starts
+monitor 251is in moving state setting rate to50.3776
+set rate: 50.3776 --> 50.3776
+total 10loss contri0rtt contr0time 0.002356norm measurement1.40038
+rtt is 0.0016824loss rate is 0avg loss rate is 0.0145269
+latency info is 0.576318
+Monitor 250 ended with utility 32.9432total 10loss pkt0
+find the right monitor250
+change before force to boundary 20.6005
+change before force to min change is 20.6005
+gradient is 0.605896
+amplifier11
+change is 20.6005
+change for move is 20.6005
+direction same, keep moving with change of 20.6005
+Monitor 252 starts
+monitor 252is in moving state setting rate to70.978
+set rate: 50.3776 --> 70.978
+Monitor 253 starts
+monitor 253is in moving state setting rate to70.978
+set rate: 70.978 --> 70.978
+Monitor 254 starts
+monitor 254is in moving state setting rate to70.978
+set rate: 70.978 --> 70.978
+total 10loss contri0rtt contr0time 0.002353norm measurement0.761218
+rtt is 0.0030911loss rate is 0avg loss rate is 0.0116215
+latency info is 0.561242
+Monitor 251 ended with utility 32.981total 10loss pkt0
+Monitor 255 starts
+monitor 255is in moving state setting rate to70.978
+set rate: 70.978 --> 70.978
+total 10loss contri0rtt contr0time 0.001641norm measurement0.342718
+rtt is 0.0047882loss rate is 0avg loss rate is 0.00929721
+latency info is 1.14864
+Monitor 252 ended with utility 45.6169total 10loss pkt0
+find the right monitor252
+change before force to boundary 23.3781
+change before force to min change is 23.3781
+gradient is 0.615214
+amplifier11.5
+change is 23.3781
+change for move is 23.3781
+direction same, keep moving with change of 23.3781
+Monitor 256 starts
+monitor 256is in moving state setting rate to94.3561
+set rate: 70.978 --> 94.3561
+total 10loss contri0rtt contr0time 0.001662norm measurement0.242302
+rtt is 0.0068592loss rate is 0avg loss rate is 0.00743776
+latency info is 1.24492
+Monitor 253 ended with utility 45.0978total 10loss pkt0
+Monitor 257 starts
+monitor 257is in moving state setting rate to94.3561
+set rate: 94.3561 --> 94.3561
+total 10loss contri0rtt contr0time 0.001665norm measurement0.18621
+rtt is 0.0089415loss rate is 0avg loss rate is 0.00595021
+latency info is 1.20749
+Monitor 254 ended with utility 45.0247total 10loss pkt0
+Monitor 258 starts
+monitor 258is in moving state setting rate to94.3561
+set rate: 94.3561 --> 94.3561
+total 18loss contri0rtt contr0time 0.003004norm measurement0.252823
+rtt is 0.0118818loss rate is 0avg loss rate is 0.00476017
+latency info is 1.22687
+Monitor 255 ended with utility 44.9302total 18loss pkt0
+Monitor 259 starts
+monitor 259is in moving state setting rate to94.3561
+set rate: 94.3561 --> 94.3561
+total 37loss contri0rtt contr0time 0.004682norm measurement0.254672
+rtt is 0.0183844loss rate is 0avg loss rate is 0.00380814
+latency info is 1.93338
+Monitor 256 ended with utility 57.639total 37loss pkt0
+find the right monitor256
+change before force to boundary 21.5984
+change before force to min change is 21.5984
+gradient is 0.514247
+amplifier12
+change is 21.5984
+change for move is 21.5984
+direction same, keep moving with change of 21.5984
+Monitor 260 starts
+monitor 260is in moving state setting rate to115.955
+set rate: 94.3561 --> 115.955
+total 53loss contri0rtt contr0time 0.006726norm measurement0.226993
+rtt is 0.0296309loss rate is 0avg loss rate is 0.00304651
+latency info is 1.97181
+Monitor 257 ended with utility 57.4897total 53loss pkt0
+Monitor 261 starts
+monitor 261is in moving state setting rate to115.955
+set rate: 115.955 --> 115.955
+total 70loss contri0rtt contr0time 0.008878norm measurement0.197434
+rtt is 0.0449669loss rate is 0avg loss rate is 0.00243721
+latency info is 1.97109
+Monitor 258 ended with utility 57.5212total 70loss pkt0
+Monitor 262 starts
+monitor 262is in moving state setting rate to115.955
+set rate: 115.955 --> 115.955
+total 93loss contri0rtt contr0time 0.011857norm measurement0.181644
+rtt is 0.0652761loss rate is 0avg loss rate is 0.00194977
+latency info is 1.95131
+Monitor 259 ended with utility 57.2507total 93loss pkt0
+Monitor 263 starts
+monitor 263is in moving state setting rate to115.955
+set rate: 115.955 --> 115.955
+total 177loss contri0rtt contr0time 0.018356norm measurement0.181577
+rtt is 0.101092loss rate is 0avg loss rate is 0.00155981
+latency info is 2.62594
+Monitor 260 ended with utility 68.9444total 177loss pkt0
+find the right monitor260
+change before force to boundary 24.0781
+change before force to min change is 24.0781
+gradient is 0.523436
+amplifier12.5
+change is 24.0781
+change for move is 24.0781
+direction same, keep moving with change of 24.0781
+Monitor 264 starts
+monitor 264is in moving state setting rate to140.033
+set rate: 115.955 --> 140.033
+total 286loss contri0rtt contr0time 0.029678norm measurement0.180624
+rtt is 0.164309loss rate is 0avg loss rate is 0.00124785
+latency info is 2.62856
+Monitor 261 ended with utility 68.9067total 286loss pkt0
+Monitor 265 starts
+monitor 265is in moving state setting rate to140.033
+set rate: 140.033 --> 140.033
+total 434loss contri0rtt contr0time 0.045155norm measurement0.171961
+rtt is 0.262589loss rate is 0avg loss rate is 0.00099828
+latency info is 2.62116
+Monitor 262 ended with utility 68.743total 434loss pkt0
+Monitor 266 starts
+monitor 266is in moving state setting rate to140.033
+set rate: 140.033 --> 140.033
+total 630loss contri3620.65rtt contr0time 0.06553norm measurement0.183273
+rtt is 0.357554loss rate is 0.506349avg loss rate is 0.102068
+latency info is 0.72889
+Monitor 263 ended with utility -563.547total 630loss pkt319
+Emergency stop
+set rate: 140.033 --> 70.0163
+monitor263ends in search state, this should not happen often
+total 1179loss contri10294.5rtt contr0time 0.101768norm measurement0.271976
+rtt is 0.37418loss rate is 0.769296avg loss rate is 0.235514
+latency info is 0.0116125
+Monitor 264 ended with utility -1076.31total 1179loss pkt907
+monitor264ends in search state, this should not happen often
+total 1917loss contri16707.2rtt contr0time 0.165307norm measurement0.440607
+rtt is 0.37518loss rate is 0.767866avg loss rate is 0.341984
+latency info is 0.0117079
+Monitor 265 ended with utility -1075.23total 1917loss pkt1472
+monitor265ends in search state, this should not happen often
+Monitor 267 starts
+Monitor 267is in search state
+Monitor 267is in recording state 0th trial with rate of66.5155
+set rate: 70.0163 --> 66.5155
+Monitor 268 starts
+Monitor 268is in recording state 1th trial with rate of73.5171
+set rate: 66.5155 --> 73.5171
+total 3000loss contri21678.5rtt contr0time 0.410345norm measurement1.08838
+rtt is 0.377025loss rate is 0.636667avg loss rate is 0.400921
+latency info is 0.00194285
+Monitor 266 ended with utility -550.851total 3000loss pkt1910
+Emergency stop
+set rate: 73.5171 --> 35.0082
+monitor266ends in search state, this should not happen often
+total 2079loss contri12258rtt contr0time 0.376395norm measurement0.999229
+rtt is 0.376686loss rate is 0.519481avg loss rate is 0.424633
+latency info is -0.00257489
+Monitor 267 ended with utility -330.943total 2079loss pkt1080
+monitor267ends in search state, this should not happen often
+Monitor 269 starts
+Monitor 269is in search state
+Monitor 269is in recording state 0th trial with rate of33.2577
+set rate: 35.0082 --> 33.2577
+total 2298loss contri2315.4rtt contr0time 0.78799norm measurement2.09288
+rtt is 0.37651loss rate is 0.0887728avg loss rate is 0.357461
+latency info is 0.000554289
+Monitor 268 ended with utility -10.1268total 2298loss pkt204
+checking if all recording ready at monitor269
+Monitor 270 starts
+Monitor 270is in recording state 1th trial with rate of36.7586
+set rate: 33.2577 --> 36.7586
+total 1043loss contri499.4rtt contr0time 0.377099norm measurement1.00093
+rtt is 0.376748loss rate is 0.042186avg loss rate is 0.294406
+latency info is -0.00158241
+Monitor 269 ended with utility 7.25061total 1043loss pkt44
+checking if all recording ready at monitor270
+found matching monitor269
+Monitor 271 starts
+Monitor 271is in recording state, waiting result for recording to come back
+set rate: 36.7586 --> 35.0082
+total 1153loss contri1725.2rtt contr0time 0.377224norm measurement1.00098
+rtt is 0.376856loss rate is 0.13183avg loss rate is 0.261891
+latency info is 0.000540789
+Monitor 270 ended with utility -27.8236total 1153loss pkt152
+checking if all recording ready at monitor271
+found matching monitor270
+change before force to boundary -10.0189
+change before force to min change is -1.75041
+gradient is -10.0189
+amplifier0
+change is -1.75041
+all record is acquired and ready to change by -1.75041
+set rate: 35.0082 --> 33.2577
+monitor270ends in search state, this should not happen often
+Monitor 272 starts
+Monitor 272is in search state
+Monitor 272is in recording state 0th trial with rate of34.9206
+set rate: 33.2577 --> 34.9206
+total 1099loss contri1100.95rtt contr0time 0.377492norm measurement1.00153
+rtt is 0.376915loss rate is 0.0882621avg loss rate is 0.227165
+latency info is 0.000537831
+Monitor 271 ended with utility -9.91242total 1099loss pkt97
+checking if all recording ready at monitor272
+Monitor 273 starts
+Monitor 273is in recording state 1th trial with rate of31.5949
+set rate: 34.9206 --> 31.5949
+total 1096loss contri1078.25rtt contr0time 0.377332norm measurement1.00236
+rtt is 0.376442loss rate is 0.0866788avg loss rate is 0.199068
+latency info is -0.000842101
+Monitor 272 ended with utility -9.28682total 1096loss pkt95
+checking if all recording ready at monitor273
+found matching monitor272
+Monitor 274 starts
+Monitor 274is in recording state 2th trial with rate of31.5949
+set rate: 31.5949 --> 31.5949
+total 992loss contri0rtt contr0time 0.377437norm measurement1.00708
+rtt is 0.374783loss rate is 0avg loss rate is 0.159254
+latency info is -0.0100764
+Monitor 273 ended with utility 21.4005total 992loss pkt0
+checking if all recording ready at monitor274
+found matching monitor273
+Monitor 275 starts
+Monitor 275is in recording state 3th trial with rate of34.9206
+set rate: 31.5949 --> 34.9206
+total 991loss contri0rtt contr0time 0.376748norm measurement1.02218
+rtt is 0.368574loss rate is 0avg loss rate is 0.127403
+latency info is -0.00953139
+Monitor 274 ended with utility 21.4163total 991loss pkt0
+checking if all recording ready at monitor275
+found matching monitor274
+Monitor 276 starts
+Monitor 276is in recording state, waiting result for recording to come back
+set rate: 34.9206 --> 33.2577
+Monitor 277 starts
+Monitor 277is in recording state, waiting result for recording to come back
+set rate: 33.2577 --> 33.2577
+total 1090loss contri783.15rtt contr0time 0.375222norm measurement1.00042
+rtt is 0.375066loss rate is 0.0633028avg loss rate is 0.114583
+latency info is 0.017727
+Monitor 275 ended with utility -0.467821total 1090loss pkt69
+checking if all recording ready at monitor277
+found matching monitor275
+change before force to boundary -7.90363
+change before force to min change is -1.66289
+gradient is -7.90363
+amplifier0
+change is -1.66289
+all record is acquired and ready to change by -1.66289
+set rate: 33.2577 --> 31.5949
+monitor275ends in search state, this should not happen often
+total 1021loss contri556.15rtt contr0time 0.369216norm measurement0.988407
+rtt is 0.373547loss rate is 0.0479922avg loss rate is 0.101265
+latency info is -0.0046428
+Monitor 276 ended with utility 5.16413total 1021loss pkt49
+monitor276ends in search state, this should not happen often
+Monitor 278 starts
+Monitor 278is in search state
+Monitor 278is in recording state 0th trial with rate of30.0151
+set rate: 31.5949 --> 30.0151
+total 1021loss contri1rtt contr0time 0.387938norm measurement1.04393
+rtt is 0.371614loss rate is 0.000979432avg loss rate is 0.0812079
+latency info is -0.00999907
+Monitor 277 ended with utility 21.3974total 1021loss pkt1
+checking if all recording ready at monitor278
+Monitor 279 starts
+Monitor 279is in recording state 1th trial with rate of33.1746
+set rate: 30.0151 --> 33.1746
+total 934loss contri0rtt contr-0time 0.374018norm measurement1.04277
+rtt is 0.358676loss rate is 0avg loss rate is 0.0649663
+latency info is -0.0588975
+Monitor 278 ended with utility 20.4377total 934loss pkt0
+checking if all recording ready at monitor279
+found matching monitor278
+Monitor 280 starts
+Monitor 280is in recording state, waiting result for recording to come back
+set rate: 33.1746 --> 31.5949
+Monitor 281 starts
+Monitor 281is in recording state, waiting result for recording to come back
+set rate: 31.5949 --> 31.5949
+total 1027loss contri0rtt contr0time 0.372314norm measurement1.04875
+rtt is 0.355006loss rate is 0avg loss rate is 0.0519731
+latency info is 0.0393352
+Monitor 279 ended with utility 22.3521total 1027loss pkt0
+checking if all recording ready at monitor281
+found matching monitor279
+total 934loss contri0rtt contr-0time 0.374018norm measurement1.04277
+rtt is 0.358676loss rate is 0avg loss rate is 0.0415784
+latency info is -0.0588975
+total 1027loss contri0rtt contr0time 0.372314norm measurement1.04875
+rtt is 0.355006loss rate is 0avg loss rate is 0.0332628
+latency info is 0.0393352
+change before force to boundary 0.605917
+change before force to min change is 0.605917
+gradient is 0.605917
+amplifier0
+change is 0.605917
+all record is acquired and ready to change by 0.605917
+set rate: 31.5949 --> 32.2008
+monitor279ends in search state, this should not happen often
+Monitor 282 starts
+Monitor 282is in search state
+Monitor 282is in recording state 0th trial with rate of30.5907
+set rate: 32.2008 --> 30.5907
+total 944loss contri0rtt contr0time 0.359034norm measurement0.995813
+rtt is 0.360544loss rate is 0avg loss rate is 0.0266102
+latency info is -0.00955163
+Monitor 280 ended with utility 21.408total 944loss pkt0
+checking if all recording ready at monitor282
+Monitor 283 starts
+Monitor 283is in recording state 1th trial with rate of33.8108
+set rate: 30.5907 --> 33.8108
+total 944loss contri0rtt contr0time 0.352612norm measurement0.978506
+rtt is 0.360358loss rate is 0avg loss rate is 0.0212882
+latency info is 0.00881314
+Monitor 281 ended with utility 21.7586total 944loss pkt0
+checking if all recording ready at monitor283
+total 904loss contri0rtt contr-0time 0.355191norm measurement1.00148
+rtt is 0.354665loss rate is 0avg loss rate is 0.0170305
+latency info is -0.0406302
+Monitor 282 ended with utility 20.7902total 904loss pkt0
+checking if all recording ready at monitor283
+found matching monitor282
+Monitor 284 starts
+Monitor 284is in recording state 2th trial with rate of33.8108
+set rate: 33.8108 --> 33.8108
+Monitor 285 starts
+Monitor 285is in recording state 3th trial with rate of30.5907
+set rate: 33.8108 --> 30.5907
+total 1015loss contri19rtt contr0time 0.360846norm measurement1.01007
+rtt is 0.357249loss rate is 0.0187192avg loss rate is 0.0173683
+latency info is 0.0460444
+Monitor 283 ended with utility 22.1459total 1015loss pkt19
+checking if all recording ready at monitor285
+found matching monitor283
+Monitor 286 starts
+Monitor 286is in recording state, waiting result for recording to come back
+set rate: 30.5907 --> 32.2008
+total 999loss contri476.7rtt contr0time 0.354981norm measurement0.97353
+rtt is 0.364633loss rate is 0.042042avg loss rate is 0.022303
+latency info is 0.0128408
+Monitor 284 ended with utility 7.39056total 999loss pkt42
+checking if all recording ready at monitor286
+found matching monitor284
+total 904loss contri0rtt contr-0time 0.355419norm measurement0.983887
+rtt is 0.36124loss rate is 0avg loss rate is 0.0178424
+latency info is -0.0417535
+Monitor 285 ended with utility 20.7782total 904loss pkt0
+checking if all recording ready at monitor286
+found matching monitor285
+monitor285ends in search state, this should not happen often
+Monitor 287 starts
+Monitor 287is in search state
+Monitor 287is in recording state 0th trial with rate of30.5907
+set rate: 32.2008 --> 30.5907
+total 958loss contri0rtt contr0time 0.357551norm measurement1.0051
+rtt is 0.355737loss rate is 0avg loss rate is 0.0142739
+latency info is 0.0105594
+Monitor 286 ended with utility 21.7745total 958loss pkt0
+checking if all recording ready at monitor287
+Monitor 288 starts
+Monitor 288is in recording state 1th trial with rate of33.8108
+set rate: 30.5907 --> 33.8108
+total 920loss contri0rtt contr-0time 0.361363norm measurement1.03086
+rtt is 0.350547loss rate is 0avg loss rate is 0.0114191
+latency info is -0.0390176
+Monitor 287 ended with utility 20.7961total 920loss pkt0
+checking if all recording ready at monitor288
+found matching monitor287
+Monitor 289 starts
+Monitor 289is in recording state, waiting result for recording to come back
+set rate: 33.8108 --> 32.2008
+Monitor 290 starts
+Monitor 290is in recording state, waiting result for recording to come back
+set rate: 32.2008 --> 32.2008
+total 1002loss contri7rtt contr0time 0.356032norm measurement1.00482
+rtt is 0.354325loss rate is 0.00698603avg loss rate is 0.0105325
+latency info is 0.0591303
+Monitor 288 ended with utility 22.5346total 1002loss pkt7
+checking if all recording ready at monitor290
+found matching monitor288
+total 920loss contri3.35068rtt contr-0time 0.361363norm measurement1.03086
+rtt is 0.350547loss rate is 0.00364204avg loss rate is 0.00915443
+latency info is -0.0390176
+total 1002loss contri3.64932rtt contr0time 0.356032norm measurement1.00482
+rtt is 0.354325loss rate is 0.00364204avg loss rate is 0.00805195
+latency info is 0.0591303
+change before force to boundary 0.606268
+change before force to min change is 0.606268
+gradient is 0.606268
+amplifier0
+change is 0.606268
+all record is acquired and ready to change by 0.606268
+set rate: 32.2008 --> 32.807
+monitor288ends in search state, this should not happen often
+Monitor 291 starts
+Monitor 291is in search state
+Monitor 291is in recording state 0th trial with rate of34.4474
+set rate: 32.807 --> 34.4474
+total 940loss contri9rtt contr0time 0.35127norm measurement0.967718
+rtt is 0.362988loss rate is 0.00957447avg loss rate is 0.00835645
+latency info is -0.000265582
+Monitor 289 ended with utility 21.4569total 940loss pkt9
+checking if all recording ready at monitor291
+Monitor 292 starts
+Monitor 292is in recording state 1th trial with rate of31.1667
+set rate: 34.4474 --> 31.1667
+total 940loss contri0rtt contr0time 0.344679norm measurement0.937381
+rtt is 0.367704loss rate is 0avg loss rate is 0.00668516
+latency info is 0.0280777
+Monitor 290 ended with utility 22.1241total 940loss pkt0
+checking if all recording ready at monitor292
+Monitor 293 starts
+Monitor 293is in recording state, waiting result for recording to come back
+set rate: 31.1667 --> 32.807
+total 1017loss contri828.55rtt contr0time 0.354911norm measurement0.948676
+rtt is 0.374112loss rate is 0.0717797avg loss rate is 0.0197041
+latency info is -0.00394529
+Monitor 291 ended with utility -3.58502total 1017loss pkt73
+checking if all recording ready at monitor293
+found matching monitor291
+total 942loss contri0rtt contr-0time 0.363298norm measurement0.984122
+rtt is 0.36916loss rate is 0avg loss rate is 0.0157633
+latency info is -0.0227405
+Monitor 292 ended with utility 21.1413total 942loss pkt0
+checking if all recording ready at monitor293
+found matching monitor292
+change before force to boundary -7.5369
+change before force to min change is -1.64035
+gradient is -7.5369
+amplifier0
+change is -1.64035
+all record is acquired and ready to change by -1.64035
+set rate: 32.807 --> 31.1667
+monitor292ends in search state, this should not happen often
+Monitor 294 starts
+Monitor 294is in search state
+Monitor 294is in recording state 0th trial with rate of32.725
+set rate: 31.1667 --> 32.725
+total 1005loss contri22rtt contr0time 0.368222norm measurement0.998931
+rtt is 0.368616loss rate is 0.0218905avg loss rate is 0.0169887
+latency info is 0.00894233
+Monitor 293 ended with utility 21.4561total 1005loss pkt22
+checking if all recording ready at monitor294
+Monitor 295 starts
+Monitor 295is in recording state 1th trial with rate of29.6084
+set rate: 32.725 --> 29.6084
+total 1006loss contri23rtt contr0time 0.369434norm measurement1.00704
+rtt is 0.36685loss rate is 0.0228628avg loss rate is 0.0181635
+latency info is 0.00363737
+Monitor 294 ended with utility 21.3817total 1006loss pkt23
+checking if all recording ready at monitor295
+found matching monitor294
+Monitor 296 starts
+Monitor 296is in recording state 2th trial with rate of32.725
+set rate: 29.6084 --> 32.725
+total 909loss contri0rtt contr-0time 0.368833norm measurement1.03719
+rtt is 0.355607loss rate is 0avg loss rate is 0.0145308
+latency info is -0.0706362
+Monitor 295 ended with utility 20.1969total 909loss pkt0
+checking if all recording ready at monitor296
+found matching monitor295
+Monitor 297 starts
+Monitor 297is in recording state 3th trial with rate of29.6084
+set rate: 32.725 --> 29.6084
+total 1000loss contri0rtt contr0time 0.367888norm measurement1.05937
+rtt is 0.347272loss rate is 0avg loss rate is 0.0116247
+latency info is 0.0250728
+Monitor 296 ended with utility 22.0587total 1000loss pkt0
+checking if all recording ready at monitor297
+found matching monitor296
+Monitor 298 starts
+Monitor 298is in recording state, waiting result for recording to come back
+set rate: 29.6084 --> 31.1667
+total 877loss contri0rtt contr-0time 0.356052norm measurement1.0492
+rtt is 0.339355loss rate is 0avg loss rate is 0.00929973
+latency info is -0.070421
+Monitor 297 ended with utility 20.1865total 877loss pkt0
+checking if all recording ready at monitor298
+found matching monitor297
+total 1006loss contri6.10179rtt contr0time 0.369434norm measurement1.00704
+rtt is 0.36685loss rate is 0.0060654avg loss rate is 0.00865287
+latency info is 0.00363737
+total 909loss contri5.51345rtt contr-0time 0.368833norm measurement1.03719
+rtt is 0.355607loss rate is 0.0060654avg loss rate is 0.00813537
+latency info is -0.0706362
+total 1000loss contri6.0654rtt contr0time 0.367888norm measurement1.05937
+rtt is 0.347272loss rate is 0.0060654avg loss rate is 0.00772138
+latency info is 0.0250728
+total 877loss contri5.31936rtt contr-0time 0.356052norm measurement1.0492
+rtt is 0.339355loss rate is 0.0060654avg loss rate is 0.00739018
+latency info is -0.070421
+change before force to boundary 0.599014
+change before force to min change is 0.599014
+gradient is 0.599014
+amplifier0
+change is 0.599014
+all record is acquired and ready to change by 0.599014
+set rate: 31.1667 --> 31.7657
+monitor297ends in search state, this should not happen often
+Monitor 299 starts
+Monitor 299is in search state
+Monitor 299is in recording state 0th trial with rate of33.354
+set rate: 31.7657 --> 33.354
+total 901loss contri0rtt contr-0time 0.34702norm measurement1.07356
+rtt is 0.323241loss rate is 0avg loss rate is 0.00591215
+latency info is -0.0208795
+Monitor 298 ended with utility 21.1669total 901loss pkt0
+checking if all recording ready at monitor299
+Monitor 300 starts
+Monitor 300is in recording state 1th trial with rate of30.1774
+set rate: 33.354 --> 30.1774
+Monitor 301 starts
+Monitor 301is in recording state 2th trial with rate of30.1774
+set rate: 30.1774 --> 30.1774
+total 943loss contri0rtt contr0time 0.339937norm measurement1.03662
+rtt is 0.327929loss rate is 0avg loss rate is 0.00472972
+latency info is 0.0470095
+Monitor 299 ended with utility 22.466total 943loss pkt0
+checking if all recording ready at monitor301
+found matching monitor299
+total 812loss contri0rtt contr-0time 0.323553norm measurement0.988146
+rtt is 0.327434loss rate is 0avg loss rate is 0.00378377
+latency info is -0.0526848
+Monitor 300 ended with utility 20.5292total 812loss pkt0
+checking if all recording ready at monitor301
+found matching monitor300
+Monitor 302 starts
+Monitor 302is in recording state 3th trial with rate of33.354
+set rate: 30.1774 --> 33.354
+total 812loss contri0rtt contr-0time 0.323462norm measurement1.04226
+rtt is 0.310346loss rate is 0avg loss rate is 0.00302702
+latency info is -0.0524906
+Monitor 301 ended with utility 20.5344total 812loss pkt0
+checking if all recording ready at monitor302
+found matching monitor301
+Monitor 303 starts
+Monitor 303is in recording state, waiting result for recording to come back
+set rate: 33.354 --> 31.7657
+Monitor 304 starts
+Monitor 304is in recording state, waiting result for recording to come back
+set rate: 31.7657 --> 31.7657
+total 910loss contri0rtt contr0time 0.327933norm measurement1.05915
+rtt is 0.30962loss rate is 0avg loss rate is 0.00242162
+latency info is 0.0472464
+Monitor 302 ended with utility 22.4726total 910loss pkt0
+checking if all recording ready at monitor304
+found matching monitor302
+total 943loss contri0rtt contr0time 0.339937norm measurement1.03662
+rtt is 0.327929loss rate is 0avg loss rate is 0.00193729
+latency info is 0.0470095
+total 812loss contri0rtt contr-0time 0.323553norm measurement0.988146
+rtt is 0.327434loss rate is 0avg loss rate is 0.00154983
+latency info is -0.0526848
+total 812loss contri0rtt contr-0time 0.323462norm measurement1.04226
+rtt is 0.310346loss rate is 0avg loss rate is 0.00123987
+latency info is -0.0524906
+total 910loss contri0rtt contr0time 0.327933norm measurement1.05915
+rtt is 0.30962loss rate is 0avg loss rate is 0.000991894
+latency info is 0.0472464
+change before force to boundary 0.609923
+change before force to min change is 0.609923
+gradient is 0.609923
+amplifier0
+change is 0.609923
+all record is acquired and ready to change by 0.609923
+set rate: 31.7657 --> 32.3756
+monitor302ends in search state, this should not happen often
+Monitor 305 starts
+Monitor 305is in search state
+Monitor 305is in recording state 0th trial with rate of33.9944
+set rate: 32.3756 --> 33.9944
+total 821loss contri0rtt contr0time 0.310578norm measurement0.979738
+rtt is 0.317001loss rate is 0avg loss rate is 0.000793515
+latency info is -0.0022965
+Monitor 303 ended with utility 21.5119total 821loss pkt0
+checking if all recording ready at monitor305
+Monitor 306 starts
+Monitor 306is in recording state 1th trial with rate of30.7568
+set rate: 33.9944 --> 30.7568
+total 821loss contri0rtt contr0time 0.304809norm measurement0.955175
+rtt is 0.319113loss rate is 0avg loss rate is 0.000634812
+latency info is 0.0169389
+Monitor 304 ended with utility 21.878total 821loss pkt0
+checking if all recording ready at monitor306
+Monitor 307 starts
+Monitor 307is in recording state, waiting result for recording to come back
+set rate: 30.7568 --> 32.3756
+total 877loss contri0rtt contr0time 0.310304norm measurement0.934717
+rtt is 0.331977loss rate is 0avg loss rate is 0.00050785
+latency info is 0.0666794
+Monitor 305 ended with utility 22.8462total 877loss pkt0
+checking if all recording ready at monitor307
+found matching monitor305
+Monitor 308 starts
+Monitor 308is in recording state, waiting result for recording to come back
+set rate: 32.3756 --> 32.3756
+total 812loss contri0rtt contr-0time 0.317254norm measurement0.941709
+rtt is 0.336892loss rate is 0avg loss rate is 0.00040628
+latency info is -0.0340522
+Monitor 306 ended with utility 20.8957total 812loss pkt0
+checking if all recording ready at monitor308
+found matching monitor306
+total 877loss contri0rtt contr0time 0.310304norm measurement0.934717
+rtt is 0.331977loss rate is 0avg loss rate is 0.000325024
+latency info is 0.0666794
+total 812loss contri0rtt contr-0time 0.317254norm measurement0.941709
+rtt is 0.336892loss rate is 0avg loss rate is 0.000260019
+latency info is -0.0340522
+change before force to boundary 0.602458
+change before force to min change is 0.602458
+gradient is 0.602458
+amplifier0
+change is 0.602458
+all record is acquired and ready to change by 0.602458
+set rate: 32.3756 --> 32.9781
+monitor306ends in search state, this should not happen often
+Monitor 309 starts
+Monitor 309is in search state
+Monitor 309is in recording state 0th trial with rate of31.3292
+set rate: 32.9781 --> 31.3292
+total 860loss contri0rtt contr0time 0.319159norm measurement0.955041
+rtt is 0.334184loss rate is 0avg loss rate is 0.000208015
+latency info is 0.0169184
+Monitor 307 ended with utility 21.886total 860loss pkt0
+checking if all recording ready at monitor309
+Monitor 310 starts
+Monitor 310is in recording state 1th trial with rate of34.627
+set rate: 31.3292 --> 34.627
+total 895loss contri0rtt contr0time 0.326502norm measurement0.953555
+rtt is 0.342405loss rate is 0avg loss rate is 0.000166412
+latency info is 0.0350842
+Monitor 308 ended with utility 22.2263total 895loss pkt0
+checking if all recording ready at monitor310
+Monitor 311 starts
+Monitor 311is in recording state, waiting result for recording to come back
+set rate: 34.627 --> 32.9781
+total 879loss contri0rtt contr0time 0.337083norm measurement0.975663
+rtt is 0.345491loss rate is 0avg loss rate is 0.00013313
+latency info is -0.0158362
+Monitor 309 ended with utility 21.2496total 879loss pkt0
+checking if all recording ready at monitor311
+found matching monitor309
+Monitor 312 starts
+Monitor 312is in recording state, waiting result for recording to come back
+set rate: 32.9781 --> 32.9781
+total 964loss contri21rtt contr0time 0.334658norm measurement0.940198
+rtt is 0.355944loss rate is 0.0217842avg loss rate is 0.00446335
+latency info is 0.068837
+Monitor 310 ended with utility 22.5227total 964loss pkt21
+checking if all recording ready at monitor312
+found matching monitor310
+change before force to boundary 0.386054
+change before force to min change is 0.386054
+gradient is 0.386054
+amplifier1
+change is 0.5
+all record is acquired and ready to change by 0.5
+set rate: 32.9781 --> 33.4781
+monitor310ends in search state, this should not happen often
+Monitor 313 starts
+Monitor 313is in search state
+Monitor 313is in recording state 0th trial with rate of31.8042
+set rate: 33.4781 --> 31.8042
+total 940loss contri27rtt contr0time 0.342833norm measurement0.94159
+rtt is 0.3641loss rate is 0.0287234avg loss rate is 0.00931536
+latency info is 0.00315987
+Monitor 311 ended with utility 21.33total 940loss pkt27
+checking if all recording ready at monitor313
+Monitor 314 starts
+Monitor 314is in recording state 1th trial with rate of35.152
+set rate: 31.8042 --> 35.152
+total 949loss contri21rtt contr0time 0.340936norm measurement0.916886
+rtt is 0.371841loss rate is 0.0221286avg loss rate is 0.011878
+latency info is 0.0330919
+Monitor 312 ended with utility 21.8301total 949loss pkt21
+checking if all recording ready at monitor314
+Monitor 315 starts
+Monitor 315is in recording state, waiting result for recording to come back
+set rate: 35.152 --> 33.4781
+total 943loss contri15rtt contr0time 0.356214norm measurement0.961879
+rtt is 0.370331loss rate is 0.0159067avg loss rate is 0.0126837
+latency info is -0.018091
+Monitor 313 ended with utility 21.058total 943loss pkt15
+checking if all recording ready at monitor315
+found matching monitor313
+Monitor 316 starts
+Monitor 316is in recording state, waiting result for recording to come back
+set rate: 33.4781 --> 33.4781
+total 1066loss contri953.4rtt contr0time 0.364426norm measurement0.97813
+rtt is 0.372574loss rate is 0.0787992avg loss rate is 0.0259068
+latency info is 0.0142541
+Monitor 314 ended with utility -6.37528total 1066loss pkt84
+checking if all recording ready at monitor316
+found matching monitor314
+change before force to boundary -8.1944
+change before force to min change is -1.6739
+gradient is -8.1944
+amplifier0
+change is -1.6739
+all record is acquired and ready to change by -1.6739
+set rate: 33.4781 --> 31.8042
+monitor314ends in search state, this should not happen often
+total 1037loss contri624.25rtt contr0time 0.372296norm measurement1.00174
+rtt is 0.37165loss rate is 0.0530376avg loss rate is 0.031333
+latency info is -0.00742396
+Monitor 315 ended with utility 3.35989total 1037loss pkt55
+monitor315ends in search state, this should not happen often
+Monitor 317 starts
+Monitor 317is in search state
+Monitor 317is in recording state 0th trial with rate of33.3944
+set rate: 31.8042 --> 33.3944
+total 1033loss contri2rtt contr0time 0.390228norm measurement1.05313
+rtt is 0.370541loss rate is 0.00193611avg loss rate is 0.0254536
+latency info is -0.00489694
+Monitor 316 ended with utility 21.4804total 1033loss pkt2
+checking if all recording ready at monitor317
+Monitor 318 starts
+Monitor 318is in recording state 1th trial with rate of30.214
+set rate: 33.3944 --> 30.214
+Monitor 319 starts
+Monitor 319is in recording state 2th trial with rate of33.3944
+set rate: 30.214 --> 33.3944
+total 1034loss contri29rtt contr0time 0.372187norm measurement0.992196
+rtt is 0.375114loss rate is 0.0280464avg loss rate is 0.0259722
+latency info is 0.0153559
+Monitor 317 ended with utility 21.6044total 1034loss pkt29
+checking if all recording ready at monitor319
+found matching monitor317
+total 932loss contri0rtt contr-0time 0.370775norm measurement1.01154
+rtt is 0.366545loss rate is 0avg loss rate is 0.0207777
+latency info is -0.0527882
+Monitor 318 ended with utility 20.5588total 932loss pkt0
+checking if all recording ready at monitor319
+found matching monitor318
+Monitor 320 starts
+Monitor 320is in recording state 3th trial with rate of30.214
+set rate: 33.3944 --> 30.214
+Monitor 321 starts
+Monitor 321is in recording state, waiting result for recording to come back
+set rate: 30.214 --> 31.8042
+total 1031loss contri0rtt contr0time 0.371226norm measurement1.01611
+rtt is 0.36534loss rate is 0avg loss rate is 0.0166222
+latency info is 0.0464096
+Monitor 319 ended with utility 22.4896total 1031loss pkt0
+checking if all recording ready at monitor321
+found matching monitor319
+total 922loss contri0rtt contr-0time 0.366976norm measurement1.00777
+rtt is 0.364146loss rate is 0avg loss rate is 0.0132978
+latency info is -0.0534201
+Monitor 320 ended with utility 20.5498total 922loss pkt0
+checking if all recording ready at monitor321
+found matching monitor320
+total 1034loss contri7.65144rtt contr0time 0.372187norm measurement0.992196
+rtt is 0.375114loss rate is 0.00739985avg loss rate is 0.0121182
+latency info is 0.0153559
+total 932loss contri6.89666rtt contr-0time 0.370775norm measurement1.01154
+rtt is 0.366545loss rate is 0.00739985avg loss rate is 0.0111745
+latency info is -0.0527882
+total 1031loss contri7.62924rtt contr0time 0.371226norm measurement1.01611
+rtt is 0.36534loss rate is 0.00739985avg loss rate is 0.0104196
+latency info is 0.0464096
+total 922loss contri6.82266rtt contr-0time 0.366976norm measurement1.00777
+rtt is 0.364146loss rate is 0.00739985avg loss rate is 0.00981563
+latency info is -0.0534201
+change before force to boundary 0.602472
+change before force to min change is 0.602472
+gradient is 0.602472
+amplifier0
+change is 0.602472
+all record is acquired and ready to change by 0.602472
+set rate: 31.8042 --> 32.4067
+monitor320ends in search state, this should not happen often
+Monitor 322 starts
+Monitor 322is in search state
+Monitor 322is in recording state 0th trial with rate of30.7863
+set rate: 32.4067 --> 30.7863
+total 971loss contri0rtt contr0time 0.366812norm measurement1.03707
+rtt is 0.3537loss rate is 0avg loss rate is 0.0078525
+latency info is -0.00324786
+Monitor 321 ended with utility 21.5388total 971loss pkt0
+checking if all recording ready at monitor322
+Monitor 323 starts
+Monitor 323is in recording state 1th trial with rate of34.027
+set rate: 30.7863 --> 34.027
+total 934loss contri0rtt contr-0time 0.364678norm measurement1.05107
+rtt is 0.346958loss rate is 0avg loss rate is 0.006282
+latency info is -0.0351395
+Monitor 322 ended with utility 20.9082total 934loss pkt0
+checking if all recording ready at monitor323
+found matching monitor322
+Monitor 324 starts
+Monitor 324is in recording state 2th trial with rate of34.027
+set rate: 34.027 --> 34.027
+Monitor 325 starts
+Monitor 325is in recording state 3th trial with rate of30.7863
+set rate: 34.027 --> 30.7863
+total 1002loss contri0rtt contr0time 0.353948norm measurement1.0045
+rtt is 0.352362loss rate is 0avg loss rate is 0.0050256
+latency info is 0.0665833
+Monitor 323 ended with utility 22.8801total 1002loss pkt0
+checking if all recording ready at monitor325
+found matching monitor323
+Monitor 326 starts
+Monitor 326is in recording state, waiting result for recording to come back
+set rate: 30.7863 --> 32.4067
+total 983loss contri374.55rtt contr0time 0.347247norm measurement0.930783
+rtt is 0.37307loss rate is 0.0335707avg loss rate is 0.0107346
+latency info is 0.0354476
+Monitor 324 ended with utility 10.5356total 983loss pkt33
+checking if all recording ready at monitor326
+found matching monitor324
+Monitor 327 starts
+Monitor 327is in recording state, waiting result for recording to come back
+set rate: 32.4067 --> 32.4067
+total 890loss contri5rtt contr-0time 0.347493norm measurement0.944809
+rtt is 0.367792loss rate is 0.00561798avg loss rate is 0.00971129
+latency info is -0.0404198
+Monitor 325 ended with utility 20.7438total 890loss pkt5
+checking if all recording ready at monitor327
+found matching monitor325
+total 934loss contri9.31793rtt contr-0time 0.364678norm measurement1.05107
+rtt is 0.346958loss rate is 0.00997637avg loss rate is 0.00976431
+latency info is -0.0351395
+total 1002loss contri9.99632rtt contr0time 0.353948norm measurement1.0045
+rtt is 0.352362loss rate is 0.00997637avg loss rate is 0.00980672
+latency info is 0.0665833
+total 983loss contri9.80677rtt contr0time 0.347247norm measurement0.930783
+rtt is 0.37307loss rate is 0.00997637avg loss rate is 0.00984065
+latency info is 0.0354476
+total 890loss contri8.87897rtt contr-0time 0.347493norm measurement0.944809
+rtt is 0.367792loss rate is 0.00997637avg loss rate is 0.0098678
+latency info is -0.0404198
+change before force to boundary 0.598853
+change before force to min change is 0.598853
+gradient is 0.598853
+amplifier0
+change is 0.598853
+all record is acquired and ready to change by 0.598853
+set rate: 32.4067 --> 33.0055
+monitor325ends in search state, this should not happen often
+Monitor 328 starts
+Monitor 328is in search state
+Monitor 328is in recording state 0th trial with rate of34.6558
+set rate: 33.0055 --> 34.6558
+total 951loss contri0rtt contr0time 0.352507norm measurement0.968084
+rtt is 0.364128loss rate is 0avg loss rate is 0.00789424
+latency info is 0.0168748
+Monitor 326 ended with utility 21.9096total 951loss pkt0
+checking if all recording ready at monitor328
+Monitor 329 starts
+Monitor 329is in recording state 1th trial with rate of31.3552
+set rate: 34.6558 --> 31.3552
+total 1007loss contri27rtt contr0time 0.367001norm measurement0.993843
+rtt is 0.369275loss rate is 0.0268123avg loss rate is 0.0116779
+latency info is 0.00295021
+Monitor 327 ended with utility 21.4039total 1007loss pkt27
+checking if all recording ready at monitor329
+Monitor 330 starts
+Monitor 330is in recording state, waiting result for recording to come back
+set rate: 31.3552 --> 33.0055
+total 1062loss contri828.55rtt contr0time 0.368476norm measurement0.995003
+rtt is 0.370327loss rate is 0.0687382avg loss rate is 0.0230899
+latency info is 0.00877105
+Monitor 328 ended with utility -2.48067total 1062loss pkt73
+checking if all recording ready at monitor330
+found matching monitor328
+total 951loss contri0rtt contr0time 0.364424norm measurement0.982556
+rtt is 0.370894loss rate is 0avg loss rate is 0.0184719
+latency info is -0.0162143
+Monitor 329 ended with utility 21.2637total 951loss pkt0
+checking if all recording ready at monitor330
+found matching monitor329
+change before force to boundary -7.19407
+change before force to min change is -1.65028
+gradient is -7.19407
+amplifier0
+change is -1.65028
+all record is acquired and ready to change by -1.65028
+set rate: 33.0055 --> 31.3552
+monitor329ends in search state, this should not happen often
+Monitor 331 starts
+Monitor 331is in search state
+Monitor 331is in recording state 0th trial with rate of32.923
+set rate: 31.3552 --> 32.923
+Monitor 332 starts
+Monitor 332is in recording state 1th trial with rate of29.7875
+set rate: 32.923 --> 29.7875
+total 1015loss contri11rtt contr0time 0.369916norm measurement0.990523
+rtt is 0.373455loss rate is 0.0108374avg loss rate is 0.016945
+latency info is 0.0259503
+Monitor 330 ended with utility 21.9056total 1015loss pkt11
+checking if all recording ready at monitor332
+Monitor 333 starts
+Monitor 333is in recording state 2th trial with rate of32.923
+set rate: 29.7875 --> 32.923
+total 1017loss contri351.85rtt contr0time 0.371233norm measurement0.986352
+rtt is 0.37637loss rate is 0.0304818avg loss rate is 0.0196524
+latency info is -0.000183463
+Monitor 331 ended with utility 11.3676total 1017loss pkt31
+checking if all recording ready at monitor333
+found matching monitor331
+total 920loss contri0rtt contr-0time 0.37088norm measurement1.02744
+rtt is 0.360974loss rate is 0avg loss rate is 0.0157219
+latency info is -0.0659497
+Monitor 332 ended with utility 20.3153total 920loss pkt0
+checking if all recording ready at monitor333
+found matching monitor332
+Monitor 334 starts
+Monitor 334is in recording state 3th trial with rate of29.7875
+set rate: 32.923 --> 29.7875
+total 1024loss contri0rtt contr0time 0.373953norm measurement1.05435
+rtt is 0.354678loss rate is 0avg loss rate is 0.0125775
+latency info is 0.0317693
+Monitor 333 ended with utility 22.2054total 1024loss pkt0
+checking if all recording ready at monitor334
+found matching monitor333
+Monitor 335 starts
+Monitor 335is in recording state, waiting result for recording to come back
+set rate: 29.7875 --> 31.3552
+total 896loss contri0rtt contr-0time 0.36164norm measurement1.0378
+rtt is 0.348469loss rate is 0avg loss rate is 0.010062
+latency info is -0.0664044
+Monitor 334 ended with utility 20.2932total 896loss pkt0
+checking if all recording ready at monitor335
+found matching monitor334
+total 1017loss contri8.17397rtt contr0time 0.371233norm measurement0.986352
+rtt is 0.37637loss rate is 0.00803733avg loss rate is 0.00965709
+latency info is -0.000183463
+total 920loss contri7.39435rtt contr-0time 0.37088norm measurement1.02744
+rtt is 0.360974loss rate is 0.00803733avg loss rate is 0.00933314
+latency info is -0.0659497
+total 1024loss contri8.23023rtt contr0time 0.373953norm measurement1.05435
+rtt is 0.354678loss rate is 0.00803733avg loss rate is 0.00907398
+latency info is 0.0317693
+total 896loss contri7.20145rtt contr-0time 0.36164norm measurement1.0378
+rtt is 0.348469loss rate is 0.00803733avg loss rate is 0.00886665
+latency info is -0.0664044
+change before force to boundary 0.600097
+change before force to min change is 0.600097
+gradient is 0.600097
+amplifier0
+change is 0.600097
+all record is acquired and ready to change by 0.600097
+set rate: 31.3552 --> 31.9553
+monitor334ends in search state, this should not happen often
+Monitor 336 starts
+Monitor 336is in search state
+Monitor 336is in recording state 0th trial with rate of30.3576
+set rate: 31.9553 --> 30.3576
+total 926loss contri0rtt contr0time 0.354537norm measurement1.06304
+rtt is 0.333512loss rate is 0avg loss rate is 0.00709332
+latency info is -0.0165787
+Monitor 335 ended with utility 21.2803total 926loss pkt0
+checking if all recording ready at monitor336
+Monitor 337 starts
+Monitor 337is in recording state 1th trial with rate of33.5531
+set rate: 30.3576 --> 33.5531
+total 881loss contri0rtt contr-0time 0.348855norm measurement1.08215
+rtt is 0.322373loss rate is 0avg loss rate is 0.00567465
+latency info is -0.0486098
+Monitor 336 ended with utility 20.6453total 881loss pkt0
+checking if all recording ready at monitor337
+found matching monitor336
+Monitor 338 starts
+Monitor 338is in recording state 2th trial with rate of33.5531
+set rate: 33.5531 --> 33.5531
+Monitor 339 starts
+Monitor 339is in recording state 3th trial with rate of30.3576
+set rate: 33.5531 --> 30.3576
+total 932loss contri0rtt contr0time 0.333794norm measurement1.03421
+rtt is 0.322754loss rate is 0avg loss rate is 0.00453972
+latency info is 0.053558
+Monitor 337 ended with utility 22.5978total 932loss pkt0
+checking if all recording ready at monitor339
+found matching monitor337
+Monitor 340 starts
+Monitor 340is in recording state, waiting result for recording to come back
+set rate: 30.3576 --> 31.9553
+total 901loss contri0rtt contr0time 0.322755norm measurement0.948291
+rtt is 0.340354loss rate is 0avg loss rate is 0.00363178
+latency info is 0.0535314
+Monitor 338 ended with utility 22.5938total 901loss pkt0
+checking if all recording ready at monitor340
+found matching monitor338
+Monitor 341 starts
+Monitor 341is in recording state, waiting result for recording to come back
+set rate: 31.9553 --> 31.9553
+total 815loss contri0rtt contr-0time 0.322651norm measurement0.94489
+rtt is 0.341469loss rate is 0avg loss rate is 0.00290542
+latency info is -0.0465541
+Monitor 339 ended with utility 20.6493total 815loss pkt0
+checking if all recording ready at monitor341
+found matching monitor339
+total 881loss contri0rtt contr-0time 0.348855norm measurement1.08215
+rtt is 0.322373loss rate is 0avg loss rate is 0.00232434
+latency info is -0.0486098
+total 932loss contri0rtt contr0time 0.333794norm measurement1.03421
+rtt is 0.322754loss rate is 0avg loss rate is 0.00185947
+latency info is 0.053558
+total 901loss contri0rtt contr0time 0.322755norm measurement0.948291
+rtt is 0.340354loss rate is 0avg loss rate is 0.00148758
+latency info is 0.0535314
+total 815loss contri0rtt contr-0time 0.322651norm measurement0.94489
+rtt is 0.341469loss rate is 0avg loss rate is 0.00119006
+latency info is -0.0465541
+change before force to boundary 0.609769
+change before force to min change is 0.609769
+gradient is 0.609769
+amplifier0
+change is 0.609769
+all record is acquired and ready to change by 0.609769
+set rate: 31.9553 --> 32.5651
+monitor339ends in search state, this should not happen often
+Monitor 342 starts
+Monitor 342is in search state
+Monitor 342is in recording state 0th trial with rate of30.9368
+set rate: 32.5651 --> 30.9368
+total 859loss contri0rtt contr0time 0.323258norm measurement0.966355
+rtt is 0.334513loss rate is 0avg loss rate is 0.000952049
+latency info is 0.00290754
+Monitor 340 ended with utility 21.6134total 859loss pkt0
+checking if all recording ready at monitor342
+Monitor 343 starts
+Monitor 343is in recording state 1th trial with rate of34.1934
+set rate: 30.9368 --> 34.1934
+total 906loss contri0rtt contr0time 0.334492norm measurement0.987977
+rtt is 0.338563loss rate is 0avg loss rate is 0.000761639
+latency info is 0.0228955
+Monitor 341 ended with utility 21.9883total 906loss pkt0
+checking if all recording ready at monitor343
+total 880loss contri0rtt contr-0time 0.341919norm measurement1.01323
+rtt is 0.337456loss rate is 0avg loss rate is 0.000609311
+latency info is -0.0287072
+Monitor 342 ended with utility 21.0004total 880loss pkt0
+checking if all recording ready at monitor343
+found matching monitor342
+Monitor 344 starts
+Monitor 344is in recording state, waiting result for recording to come back
+set rate: 34.1934 --> 32.5651
+Monitor 345 starts
+Monitor 345is in recording state, waiting result for recording to come back
+set rate: 32.5651 --> 32.5651
+total 953loss contri0rtt contr0time 0.334955norm measurement0.970954
+rtt is 0.344975loss rate is 0avg loss rate is 0.000487449
+latency info is 0.0733803
+Monitor 343 ended with utility 22.9836total 953loss pkt0
+checking if all recording ready at monitor345
+found matching monitor343
+total 880loss contri0rtt contr-0time 0.341919norm measurement1.01323
+rtt is 0.337456loss rate is 0avg loss rate is 0.000389959
+latency info is -0.0287072
+total 953loss contri0rtt contr0time 0.334955norm measurement0.970954
+rtt is 0.344975loss rate is 0avg loss rate is 0.000311967
+latency info is 0.0733803
+change before force to boundary 0.609024
+change before force to min change is 0.609024
+gradient is 0.609024
+amplifier0
+change is 0.609024
+all record is acquired and ready to change by 0.609024
+set rate: 32.5651 --> 33.1741
+monitor343ends in search state, this should not happen often
+Monitor 346 starts
+Monitor 346is in search state
+Monitor 346is in recording state 0th trial with rate of34.8328
+set rate: 33.1741 --> 34.8328
+total 915loss contri6rtt contr0time 0.33831norm measurement0.939066
+rtt is 0.360262loss rate is 0.00655738avg loss rate is 0.00156105
+latency info is 0.016035
+Monitor 344 ended with utility 21.7564total 915loss pkt6
+checking if all recording ready at monitor346
+Monitor 347 starts
+Monitor 347is in recording state 1th trial with rate of31.5154
+set rate: 34.8328 --> 31.5154
+total 915loss contri24rtt contr0time 0.33196norm measurement0.91313
+rtt is 0.363541loss rate is 0.0262295avg loss rate is 0.00649474
+latency info is 0.00899655
+Monitor 345 ended with utility 21.5096total 915loss pkt24
+checking if all recording ready at monitor347
+Monitor 348 starts
+Monitor 348is in recording state, waiting result for recording to come back
+set rate: 31.5154 --> 33.1741
+total 1001loss contri646.95rtt contr0time 0.345449norm measurement0.928968
+rtt is 0.371863loss rate is 0.0569431avg loss rate is 0.0165844
+latency info is 0.0317849
+Monitor 346 ended with utility 1.93287total 1001loss pkt57
+checking if all recording ready at monitor348
+found matching monitor346
+Monitor 349 starts
+Monitor 349is in recording state, waiting result for recording to come back
+set rate: 33.1741 --> 33.1741
+total 946loss contri11rtt contr-0time 0.360716norm measurement0.9684
+rtt is 0.372486loss rate is 0.0116279avg loss rate is 0.0155931
+latency info is -0.022889
+Monitor 347 ended with utility 21.0098total 946loss pkt11
+checking if all recording ready at monitor349
+found matching monitor347
+change before force to boundary -5.75054
+change before force to min change is -1.65871
+gradient is -5.75054
+amplifier0
+change is -1.65871
+all record is acquired and ready to change by -1.65871
+set rate: 33.1741 --> 31.5154
+monitor347ends in search state, this should not happen often
+total 1005loss contri454rtt contr0time 0.36442norm measurement0.991743
+rtt is 0.367454loss rate is 0.039801avg loss rate is 0.0204347
+latency info is -0.00762997
+Monitor 348 ended with utility 8.09036total 1005loss pkt40
+monitor348ends in search state, this should not happen often
+Monitor 350 starts
+Monitor 350is in search state
+Monitor 350is in recording state 0th trial with rate of29.9396
+set rate: 31.5154 --> 29.9396
+total 1028loss contri0rtt contr0time 0.391735norm measurement1.07142
+rtt is 0.365623loss rate is 0avg loss rate is 0.0163477
+latency info is -0.0120229
+Monitor 349 ended with utility 21.371total 1028loss pkt0
+checking if all recording ready at monitor350
+Monitor 351 starts
+Monitor 351is in recording state 1th trial with rate of33.0912
+set rate: 29.9396 --> 33.0912
+total 916loss contri0rtt contr-0time 0.367606norm measurement1.04432
+rtt is 0.352005loss rate is 0avg loss rate is 0.0130782
+latency info is -0.061221
+Monitor 350 ended with utility 20.3979total 916loss pkt0
+checking if all recording ready at monitor351
+found matching monitor350
+Monitor 352 starts
+Monitor 352is in recording state 2th trial with rate of33.0912
+set rate: 33.0912 --> 33.0912
+Monitor 353 starts
+Monitor 353is in recording state 3th trial with rate of29.9396
+set rate: 33.0912 --> 29.9396
+total 1008loss contri0rtt contr0time 0.366441norm measurement1.05464
+rtt is 0.347457loss rate is 0avg loss rate is 0.0104626
+latency info is 0.0364284
+Monitor 351 ended with utility 22.2964total 1008loss pkt0
+checking if all recording ready at monitor353
+found matching monitor351
+Monitor 354 starts
+Monitor 354is in recording state, waiting result for recording to come back
+set rate: 29.9396 --> 31.5154
+total 970loss contri0rtt contr0time 0.352526norm measurement0.977599
+rtt is 0.360604loss rate is 0avg loss rate is 0.00837005
+latency info is 0.0369658
+Monitor 352 ended with utility 22.3021total 970loss pkt0
+checking if all recording ready at monitor354
+found matching monitor352
+total 878loss contri0rtt contr-0time 0.352576norm measurement0.989975
+rtt is 0.356146loss rate is 0avg loss rate is 0.00669604
+latency info is -0.0619374
+Monitor 353 ended with utility 20.3864total 878loss pkt0
+checking if all recording ready at monitor354
+found matching monitor353
+total 916loss contri0rtt contr-0time 0.367606norm measurement1.04432
+rtt is 0.352005loss rate is 0avg loss rate is 0.00535683
+latency info is -0.061221
+total 1008loss contri0rtt contr0time 0.366441norm measurement1.05464
+rtt is 0.347457loss rate is 0avg loss rate is 0.00428546
+latency info is 0.0364284
+total 970loss contri0rtt contr0time 0.352526norm measurement0.977599
+rtt is 0.360604loss rate is 0avg loss rate is 0.00342837
+latency info is 0.0369658
+total 878loss contri0rtt contr-0time 0.352576norm measurement0.989975
+rtt is 0.356146loss rate is 0avg loss rate is 0.0027427
+latency info is -0.0619374
+change before force to boundary 0.605129
+change before force to min change is 0.605129
+gradient is 0.605129
+amplifier0
+change is 0.605129
+all record is acquired and ready to change by 0.605129
+set rate: 31.5154 --> 32.1205
+monitor353ends in search state, this should not happen often
+Monitor 355 starts
+Monitor 355is in search state
+Monitor 355is in recording state 0th trial with rate of33.7266
+set rate: 32.1205 --> 33.7266
+total 912loss contri0rtt contr0time 0.347734norm measurement1.01333
+rtt is 0.34316loss rate is 0avg loss rate is 0.00219416
+latency info is -0.0117074
+Monitor 354 ended with utility 21.3597total 912loss pkt0
+checking if all recording ready at monitor355
+Monitor 356 starts
+Monitor 356is in recording state 1th trial with rate of30.5145
+set rate: 33.7266 --> 30.5145
+Monitor 357 starts
+Monitor 357is in recording state 2th trial with rate of30.5145
+set rate: 30.5145 --> 30.5145
+total 1000loss contri0rtt contr0time 0.356545norm measurement1.01386
+rtt is 0.351671loss rate is 0avg loss rate is 0.00175533
+latency info is 0.0584688
+Monitor 355 ended with utility 22.6893total 1000loss pkt0
+checking if all recording ready at monitor357
+found matching monitor355
+Monitor 358 starts
+Monitor 358is in recording state 3th trial with rate of33.7266
+set rate: 30.5145 --> 33.7266
+total 872loss contri0rtt contr-0time 0.343501norm measurement0.967974
+rtt is 0.354866loss rate is 0avg loss rate is 0.00140426
+latency info is -0.0417735
+Monitor 356 ended with utility 20.7421total 872loss pkt0
+checking if all recording ready at monitor358
+found matching monitor356
+total 872loss contri0rtt contr-0time 0.343288norm measurement1.00789
+rtt is 0.340599loss rate is 0avg loss rate is 0.00112341
+latency info is -0.0413495
+Monitor 357 ended with utility 20.7537total 872loss pkt0
+checking if all recording ready at monitor358
+found matching monitor357
+Monitor 359 starts
+Monitor 359is in recording state, waiting result for recording to come back
+set rate: 33.7266 --> 32.1205
+Monitor 360 starts
+Monitor 360is in recording state, waiting result for recording to come back
+set rate: 32.1205 --> 32.1205
+total 988loss contri0rtt contr0time 0.352005norm measurement1.02341
+rtt is 0.343952loss rate is 0avg loss rate is 0.000898727
+latency info is 0.0592709
+Monitor 358 ended with utility 22.7044total 988loss pkt0
+checking if all recording ready at monitor360
+found matching monitor358
+total 1000loss contri0rtt contr0time 0.356545norm measurement1.01386
+rtt is 0.351671loss rate is 0avg loss rate is 0.000718981
+latency info is 0.0584688
+total 872loss contri0rtt contr-0time 0.343501norm measurement0.967974
+rtt is 0.354866loss rate is 0avg loss rate is 0.000575185
+latency info is -0.0417735
+total 872loss contri0rtt contr-0time 0.343288norm measurement1.00789
+rtt is 0.340599loss rate is 0avg loss rate is 0.000460148
+latency info is -0.0413495
+total 988loss contri0rtt contr0time 0.352005norm measurement1.02341
+rtt is 0.343952loss rate is 0avg loss rate is 0.000368119
+latency info is 0.0592709
+change before force to boundary 0.60676
+change before force to min change is 0.60676
+gradient is 0.60676
+amplifier0
+change is 0.60676
+all record is acquired and ready to change by 0.60676
+set rate: 32.1205 --> 32.7273
+monitor358ends in search state, this should not happen often
+Monitor 361 starts
+Monitor 361is in search state
+Monitor 361is in recording state 0th trial with rate of34.3637
+set rate: 32.7273 --> 34.3637
+total 911loss contri0rtt contr0time 0.341006norm measurement0.958444
+rtt is 0.355791loss rate is 0avg loss rate is 0.000294495
+latency info is 0.00844712
+Monitor 359 ended with utility 21.7172total 911loss pkt0
+checking if all recording ready at monitor361
+Monitor 362 starts
+Monitor 362is in recording state 1th trial with rate of31.0909
+set rate: 34.3637 --> 31.0909
+total 911loss contri8rtt contr0time 0.335002norm measurement0.928089
+rtt is 0.360959loss rate is 0.00878156avg loss rate is 0.00199191
+latency info is 0.0206865
+Monitor 360 ended with utility 21.7939total 911loss pkt8
+checking if all recording ready at monitor362
+Monitor 363 starts
+Monitor 363is in recording state, waiting result for recording to come back
+set rate: 31.0909 --> 32.7273
+total 984loss contri658.3rtt contr0time 0.344185norm measurement0.94313
+rtt is 0.364939loss rate is 0.0589431avg loss rate is 0.0133821
+latency info is 0.0114634
+Monitor 361 ended with utility 1.19537total 984loss pkt58
+checking if all recording ready at monitor363
+found matching monitor361
+total 921loss contri0rtt contr-0time 0.355897norm measurement0.979208
+rtt is 0.363454loss rate is 0avg loss rate is 0.0107057
+latency info is -0.0251623
+Monitor 362 ended with utility 21.104total 921loss pkt0
+checking if all recording ready at monitor363
+found matching monitor362
+change before force to boundary -6.08319
+change before force to min change is -1.63637
+gradient is -6.08319
+amplifier0
+change is -1.63637
+all record is acquired and ready to change by -1.63637
+set rate: 32.7273 --> 31.0909
+monitor362ends in search state, this should not happen often
+Monitor 364 starts
+Monitor 364is in search state
+Monitor 364is in recording state 0th trial with rate of32.6455
+set rate: 31.0909 --> 32.6455
+total 984loss contri14rtt contr0time 0.361525norm measurement0.9957
+rtt is 0.363086loss rate is 0.0142276avg loss rate is 0.0114101
+latency info is 0.0158297
+Monitor 363 ended with utility 21.6417total 984loss pkt14
+checking if all recording ready at monitor364
+Monitor 365 starts
+Monitor 365is in recording state 1th trial with rate of29.5364
+set rate: 32.6455 --> 29.5364
+Monitor 366 starts
+Monitor 366is in recording state 2th trial with rate of32.6455
+set rate: 29.5364 --> 32.6455
+total 988loss contri19rtt contr0time 0.363808norm measurement1.00068
+rtt is 0.363559loss rate is 0.0192308avg loss rate is 0.0129742
+latency info is 0.00199969
+Monitor 364 ended with utility 21.4427total 988loss pkt19
+checking if all recording ready at monitor366
+found matching monitor364
+total 893loss contri0rtt contr-0time 0.363354norm measurement1.03279
+rtt is 0.351818loss rate is 0avg loss rate is 0.0103794
+latency info is -0.0737411
+Monitor 365 ended with utility 20.1462total 893loss pkt0
+checking if all recording ready at monitor366
+found matching monitor365
+Monitor 367 starts
+Monitor 367is in recording state 3th trial with rate of29.5364
+set rate: 32.6455 --> 29.5364
+total 987loss contri0rtt contr0time 0.363816norm measurement1.06149
+rtt is 0.34274loss rate is 0avg loss rate is 0.00830351
+latency info is 0.0232566
+Monitor 366 ended with utility 22.0199total 987loss pkt0
+checking if all recording ready at monitor367
+found matching monitor366
+Monitor 368 starts
+Monitor 368is in recording state, waiting result for recording to come back
+set rate: 29.5364 --> 31.0909
+total 865loss contri0rtt contr-0time 0.352062norm measurement1.05339
+rtt is 0.334217loss rate is 0avg loss rate is 0.00664281
+latency info is -0.0725219
+Monitor 367 ended with utility 20.141total 865loss pkt0
+checking if all recording ready at monitor368
+found matching monitor367
+total 988loss contri5.02866rtt contr0time 0.363808norm measurement1.00068
+rtt is 0.363559loss rate is 0.00508974avg loss rate is 0.00633219
+latency info is 0.00199969
+total 893loss contri4.54514rtt contr-0time 0.363354norm measurement1.03279
+rtt is 0.351818loss rate is 0.00508974avg loss rate is 0.0060837
+latency info is -0.0737411
+total 987loss contri5.02357rtt contr0time 0.363816norm measurement1.06149
+rtt is 0.34274loss rate is 0.00508974avg loss rate is 0.00588491
+latency info is 0.0232566
+total 865loss contri4.40263rtt contr-0time 0.352062norm measurement1.05339
+rtt is 0.334217loss rate is 0.00508974avg loss rate is 0.00572588
+latency info is -0.0725219
+change before force to boundary 0.601975
+change before force to min change is 0.601975
+gradient is 0.601975
+amplifier0
+change is 0.601975
+all record is acquired and ready to change by 0.601975
+set rate: 31.0909 --> 31.6929
+monitor367ends in search state, this should not happen often
+Monitor 369 starts
+Monitor 369is in search state
+Monitor 369is in recording state 0th trial with rate of33.2776
+set rate: 31.6929 --> 33.2776
+total 888loss contri0rtt contr-0time 0.342836norm measurement1.07988
+rtt is 0.317477loss rate is 0avg loss rate is 0.0045807
+latency info is -0.0233496
+Monitor 368 ended with utility 21.1211total 888loss pkt0
+checking if all recording ready at monitor369
+Monitor 370 starts
+Monitor 370is in recording state 1th trial with rate of30.1083
+set rate: 33.2776 --> 30.1083
+Monitor 371 starts
+Monitor 371is in recording state 2th trial with rate of30.1083
+set rate: 30.1083 --> 30.1083
+total 926loss contri0rtt contr0time 0.334474norm measurement1.04097
+rtt is 0.32131loss rate is 0avg loss rate is 0.00366456
+latency info is 0.0448372
+Monitor 369 ended with utility 22.4257total 926loss pkt0
+checking if all recording ready at monitor371
+found matching monitor369
+total 796loss contri0rtt contr-0time 0.317753norm measurement0.992387
+rtt is 0.320191loss rate is 0avg loss rate is 0.00293165
+latency info is -0.0544896
+Monitor 370 ended with utility 20.4958total 796loss pkt0
+checking if all recording ready at monitor371
+found matching monitor370
+Monitor 372 starts
+Monitor 372is in recording state 3th trial with rate of33.2776
+set rate: 30.1083 --> 33.2776
+total 796loss contri0rtt contr-0time 0.317729norm measurement1.04904
+rtt is 0.302876loss rate is 0avg loss rate is 0.00234532
+latency info is -0.0542573
+Monitor 371 ended with utility 20.4972total 796loss pkt0
+checking if all recording ready at monitor372
+found matching monitor371
+Monitor 373 starts
+Monitor 373is in recording state, waiting result for recording to come back
+set rate: 33.2776 --> 31.6929
+Monitor 374 starts
+Monitor 374is in recording state, waiting result for recording to come back
+set rate: 31.6929 --> 31.6929
+total 887loss contri0rtt contr0time 0.320546norm measurement1.0636
+rtt is 0.301379loss rate is 0avg loss rate is 0.00187626
+latency info is 0.0441536
+Monitor 372 ended with utility 22.4157total 887loss pkt0
+checking if all recording ready at monitor374
+found matching monitor372
+total 926loss contri0rtt contr0time 0.334474norm measurement1.04097
+rtt is 0.32131loss rate is 0avg loss rate is 0.001501
+latency info is 0.0448372
+total 796loss contri0rtt contr-0time 0.317753norm measurement0.992387
+rtt is 0.320191loss rate is 0avg loss rate is 0.0012008
+latency info is -0.0544896
+total 796loss contri0rtt contr-0time 0.317729norm measurement1.04904
+rtt is 0.302876loss rate is 0avg loss rate is 0.000960643
+latency info is -0.0542573
+total 887loss contri0rtt contr0time 0.320546norm measurement1.0636
+rtt is 0.301379loss rate is 0avg loss rate is 0.000768514
+latency info is 0.0441536
+change before force to boundary 0.607163
+change before force to min change is 0.607163
+gradient is 0.607163
+amplifier0
+change is 0.607163
+all record is acquired and ready to change by 0.607163
+set rate: 31.6929 --> 32.3001
+monitor372ends in search state, this should not happen often
+Monitor 375 starts
+Monitor 375is in search state
+Monitor 375is in recording state 0th trial with rate of33.9151
+set rate: 32.3001 --> 33.9151
+total 799loss contri0rtt contr0time 0.302959norm measurement0.984391
+rtt is 0.307763loss rate is 0avg loss rate is 0.000614811
+latency info is -0.00460467
+Monitor 373 ended with utility 21.4669total 799loss pkt0
+checking if all recording ready at monitor375
+Monitor 376 starts
+Monitor 376is in recording state 1th trial with rate of30.6851
+set rate: 33.9151 --> 30.6851
+total 799loss contri0rtt contr0time 0.297496norm measurement0.962488
+rtt is 0.309091loss rate is 0avg loss rate is 0.000491849
+latency info is 0.0140357
+Monitor 374 ended with utility 21.8214total 799loss pkt0
+checking if all recording ready at monitor376
+Monitor 377 starts
+Monitor 377is in recording state, waiting result for recording to come back
+set rate: 30.6851 --> 32.3001
+total 851loss contri0rtt contr0time 0.301658norm measurement0.940096
+rtt is 0.32088loss rate is 0avg loss rate is 0.000393479
+latency info is 0.0641739
+Monitor 375 ended with utility 22.8085total 851loss pkt0
+checking if all recording ready at monitor377
+found matching monitor375
+Monitor 378 starts
+Monitor 378is in recording state, waiting result for recording to come back
+set rate: 32.3001 --> 32.3001
+total 786loss contri0rtt contr-0time 0.307951norm measurement0.947706
+rtt is 0.324944loss rate is 0avg loss rate is 0.000314783
+latency info is -0.0366553
+Monitor 376 ended with utility 20.8435total 786loss pkt0
+checking if all recording ready at monitor378
+found matching monitor376
+total 851loss contri0rtt contr0time 0.301658norm measurement0.940096
+rtt is 0.32088loss rate is 0avg loss rate is 0.000251827
+latency info is 0.0641739
+total 786loss contri0rtt contr-0time 0.307951norm measurement0.947706
+rtt is 0.324944loss rate is 0avg loss rate is 0.000201461
+latency info is -0.0366553
+change before force to boundary 0.608362
+change before force to min change is 0.608362
+gradient is 0.608362
+amplifier0
+change is 0.608362
+all record is acquired and ready to change by 0.608362
+set rate: 32.3001 --> 32.9084
+monitor376ends in search state, this should not happen often
+Monitor 379 starts
+Monitor 379is in search state
+Monitor 379is in recording state 0th trial with rate of31.263
+set rate: 32.9084 --> 31.263
+total 831loss contri0rtt contr0time 0.309294norm measurement0.962009
+rtt is 0.321509loss rate is 0avg loss rate is 0.000161169
+latency info is 0.0137284
+Monitor 377 ended with utility 21.8288total 831loss pkt0
+checking if all recording ready at monitor379
+Monitor 380 starts
+Monitor 380is in recording state 1th trial with rate of34.5539
+set rate: 31.263 --> 34.5539
+total 863loss contri0rtt contr0time 0.315471norm measurement0.960018
+rtt is 0.328609loss rate is 0avg loss rate is 0.000128935
+latency info is 0.032808
+Monitor 378 ended with utility 22.1855total 863loss pkt0
+checking if all recording ready at monitor380
+Monitor 381 starts
+Monitor 381is in recording state, waiting result for recording to come back
+set rate: 34.5539 --> 32.9084
+total 846loss contri0rtt contr0time 0.325067norm measurement0.982153
+rtt is 0.330974loss rate is 0avg loss rate is 0.000103148
+latency info is -0.0178161
+Monitor 379 ended with utility 21.212total 846loss pkt0
+checking if all recording ready at monitor381
+found matching monitor379
+Monitor 382 starts
+Monitor 382is in recording state, waiting result for recording to come back
+set rate: 32.9084 --> 32.9084
+total 925loss contri0rtt contr0time 0.321694norm measurement0.94136
+rtt is 0.341733loss rate is 0avg loss rate is 8.25186e-05
+latency info is 0.0850505
+Monitor 380 ended with utility 23.2034total 925loss pkt0
+checking if all recording ready at monitor382
+found matching monitor380
+total 846loss contri0rtt contr0time 0.325067norm measurement0.982153
+rtt is 0.330974loss rate is 0avg loss rate is 6.60149e-05
+latency info is -0.0178161
+total 925loss contri0rtt contr0time 0.321694norm measurement0.94136
+rtt is 0.341733loss rate is 0avg loss rate is 5.28119e-05
+latency info is 0.0850505
+change before force to boundary 0.605151
+change before force to min change is 0.605151
+gradient is 0.605151
+amplifier1
+change is 0.605151
+all record is acquired and ready to change by 0.605151
+set rate: 32.9084 --> 33.5136
+monitor380ends in search state, this should not happen often
+Monitor 383 starts
+Monitor 383is in search state
+Monitor 383is in recording state 0th trial with rate of31.8379
+set rate: 33.5136 --> 31.8379
+total 901loss contri9rtt contr0time 0.329511norm measurement0.915183
+rtt is 0.360049loss rate is 0.0099889avg loss rate is 0.00204003
+latency info is 0.0241002
+Monitor 381 ended with utility 21.8639total 901loss pkt9
+checking if all recording ready at monitor383
+Monitor 384 starts
+Monitor 384is in recording state 1th trial with rate of35.1893
+set rate: 31.8379 --> 35.1893
+total 907loss contri363.2rtt contr0time 0.325925norm measurement0.895602
+rtt is 0.363917loss rate is 0.0352811avg loss rate is 0.00868825
+latency info is 0.00877192
+Monitor 382 ended with utility 9.77722total 907loss pkt32
+checking if all recording ready at monitor384
+Monitor 385 starts
+Monitor 385is in recording state, waiting result for recording to come back
+set rate: 35.1893 --> 33.5136
+total 906loss contri0rtt contr0time 0.341918norm measurement0.933478
+rtt is 0.366284loss rate is 0avg loss rate is 0.0069506
+latency info is -0.00140405
+Monitor 383 ended with utility 21.558total 906loss pkt0
+checking if all recording ready at monitor385
+found matching monitor383
+Monitor 386 starts
+Monitor 386is in recording state, waiting result for recording to come back
+set rate: 33.5136 --> 33.5136
+total 1055loss contri998.8rtt contr0time 0.36034norm measurement0.970855
+rtt is 0.371157loss rate is 0.0834123avg loss rate is 0.0222429
+latency info is -0.000558996
+Monitor 384 ended with utility -8.13749total 1055loss pkt88
+checking if all recording ready at monitor386
+found matching monitor384
+change before force to boundary -8.86074
+change before force to min change is -1.67568
+gradient is -8.86074
+amplifier0
+change is -1.67568
+all record is acquired and ready to change by -1.67568
+set rate: 33.5136 --> 31.8379
+monitor384ends in search state, this should not happen often
+total 1016loss contri465.35rtt contr0time 0.364321norm measurement0.981091
+rtt is 0.371343loss rate is 0.0403543avg loss rate is 0.0258652
+latency info is 0.0128389
+Monitor 385 ended with utility 7.9555total 1016loss pkt41
+monitor385ends in search state, this should not happen often
+Monitor 387 starts
+Monitor 387is in search state
+Monitor 387is in recording state 0th trial with rate of30.246
+set rate: 31.8379 --> 30.246
+Monitor 388 starts
+Monitor 388is in recording state 1th trial with rate of33.4298
+set rate: 30.246 --> 33.4298
+total 1022loss contri0rtt contr0time 0.385608norm measurement1.03262
+rtt is 0.373428loss rate is 0avg loss rate is 0.0206922
+latency info is -0.00250976
+Monitor 386 ended with utility 21.5624total 1022loss pkt0
+checking if all recording ready at monitor388
+total 935loss contri0rtt contr-0time 0.371404norm measurement1.0222
+rtt is 0.363339loss rate is 0avg loss rate is 0.0165537
+latency info is -0.0514344
+Monitor 387 ended with utility 20.5869total 935loss pkt0
+checking if all recording ready at monitor388
+found matching monitor387
+Monitor 389 starts
+Monitor 389is in recording state 2th trial with rate of30.246
+set rate: 33.4298 --> 30.246
+Monitor 390 starts
+Monitor 390is in recording state 3th trial with rate of33.4298
+set rate: 30.246 --> 33.4298
+total 1034loss contri0rtt contr0time 0.371787norm measurement1.02499
+rtt is 0.362723loss rate is 0avg loss rate is 0.013243
+latency info is 0.0477003
+Monitor 388 ended with utility 22.5178total 1034loss pkt0
+checking if all recording ready at monitor390
+found matching monitor388
+total 915loss contri0rtt contr-0time 0.36358norm measurement1.00404
+rtt is 0.362117loss rate is 0avg loss rate is 0.0105944
+latency info is -0.0518659
+Monitor 389 ended with utility 20.5808total 915loss pkt0
+checking if all recording ready at monitor390
+found matching monitor389
+Monitor 391 starts
+Monitor 391is in recording state, waiting result for recording to come back
+set rate: 33.4298 --> 31.8379
+Monitor 392 starts
+Monitor 392is in recording state, waiting result for recording to come back
+set rate: 31.8379 --> 31.8379
+total 1012loss contri0rtt contr0time 0.363861norm measurement1.00673
+rtt is 0.36143loss rate is 0avg loss rate is 0.00847552
+latency info is 0.047735
+Monitor 390 ended with utility 22.5187total 1012loss pkt0
+checking if all recording ready at monitor392
+found matching monitor390
+total 935loss contri0rtt contr-0time 0.371404norm measurement1.0222
+rtt is 0.363339loss rate is 0avg loss rate is 0.00678041
+latency info is -0.0514344
+total 1034loss contri0rtt contr0time 0.371787norm measurement1.02499
+rtt is 0.362723loss rate is 0avg loss rate is 0.00542433
+latency info is 0.0477003
+total 915loss contri0rtt contr-0time 0.36358norm measurement1.00404
+rtt is 0.362117loss rate is 0avg loss rate is 0.00433946
+latency info is -0.0518659
+total 1012loss contri0rtt contr0time 0.363861norm measurement1.00673
+rtt is 0.36143loss rate is 0avg loss rate is 0.00347157
+latency info is 0.047735
+change before force to boundary 0.607583
+change before force to min change is 0.607583
+gradient is 0.607583
+amplifier0
+change is 0.607583
+all record is acquired and ready to change by 0.607583
+set rate: 31.8379 --> 32.4455
+monitor390ends in search state, this should not happen often
+Monitor 393 starts
+Monitor 393is in search state
+Monitor 393is in recording state 0th trial with rate of34.0678
+set rate: 32.4455 --> 34.0678
+total 960loss contri0rtt contr0time 0.362597norm measurement0.980762
+rtt is 0.369709loss rate is 0avg loss rate is 0.00277726
+latency info is -0.0022398
+Monitor 391 ended with utility 21.542total 960loss pkt0
+checking if all recording ready at monitor393
+Monitor 394 starts
+Monitor 394is in recording state 1th trial with rate of30.8232
+set rate: 34.0678 --> 30.8232
+total 960loss contri329.15rtt contr0time 0.355715norm measurement0.967146
+rtt is 0.367799loss rate is 0.0302083avg loss rate is 0.00826347
+latency info is -0.0184404
+Monitor 392 ended with utility 11.3273total 960loss pkt29
+checking if all recording ready at monitor394
+Monitor 395 starts
+Monitor 395is in recording state 2th trial with rate of30.8232
+set rate: 30.8232 --> 30.8232
+total 1026loss contri442.65rtt contr0time 0.362026norm measurement0.97995
+rtt is 0.369433loss rate is 0.0380117avg loss rate is 0.0142131
+latency info is 0.0254624
+Monitor 393 ended with utility 8.91016total 1026loss pkt39
+checking if all recording ready at monitor395
+found matching monitor393
+total 949loss contri0rtt contr-0time 0.369897norm measurement1.00328
+rtt is 0.368689loss rate is 0avg loss rate is 0.0113705
+latency info is -0.0323719
+Monitor 394 ended with utility 20.9406total 949loss pkt0
+checking if all recording ready at monitor395
+found matching monitor394
+Monitor 396 starts
+Monitor 396is in recording state 3th trial with rate of34.0678
+set rate: 30.8232 --> 34.0678
+total 944loss contri0rtt contr-0time 0.368051norm measurement1.03165
+rtt is 0.356761loss rate is 0avg loss rate is 0.00909639
+latency info is -0.0322608
+Monitor 395 ended with utility 20.9354total 944loss pkt0
+checking if all recording ready at monitor396
+found matching monitor395
+Monitor 397 starts
+Monitor 397is in recording state, waiting result for recording to come back
+set rate: 34.0678 --> 32.4455
+Monitor 398 starts
+Monitor 398is in recording state, waiting result for recording to come back
+set rate: 32.4455 --> 32.4455
+total 1046loss contri31rtt contr0time 0.369206norm measurement1.02419
+rtt is 0.360486loss rate is 0.0296367avg loss rate is 0.0132045
+latency info is 0.0372572
+Monitor 396 ended with utility 21.9351total 1046loss pkt31
+checking if all recording ready at monitor398
+found matching monitor396
+monitor396ends in search state, this should not happen often
+Monitor 399 starts
+Monitor 399is in search state
+Monitor 399is in recording state 0th trial with rate of30.8232
+set rate: 32.4455 --> 30.8232
+total 964loss contri10rtt contr0time 0.357057norm measurement0.978105
+rtt is 0.36505loss rate is 0.0103734avg loss rate is 0.0126383
+latency info is 0.00795577
+Monitor 397 ended with utility 21.6039total 964loss pkt10
+checking if all recording ready at monitor399
+Monitor 400 starts
+Monitor 400is in recording state 1th trial with rate of34.0678
+set rate: 30.8232 --> 34.0678
+total 964loss contri7rtt contr0time 0.357041norm measurement0.964413
+rtt is 0.370216loss rate is 0.00726141avg loss rate is 0.0115629
+latency info is 0.0147308
+Monitor 398 ended with utility 21.701total 964loss pkt7
+checking if all recording ready at monitor400
+total 925loss contri1rtt contr-0time 0.360587norm measurement0.988519
+rtt is 0.364775loss rate is 0.00108108avg loss rate is 0.00946653
+latency info is -0.0323754
+Monitor 399 ended with utility 20.9066total 925loss pkt1
+checking if all recording ready at monitor400
+found matching monitor399
+Monitor 401 starts
+Monitor 401is in recording state, waiting result for recording to come back
+set rate: 34.0678 --> 32.4455
+Monitor 402 starts
+Monitor 402is in recording state, waiting result for recording to come back
+set rate: 32.4455 --> 32.4455
+total 1036loss contri19rtt contr0time 0.36601norm measurement0.973247
+rtt is 0.376071loss rate is 0.0183398avg loss rate is 0.0112412
+latency info is 0.0515267
+Monitor 400 ended with utility 22.2831total 1036loss pkt19
+checking if all recording ready at monitor402
+found matching monitor400
+change before force to boundary 0.424272
+change before force to min change is 0.424272
+gradient is 0.424272
+amplifier0
+change is 0.5
+all record is acquired and ready to change by 0.5
+set rate: 32.4455 --> 32.9455
+monitor400ends in search state, this should not happen often
+Monitor 403 starts
+Monitor 403is in search state
+Monitor 403is in recording state 0th trial with rate of31.2982
+set rate: 32.9455 --> 31.2982
+total 986loss contri340.5rtt contr0time 0.365124norm measurement0.979625
+rtt is 0.372718loss rate is 0.030426avg loss rate is 0.0150781
+latency info is -0.015986
+Monitor 401 ended with utility 11.2566total 986loss pkt30
+checking if all recording ready at monitor403
+total 986loss contri20rtt contr0time 0.36001norm measurement0.961482
+rtt is 0.374432loss rate is 0.020284avg loss rate is 0.0161193
+latency info is 0.0142987
+Monitor 402 ended with utility 21.5733total 986loss pkt20
+checking if all recording ready at monitor403
+Monitor 404 starts
+Monitor 404is in recording state 1th trial with rate of34.5928
+set rate: 31.2982 --> 34.5928
+total 980loss contri8rtt contr-0time 0.376356norm measurement1.01728
+rtt is 0.369964loss rate is 0.00816327avg loss rate is 0.0145281
+latency info is -0.0272811
+Monitor 403 ended with utility 20.9788total 980loss pkt8
+checking if all recording ready at monitor404
+found matching monitor403
+Monitor 405 starts
+Monitor 405is in recording state, waiting result for recording to come back
+set rate: 34.5928 --> 32.9455
+Monitor 406 starts
+Monitor 406is in recording state, waiting result for recording to come back
+set rate: 32.9455 --> 32.9455
+total 1079loss contri749.1rtt contr0time 0.375013norm measurement1.01141
+rtt is 0.370782loss rate is 0.0611677avg loss rate is 0.023856
+latency info is 0.0187192
+Monitor 404 ended with utility 0.356792total 1079loss pkt66
+checking if all recording ready at monitor406
+found matching monitor404
+change before force to boundary -6.25943
+change before force to min change is -1.64727
+gradient is -6.25943
+amplifier0
+change is -1.64727
+all record is acquired and ready to change by -1.64727
+set rate: 32.9455 --> 31.2982
+monitor404ends in search state, this should not happen often
+total 1015loss contri23rtt contr0time 0.370455norm measurement0.990742
+rtt is 0.373917loss rate is 0.0226601avg loss rate is 0.0236168
+latency info is 0.00710579
+Monitor 405 ended with utility 21.5062total 1015loss pkt23
+monitor405ends in search state, this should not happen often
+Monitor 407 starts
+Monitor 407is in search state
+Monitor 407is in recording state 0th trial with rate of29.7333
+set rate: 31.2982 --> 29.7333
+total 1015loss contri5rtt contr-0time 0.389534norm measurement1.04982
+rtt is 0.371049loss rate is 0.00492611avg loss rate is 0.0198787
+latency info is -0.0244648
+Monitor 406 ended with utility 21.0881total 1015loss pkt5
+checking if all recording ready at monitor407
+Monitor 408 starts
+Monitor 408is in recording state 1th trial with rate of32.8631
+set rate: 29.7333 --> 32.8631
+total 926loss contri0rtt contr-0time 0.374228norm measurement1.05653
+rtt is 0.354205loss rate is 0avg loss rate is 0.015903
+latency info is -0.0678208
+Monitor 407 ended with utility 20.2698total 926loss pkt0
+checking if all recording ready at monitor408
+found matching monitor407
+Monitor 409 starts
+Monitor 409is in recording state 2th trial with rate of32.8631
+set rate: 32.8631 --> 32.8631
+total 1016loss contri0rtt contr0time 0.37183norm measurement1.07108
+rtt is 0.347155loss rate is 0avg loss rate is 0.0127224
+latency info is 0.0298069
+Monitor 408 ended with utility 22.1624total 1016loss pkt0
+checking if all recording ready at monitor409
+found matching monitor408
+Monitor 410 starts
+Monitor 410is in recording state 3th trial with rate of29.7333
+set rate: 32.8631 --> 29.7333
+Monitor 411 starts
+Monitor 411is in recording state, waiting result for recording to come back
+set rate: 29.7333 --> 31.2982
