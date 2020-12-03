@@ -1,4 +1,5 @@
 from parse.filedata import FileData
+from util import *
 
 import matplotlib.pyplot as plt
 import matplotlib.backends.backend_pdf as pdf
@@ -7,12 +8,6 @@ from statistics import mean
 
 import argparse
 import os
-
-warning_color = '\033[93m'
-end_color = '\033[0m'
-
-def print_warning(s):
-    print(warning_color + 'WARNING: %s' % s + end_color)
 
 def compute_fairness(rates):
     mean_rate = mean(rates)
@@ -31,10 +26,11 @@ def plot_fairness(data, output_filename):
 
     names = []
     for method in data.keys():
-        names.append(method)
+        label = legend_name(method)
         d = sorted(data[method].items())
         print(d)
-        ax.plot(*zip(*d), marker='x')
+        ax.plot(*zip(*d), marker='x', color=color(label, names))
+        names.append(label)
 
     ax.legend(names, loc='upper right')
     output.savefig(fig)
