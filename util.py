@@ -1,8 +1,18 @@
+import os
+
 warning_color = '\033[93m'
 end_color = '\033[0m'
 
 def print_warning(s):
     print(warning_color + 'WARNING: %s' % s + end_color)
+
+def lookup(filename, key):
+    without_ext = os.path.splitext(filename)[0]
+    for kv in without_ext.split('--'):
+        pair = kv.split(':')
+        if len(pair) == 2 and pair[0] == key:
+            return pair[1]
+    return ''
 
 def legend_name(label):
     if label.find('cubic') >= 0:
