@@ -19,9 +19,9 @@ def group_data_by_tag(logs):
             d[tag] = [log]
     return d
 
-def plot_against_time(logs, key, out_file, label=None, log_scale=False):
-    if label is None:
-        label = key
+def plot_against_time(logs, key, out_file, ylabel=None, title=None, log_scale=False):
+    if ylabel is None:
+        ylabel = key
     fig, ax = plt.subplots()
 
     names = []
@@ -39,9 +39,12 @@ def plot_against_time(logs, key, out_file, label=None, log_scale=False):
     if log_scale:
         ax.set_yscale('log')
 
-    ax.set_xlabel('Time (ms)')
-    ax.set_ylabel('%s' % key)
-    ax.set_title('%s against time' % label)
+    ax.set_xlabel('Time (s)')
+    ax.set_ylabel('%s' % ylabel)
+    if title is None:
+        ax.set_title('%s against time' % ylabel)
+    else:
+        ax.set_title(title)
     ax.legend(names, loc='lower right')
     out_file.savefig(fig)
 
@@ -55,8 +58,8 @@ def plot_setup(expt_tag, logs, out_dir):
     print('Writing to %s' % output_filename)
 
     output = pdf.PdfPages(output_filename)
-    plot_against_time(logs, 'rate', output, label='Throughput (Mbits/s)')
-    plot_against_time(logs, 'rtt', output, label='Latency (ms)')
+    plot_against_time(logs, 'rate', output, ylabel='Throughput (Mbits/s)')
+    plot_against_time(logs, 'rtt', output, ylabel='Latency (ms)')
     output.close()
 
 def process(log_groups, out_dir, tag=None):
