@@ -23,9 +23,6 @@ def plot_against_time(logs, key, out_file, label=None, log_scale=False):
     if label is None:
         label = key
     fig, ax = plt.subplots()
-    ax.set_xlabel('Time (ms)')
-    ax.set_ylabel('%s' % key)
-    ax.set_title('%s against time' % label)
 
     names = []
     for log in logs:
@@ -42,6 +39,9 @@ def plot_against_time(logs, key, out_file, label=None, log_scale=False):
     if log_scale:
         ax.set_yscale('log')
 
+    ax.set_xlabel('Time (ms)')
+    ax.set_ylabel('%s' % key)
+    ax.set_title('%s against time' % label)
     ax.legend(names, loc='lower right')
     out_file.savefig(fig)
 

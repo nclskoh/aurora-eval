@@ -20,9 +20,6 @@ def plot_fairness(data, output_filename):
     output = pdf.PdfPages(output_filename)
 
     fig, ax = plt.subplots()
-    ax.set_xlabel('Number of flows')
-    ax.set_ylabel('Fairness Index')
-    ax.set_title('Fairness Index vs Number of flows')
 
     names = []
     for method in data.keys():
@@ -32,6 +29,9 @@ def plot_fairness(data, output_filename):
         ax.plot(*zip(*d), marker='x', color=color(label, names))
         names.append(label)
 
+    ax.set_xlabel('Number of flows')
+    ax.set_ylabel('Fairness Index')
+    ax.set_title('Fairness Index vs Number of flows')
     ax.legend(names, loc='upper right')
     output.savefig(fig)
     output.close()

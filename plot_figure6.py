@@ -35,9 +35,6 @@ def label_for_y(y):
 
 def plot(x, y, data, outfile):
     fig, ax = plt.subplots()
-    ax.set_xlabel('%s' % label_for_x(x))
-    ax.set_ylabel(label_for_y(y))
-    ax.set_title('%s sensitivity' % label_for_x(x))
 
     method_data = data.groupby('method')
     names = []
@@ -48,6 +45,10 @@ def plot(x, y, data, outfile):
         ylim = None
         group.sort_values(x).plot(x=x, y=y, ax=ax, marker='x', ylim=ylim, color=color(label, names))
         names.append(label)
+
+    ax.set_xlabel('%s' % label_for_x(x))
+    ax.set_ylabel(label_for_y(y))
+    ax.set_title('%s sensitivity' % label_for_x(x))
     ax.legend(names, loc='lower right')
     outfile.savefig(fig)
 
