@@ -70,15 +70,6 @@ def process(log_groups, out_dir, tag=None):
         else:
             print('Skipping %s' % expt_tag)
 
-def lookup(filename, key):
-    _path, name = os.path.split(filename)
-    without_ext = os.path.splitext(name)[0]
-    for kv in without_ext.split('--'):
-        pair = kv.split(':')
-        if len(pair) == 2 and pair[0] == key:
-            return pair[1]
-    return ''
-
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="Graph the sender's trace dumped by PCC client")
     parser.add_argument('--title', help='title of file')
