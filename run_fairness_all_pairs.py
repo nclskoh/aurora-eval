@@ -15,7 +15,8 @@ from time import sleep
 
 # Be careful, not all parameters work, e.g., Vivace fails when queue = 0.
 # Run all experiments on a short timescale to verify parameters are okay, before scaling up.
-bw, delay, loss, queue, how_long = 32, 32, 0, None, 120
+# bw, delay, loss, queue, how_long = 32, 32, 0, None, 120
+bw, delay, loss, queue, how_long = 32, 32, 0, 1000, 120
 
 class CompetingClients(Topo):
 
@@ -85,23 +86,57 @@ if __name__ == '__main__':
     parser.add_argument('--log', '-l', help='where to store log files', default='./testing_logs')
     args = parser.parse_args()
 
-    aurora_algo_cmd = command.AuroraCmd('aurora-algo', path=args.aurora, rlpath=args.rl, model_path=args.model, log_path=args.log, server_port=9001)
-    aurora_base_cmd = command.AuroraCmd('aurora-base', path=args.aurora, rlpath=args.rl, model_path=args.model, log_path=args.log, server_port=9002)
-    vivace_algo_cmd = command.VivaceCmd('vivace-algo', args.vivace, log_path=args.log, server_port=9101)
-    vivace_base_cmd = command.VivaceCmd('vivace-base', args.vivace, log_path=args.log, server_port=9102)
+    aurora_algo_cmd = command.AuroraCmd('aurora-algo',
+                                        path=args.aurora,
+                                        rlpath=args.rl,
+                                        model_path=args.model,
+                                        log_path=args.log, server_port=9001)
+    aurora_base_cmd = command.AuroraCmd('aurora-base',
+                                        path=args.aurora,
+                                        rlpath=args.rl,
+                                        model_path=args.model,
+                                        log_path=args.log, server_port=9002)
+    vivace_algo_cmd = command.VivaceCmd('vivace-algo', args.vivace,
+                                        log_path=args.log, server_port=9101)
+    vivace_base_cmd = command.VivaceCmd('vivace-base', args.vivace,
+                                        log_path=args.log, server_port=9102)
 
-    cubic_fulltime_iperf_cmd = command.CubicIperfCmd('cubic_fulltime',version=3, log_path=args.log, lifetime=how_long, server_port=5202)
-    cubic_halftime_iperf_cmd = command.CubicIperfCmd('cubic_halftime',version=3, log_path=args.log, lifetime=how_long/2, server_port=5203) # end earlier
+    cubic_fulltime_iperf_cmd = command.CubicIperfCmd('cubic_fulltime',
+                                                     version=3,
+                                                     log_path=args.log,
+                                                     lifetime=how_long,
+                                                     server_port=5202)
+    cubic_halftime_iperf_cmd = command.CubicIperfCmd('cubic_halftime',
+                                                     version=3,
+                                                     log_path=args.log,
+                                                     lifetime=how_long/2,
+                                                     server_port=5203) # end earlier
 
-    aurora_vs_aurora = Setup(algo_cmd=aurora_algo_cmd, base_cmd=aurora_base_cmd, tag='aurora-vs-aurora')
-    vivace_vs_vivace = Setup(algo_cmd=vivace_algo_cmd, base_cmd=vivace_base_cmd, tag='vivace-vs-vivace')
-    cubic_vs_cubic = Setup(algo_cmd=cubic_halftime_iperf_cmd, base_cmd=cubic_fulltime_iperf_cmd, tag='cubic-vs-cubic')
-    aurora_vs_cubic = Setup(algo_cmd=aurora_algo_cmd, base_cmd=cubic_fulltime_iperf_cmd, tag='aurora-vs-cubic')
-    cubic_vs_aurora = Setup(base_cmd=aurora_algo_cmd, algo_cmd=cubic_halftime_iperf_cmd, tag='cubic-vs-aurora')
-    aurora_vs_vivace = Setup(algo_cmd=aurora_algo_cmd, base_cmd=vivace_base_cmd, tag='aurora-vs-vivace')
-    vivace_vs_aurora = Setup(algo_cmd=vivace_algo_cmd, base_cmd=aurora_base_cmd, tag='vivace-vs-aurora')
-    vivace_vs_cubic = Setup(algo_cmd=vivace_algo_cmd, base_cmd=cubic_fulltime_iperf_cmd, tag='vivace-vs-cubic')
-    cubic_vs_vivace = Setup(base_cmd=vivace_algo_cmd, algo_cmd=cubic_halftime_iperf_cmd, tag='cubic-vs-vivace')
+    aurora_vs_aurora = Setup(algo_cmd=aurora_algo_cmd, base_cmd=aurora_base_cmd,
+                             tag='aurora-vs-aurora')
+    vivace_vs_vivace = Setup(algo_cmd=vivace_algo_cmd, base_cmd=vivace_base_cmd,
+                             tag='vivace-vs-vivace')
+    cubic_vs_cubic = Setup(algo_cmd=cubic_halftime_iperf_cmd,
+                           base_cmd=cubic_fulltime_iperf_cmd,
+                           tag='cubic-vs-cubic')
+    aurora_vs_cubic = Setup(algo_cmd=aurora_algo_cmd,
+                            base_cmd=cubic_fulltime_iperf_cmd,
+                            tag='aurora-vs-cubic')
+    cubic_vs_aurora = Setup(base_cmd=aurora_algo_cmd,
+                            algo_cmd=cubic_halftime_iperf_cmd,
+                            tag='cubic-vs-aurora')
+    aurora_vs_vivace = Setup(algo_cmd=aurora_algo_cmd,
+                             base_cmd=vivace_base_cmd,
+                             tag='aurora-vs-vivace')
+    vivace_vs_aurora = Setup(algo_cmd=vivace_algo_cmd,
+                             base_cmd=aurora_base_cmd,
+                             tag='vivace-vs-aurora')
+    vivace_vs_cubic = Setup(algo_cmd=vivace_algo_cmd,
+                            base_cmd=cubic_fulltime_iperf_cmd,
+                            tag='vivace-vs-cubic')
+    cubic_vs_vivace = Setup(base_cmd=vivace_algo_cmd,
+                            algo_cmd=cubic_halftime_iperf_cmd,
+                            tag='cubic-vs-vivace')
 
     run_test([aurora_vs_aurora, vivace_vs_vivace, cubic_vs_cubic,
               aurora_vs_cubic, cubic_vs_aurora, aurora_vs_vivace,
