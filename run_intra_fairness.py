@@ -13,7 +13,8 @@ from time import sleep
 # Parameters from NIPS 2018 "Internet Congestion Control via Deep Reinforcement Learning"
 # bw, delay, loss, queue, how_long = 32, 32, 0, '500kb', 120
 
-bw, delay, loss, queue, how_long = 32, 32, 0, None, 120
+# bw, delay, loss, queue, how_long = 32, 32, 0, None, 120
+bw, delay, loss, queue, how_long = 32, 32, 0, 1000, 120
 
 class CompetingClients(Topo):
 
